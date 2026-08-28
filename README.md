@@ -1,1 +1,1 @@
-# MICS7 JD
+# MICS7
