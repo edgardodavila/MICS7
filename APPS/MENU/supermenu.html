@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html>
+
+<style>
+.dropbtn {
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  background-color:transparent;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 80px;
+  background-color: LightGray;
+}
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: LightBlue;}
+.dropdown:hover .dropdown-content {display: block;}
+</style>
+
+<table>
+<td>
+<img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;">
+</td>
+<td>
+<div class="dropdown">
+  <button class="dropbtn"><img src=".\Resources\Images\options.png" style="width: 50px;"></button>
+  <div class="dropdown-content">
+  
+  <?
+    if AllowSupervisorAsInterviewer = 1 then
+      $.write(maketext("%v %v %v",'<a href="#" onclick="javascript:chooseanswer(7);">',tr("Work as Interviewer"),'</a>'));
+	endif;
+  ?>
+      <a href="#" onclick="javascript:chooseanswer(8);">~~tr("Change Language")~~</a> 
+      <a href="#" onclick="javascript:chooseanswer(9);">~~tr("Finish")~~</a> 
+  </div>
+</div>
+</td>
+</table>
+
+<span style="font-size: 24px;">~~project~~</span>
+<p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="Red" style="">~~tr("SUPERVISOR MENU")~~</font></b></span></p>
+<table border="1" height="50" style="table-layout:fixed">
+<tr><td>Supervisor ~~staff_id~~</td><td>~~staff_name~~</td></tr>
+<tr><td>Team ~~team~~ </td><td>Working on cluster ~~CLUSTER~~</td></tr>
+</table>
+<p style="line-height:20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i><b>Options:</b></i></p>
+<table>
+<tbody>
+<tr>
+<td style="border:none; width:1%;"><a href="#" onclick="javascript:chooseanswer(1);"><img src=".\Resources\Images\sampleG.png"> </a></td>
+<td style="border:none; width:20%;"><a href="#" onclick="javascript:chooseanswer(1);"><b><span style="font-size: 18px;">~~tr("Assigments and")~~</span><br>~~tr("household managment")~~</b></a></td>
+</tr>
+<tr>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(2);"><img src=".\Resources\Images\sync.png" style=""> </a></td>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(2);"><b><span style="font-size: 18px;">~~tr("Sync")~~</span></b></a></td>
+</tr>
+<tr>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(3);"><img src=".\Resources\Images\reportG.png" style=""> </a></td>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(3);"><b><span style="font-size: 18px;">~~tr("Reports")~~</span></b></a></td>
+</tr>
+<tr>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(4);"><img src=".\Resources\Images\review.png" style=""> </a></td>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(4);"><b><span style="font-size: 18px;">~~tr("Review of started")~~<br>~~tr("interviews")~~</span></b></a></td>
+</tr>
+<tr>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(5);"><img src=".\Resources\Images\changepsu.png" style=""> </a></td>
+<td style="border:none"><a href="#" onclick="javascript:chooseanswer(5);"><b><span style="font-size: 18px;">~~tr("Change Cluster")~~</span></b></a></td>
+</tr>
+</tbody></table>
+<script src="/action-invoker.js"></script>
+
+<script>
+  const CS = new CSProActionInvoker();
+
+  function chooseanswer(action) {
+    CS.Logic.invokeAsync({
+      function: "myselection", 
+      arguments: {
+        action: action 
+      }
+    });
+	CS.UI.close();
+  }
+</script>
+</html>

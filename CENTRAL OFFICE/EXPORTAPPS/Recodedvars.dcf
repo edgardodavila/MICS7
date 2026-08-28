@@ -1,0 +1,1065 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "RECODEDVARS_DICT", 
+  "labels": [ { "text": "Recoded variables" } ], 
+  "security": {
+    "allowDataViewerModifications": false, 
+    "allowExport": true, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "89b892fbeeff3fa705f86a5968a44619533a41824da8dd2cf61fabc55dcc9d1e"
+  }, 
+  "readOptimization": true, 
+  "recordType": {
+    "start": 2, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": false
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "RECODEDVARS_LEVEL", 
+      "labels": [ { "text": "Recoded variables level" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "RECODEDVARS_ID", 
+            "labels": [ { "text": "Recoded variables ID" } ], 
+            "contentType": "numeric", 
+            "start": 1, 
+            "length": 1, 
+            "zeroFill": false
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "RECODEDVARS_REC", 
+          "labels": [ { "text": "Recoded variables record" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "HHSEX", 
+              "labels": [ { "text": "Sex of household head" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "HHSEX_VS1", 
+                  "labels": [ { "text": "Sex of household head" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Missing" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HHAGE", 
+              "labels": [ { "text": "Age of household head" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "PSU", 
+              "labels": [ { "text": "Primary sampling unit" } ], 
+              "contentType": "numeric", 
+              "length": 3, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "STRATA", 
+              "labels": [ { "text": "Stratum" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MLINE", 
+              "labels": [ { "text": "Mother's line number" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "MLINE_VS1", 
+                  "labels": [ { "text": "Mother's line number" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Not in household" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Line number" } ], 
+                      "pairs": [ { "range": [ "1", "50" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FLINE", 
+              "labels": [ { "text": "Father's line number" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "FLINE_VS1", 
+                  "labels": [ { "text": "Father's line number" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Not in household" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Line number" } ], 
+                      "pairs": [ { "range": [ "1", "50" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WDOB", 
+              "labels": [ { "text": "Date of birth of woman (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WDOBFC", 
+              "labels": [ { "text": "Date of birth of first child (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WDOBLC", 
+              "labels": [ { "text": "Date of birth of last child (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BH3_FIRST", 
+              "labels": [ { "text": "Sex of first born chid" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BH3_FIRST_VS1", 
+                  "labels": [ { "text": "Sex of first born chid" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "BOY" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "GIRL" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "NO RESPONSE" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BH3_LAST", 
+              "labels": [ { "text": "Sex of last born child" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "BH3_LAST_VS1", 
+                  "labels": [ { "text": "Sex of last born child" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "BOY" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "GIRL" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "NO RESPONSE" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WDOM", 
+              "labels": [ { "text": "Date of marriage of woman (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WAGEM", 
+              "labels": [ { "text": "Age at first marriage/union of woman" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MSTATUS", 
+              "labels": [ { "text": "Marital/Union status of woman" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "MSTATUS_VS1", 
+                  "labels": [ { "text": "Marital/Union status of woman" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Currently married/in union" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Formerly married/in union" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Never married/in union" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CEB", 
+              "labels": [ { "text": "Children ever born" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CSURV", 
+              "labels": [ { "text": "Children surviving" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CDEAD", 
+              "labels": [ { "text": "Children dead" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MWDOB", 
+              "labels": [ { "text": "Date of birth of man (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MWDOM", 
+              "labels": [ { "text": "Date of marriage of man (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MWAGEM", 
+              "labels": [ { "text": "Age at first marriage/union of man" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MMSTATUS", 
+              "labels": [ { "text": "Marital/Union status of man" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "MMSTATUS_VS1", 
+                  "labels": [ { "text": "Marital/Union status of man" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Currently married/in union" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Formerly married/in union" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Never married/in union" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CDOI", 
+              "labels": [ { "text": "Date of interview of child (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CDOB", 
+              "labels": [ { "text": "Date of birth of child (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CAGE", 
+              "labels": [ { "text": "Age (in months)" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CAGE_6", 
+              "labels": [ { "text": "Age (in months)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "CAGE_6_VS1", 
+                  "labels": [ { "text": "Age (in months)" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "0-5" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6-11" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "12-23" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "24-35" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "36-47" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "48-59" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CAGE_11", 
+              "labels": [ { "text": "Age (in months)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "CAGE_11_VS1", 
+                  "labels": [ { "text": "Age (in months)" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "0-11" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "12-23" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "24-35" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "36-47" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "48-59" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CAGED", 
+              "labels": [ { "text": "Age (in days)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FSAGE", 
+              "labels": [ { "text": "Age" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "FSAGE_VS1", 
+                  "labels": [ { "text": "Age" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "5-9" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10-14" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "15-17" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FSDOI", 
+              "labels": [ { "text": "Date of interview child 5-17 (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FSDOB", 
+              "labels": [ { "text": "Date of birth of child 5-17 (CMC)" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LN", 
+              "labels": [ { "text": "Line number" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ST4ELI", 
+              "labels": [ { "text": "Social transfer:eligible for assistence" } ], 
+              "occurrences": {
+                "maximum": 6
+              }, 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "ST4ELI_VS1", 
+                  "labels": [ { "text": "Social transfer:eligible for assistence" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Eligible" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not eligible" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ST5ENT", 
+              "labels": [ { "text": "Social transfer:entitled for assistence" } ], 
+              "occurrences": {
+                "maximum": 6
+              }, 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "ST5ENT_VS1", 
+                  "labels": [ { "text": "Social transfer:entitled for assistence" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Entitled" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not entitled" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "STN", 
+              "labels": [ { "text": "Social transfer sequence number" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }
+          ]
+        }, 
+        {
+          "name": "ANTHRO_VARS", 
+          "labels": [ { "text": "Anthropometry variables" } ], 
+          "recordType": "2", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "HAP", 
+              "labels": [ { "text": "Height for age percentile NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "HAP_VS1", 
+                  "labels": [ { "text": "Height for age percentile NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.0", "99.9" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HAZ", 
+              "labels": [ { "text": "Height for age z-score NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "HAZ_VS1", 
+                  "labels": [ { "text": "Height for age z-score NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HAM", 
+              "labels": [ { "text": "Height for age percent of reference median NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "HAM_VS1", 
+                  "labels": [ { "text": "Height for age percent of reference median NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.0", "999.9" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WAP", 
+              "labels": [ { "text": "Weight for age percentile NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WAP_VS1", 
+                  "labels": [ { "text": "Weight for age percentile NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.0", "99.9" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WAZ", 
+              "labels": [ { "text": "Weight for age z-score NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WAZ_VS1", 
+                  "labels": [ { "text": "Weight for age z-score NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WAM", 
+              "labels": [ { "text": "Weight for age percent of reference median NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WAM_VS1", 
+                  "labels": [ { "text": "Weight for age percent of reference median NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.0", "999.9" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WHP", 
+              "labels": [ { "text": "Weight for height percentile NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WHP_VS1", 
+                  "labels": [ { "text": "Weight for height percentile NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.0", "99.9" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WHZ", 
+              "labels": [ { "text": "Weight for height z-score NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WHZ_VS1", 
+                  "labels": [ { "text": "Weight for height z-score NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WHM", 
+              "labels": [ { "text": "Weight for height percent of reference median NCHS" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 1, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WHM_VS1", 
+                  "labels": [ { "text": "Weight for height percent of reference median NCHS" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.0", "999.9" ] } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FLAG", 
+              "labels": [ { "text": "Flag for anthropometric indicators" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "FLAG_VS1", 
+                  "labels": [ { "text": "Flag for anthropometric indicators" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "No flag" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Height for age" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Weight for height" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Weight for height, Height for age" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Weight for age" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Weight for age, Height for age" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Weight for age, Weight for height" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Weight for age, Weight for height, Height for age" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BMI", 
+              "labels": [ { "text": "Body Mass Index WHO" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "BMI_VS1", 
+                  "labels": [ { "text": "Body Mass Index WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "0.00", "98.00" ] } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Measurement out of range" } ], 
+                      "pairs": [ { "value": "99.97" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not measured" } ], 
+                      "pairs": [ { "value": "99.99" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ZBMI", 
+              "labels": [ { "text": "Body Mass Index z-score WHO" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "ZBMI_VS1", 
+                  "labels": [ { "text": "Body Mass Index z-score WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Measurement out of range" } ], 
+                      "pairs": [ { "value": "99.97" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Z-score out of range" } ], 
+                      "pairs": [ { "value": "99.98" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not measured" } ], 
+                      "pairs": [ { "value": "99.99" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HAZ2", 
+              "labels": [ { "text": "Height for age z-score WHO" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "HAZ2_VS1", 
+                  "labels": [ { "text": "Height for age z-score WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Measurement out of range" } ], 
+                      "pairs": [ { "value": "99.97" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Z-score out of range" } ], 
+                      "pairs": [ { "value": "99.98" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not measured" } ], 
+                      "pairs": [ { "value": "99.99" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WAZ2", 
+              "labels": [ { "text": "Weight for age z-score WHO" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WAZ2_VS1", 
+                  "labels": [ { "text": "Weight for age z-score WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Measurement out of range" } ], 
+                      "pairs": [ { "value": "99.97" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Z-score out of range" } ], 
+                      "pairs": [ { "value": "99.98" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not measured" } ], 
+                      "pairs": [ { "value": "99.99" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WHZ2", 
+              "labels": [ { "text": "Weight for height z-score WHO" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "decimals": 2, 
+              "decimalMark": true, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WHZ2_VS1", 
+                  "labels": [ { "text": "Weight for height z-score WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "" } ], 
+                      "pairs": [ { "range": [ "-9.99", "9.99" ] } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Measurement out of range" } ], 
+                      "pairs": [ { "value": "99.97" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Z-score out of range" } ], 
+                      "pairs": [ { "value": "99.98" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Not measured" } ], 
+                      "pairs": [ { "value": "99.99" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "HAZFLAG", 
+              "labels": [ { "text": "Height for age flag WHO" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "HAZFLAG_VS1", 
+                  "labels": [ { "text": "Height for age flag WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "No error" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Error flag" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WAZFLAG", 
+              "labels": [ { "text": "Weight for age flag WHO" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WAZFLAG_VS1", 
+                  "labels": [ { "text": "Weight for age flag WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "No error" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Error flag" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WHZFLAG", 
+              "labels": [ { "text": "Weight for height flag WHO" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WHZFLAG_VS1", 
+                  "labels": [ { "text": "Weight for height flag WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "No error" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Error flag" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BMIFLAG", 
+              "labels": [ { "text": "BMI flag WHO" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "BMIFLAG_VS1", 
+                  "labels": [ { "text": "BMI flag WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "No error" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Error flag" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WHZNOAGE", 
+              "labels": [ { "text": "Weight for height - Age flag WHO" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "WHZNOAGE_VS1", 
+                  "labels": [ { "text": "Weight for height - Age flag WHO" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Age given - all measurements calculated" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No age - only weight for height calculated" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

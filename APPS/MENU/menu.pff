@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 8.0
+AppType=Entry
+Description=STD MICS7 MENU APP CSPRO 8.1
+
+[DataEntryInit]
+StartMode=Add
+Lock=CaseListing
+FullScreen=Yes
+
+[Files]
+Application=.\menu.ENT
+InputData=|type=None
+
+[ExternalFiles]
+HOUSEHOLDS=..\..\PUBLIC\HOUSEHOLDS.csdb
+CLUSTERS=..\..\PUBLIC\CLUSTERS.csdb
