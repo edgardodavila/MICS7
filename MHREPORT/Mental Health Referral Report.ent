@@ -1,0 +1,80 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "entry", 
+  "name": "MENTAL_HEALTH_REFERRAL_REPORT", 
+  "label": "MENTAL_HEALTH_REFERRAL_REPORT", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "null.dcf", 
+      "parent": "Mental Health Referral Report.fmf"
+    }
+  ], 
+  "forms": [
+    "Mental Health Referral Report.fmf"
+  ], 
+  "questionText": [
+    "Mental Health Referral Report.ent.qsf"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "Mental Health Referral Report.ent.apc"
+    }, 
+    {
+      "type": "external", 
+      "path": "../APPS/SETTINGS.APC"
+    }
+  ], 
+  "messages": [
+    "Mental Health Referral Report.ent.mgf"
+  ], 
+  "logicSettings": {
+    "version": 2.0, 
+    "caseSensitive": {
+      "symbols": false
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "askOperatorId": false, 
+    "autoAdvanceOnSelection": false, 
+    "caseTree": "off", 
+    "centerForms": false, 
+    "createListing": false, 
+    "createLog": false, 
+    "decimalMark": "dot", 
+    "displayCodesAlongsideLabels": false, 
+    "notes": {
+      "delete": "all", 
+      "edit": "all"
+    }, 
+    "partialSave": {
+      "operatorEnabled": false
+    }, 
+    "showEndCaseMessage": false, 
+    "showOnlyDiscreteValuesInComboBoxes": false, 
+    "showFieldLabels": true, 
+    "showErrorMessageNumbers": false, 
+    "showQuestionText": true, 
+    "showRefusals": true, 
+    "verify": {
+      "frequency": 1, 
+      "start": 1
+    }, 
+    "htmlDialogs": true, 
+    "paradata": {
+      "collection": "none", 
+      "recordCoordinates": false, 
+      "recordInitialPropertyValues": false, 
+      "recordIteratorLoadCases": false, 
+      "recordValues": false
+    }, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

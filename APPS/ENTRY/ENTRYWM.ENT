@@ -1,0 +1,102 @@
+{
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "MICS7 WM",
+  "label": "MICS7WM",
+  "dictionaries": [
+    {
+      "type": "input",
+      "path": "../SharedDicts/MICS7WM.dcf",
+      "parent": "entrywm.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../shareddicts/Staff.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../SharedDicts/MICS7HH.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    }
+  ],
+  "forms": [
+    "entrywm.fmf"
+  ],
+  "questionText": [
+    "ENTRYWM.qsf"
+  ],
+  "code": [
+    {
+      "type": "main",
+      "path": "entrywm.apc"
+    },
+    {
+      "type": "external",
+      "path": "../SETTINGS.APC"
+    }
+  ],
+  "messages": [
+    "entry.mgf"
+  ],
+  "resources": [
+    {
+      "path": "Resources",
+      "includeInCompiledApplication": true,
+      "recursive": true
+    }
+  ],
+  "logicSettings": {
+    "version": 2.0,
+    "caseSensitive": {
+      "symbols": false
+    },
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
+      "convertResultsForLogic": true
+    }
+  },
+  "properties": {
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "mobileOnly",
+    "centerForms": false,
+    "createListing": true,
+    "createLog": true,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
+    "notes": {
+      "delete": "all",
+      "edit": "all"
+    },
+    "partialSave": {
+      "operatorEnabled": false
+    },
+    "showEndCaseMessage": false,
+    "showOnlyDiscreteValuesInComboBoxes": false,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": true,
+    "showQuestionText": true,
+    "showRefusals": true,
+    "verify": {
+      "frequency": 1,
+      "start": 1
+    },
+    "htmlDialogs": true,
+    "paradata": {
+      "collection": "all",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
+      "recordValues": false,
+      "deviceStateIntervalMinutes": 5
+    },
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

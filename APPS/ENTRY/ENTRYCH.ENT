@@ -1,0 +1,95 @@
+{
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "MICS7CH",
+  "label": "MICS7 CH",
+  "dictionaries": [
+    {
+      "type": "input",
+      "path": "../Shareddicts/MICS7CH.dcf",
+      "parent": "entrych.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../shareddicts/Staff.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../Shareddicts/MICS7HH.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    }
+  ],
+  "forms": [
+    "entrych.fmf"
+  ],
+  "questionText": [
+    "ENTRYCH.qsf"
+  ],
+  "code": [
+    {
+      "type": "main",
+      "path": "entrych.apc"
+    },
+    {
+      "type": "external",
+      "path": "../SETTINGS.apc"
+    }
+  ],
+  "messages": [
+    "entry.mgf"
+  ],
+  "logicSettings": {
+    "version": 2.0,
+    "caseSensitive": {
+      "symbols": false
+    },
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
+      "convertResultsForLogic": true
+    }
+  },
+  "properties": {
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "mobileOnly",
+    "centerForms": false,
+    "createListing": true,
+    "createLog": true,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
+    "notes": {
+      "delete": "all",
+      "edit": "all"
+    },
+    "partialSave": {
+      "operatorEnabled": false
+    },
+    "showEndCaseMessage": false,
+    "showOnlyDiscreteValuesInComboBoxes": false,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": true,
+    "showQuestionText": true,
+    "showRefusals": true,
+    "verify": {
+      "frequency": 1,
+      "start": 1
+    },
+    "htmlDialogs": true,
+    "paradata": {
+      "collection": "all",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
+      "recordValues": false,
+      "deviceStateIntervalMinutes": 5
+    },
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

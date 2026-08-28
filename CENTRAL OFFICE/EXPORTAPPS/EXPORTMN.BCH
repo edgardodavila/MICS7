@@ -1,0 +1,53 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "batch", 
+  "name": "EXPORT_123", 
+  "label": "EXPORT_123", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "../../APPS/SharedDicts/MICS7MN.dcf", 
+      "parent": "exportmn.ord"
+    }, 
+    {
+      "type": "working", 
+      "path": "Recodedvars.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/SharedDicts/MICS7HH.dcf"
+    }
+  ], 
+  "order": [
+    "exportmn.ord"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "exportmn.apc"
+    }
+  ], 
+  "logicSettings": {
+    "version": 2.0, 
+    "caseSensitive": {
+      "symbols": false
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "htmlDialogs": true, 
+    "paradata": {
+      "collection": "none", 
+      "recordCoordinates": false, 
+      "recordInitialPropertyValues": false, 
+      "recordIteratorLoadCases": false, 
+      "recordValues": false
+    }, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

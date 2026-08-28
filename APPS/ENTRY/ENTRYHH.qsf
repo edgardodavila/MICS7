@@ -1,0 +1,3137 @@
+﻿---
+fileType: Question Text
+version: CSPro 8.1
+languages:
+  - name: ES
+    label: Español
+styles:
+  - name: Qtxt
+    className: Qtxt
+    css: |
+      font-family: Courier New;font-size: 26px;color: #000000;
+  - name: Qnum
+    className: Qnum
+    css: |
+      font-family: Courier New;font-weight: bold;font-size: 26px;color: #000000;
+  - name: Itxt
+    className: Itxt
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #0000ff;
+  - name: Inum
+    className: Inum
+    css: |
+      font-family: Courier New;font-weight: bold;font-style: italic;font-size: 26px;color: #0000ff;
+  - name: QtxtC
+    className: QtxtC
+    css: |
+      font-family: Courier New;font-size: 26px;color: #ff0000;
+  - name: QnumC
+    className: QnumC
+    css: |
+      font-family: Courier New;font-weight: bold;font-size: 26px;color: #ff0000;
+  - name: ItxtC
+    className: ItxtC
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #ff0000;
+  - name: InumC
+    className: InumC
+    css: |
+      font-family: Courier New;font-weight: bold;font-style: italic;font-size: 26px;color: #ff0000;
+  - name: REF
+    className: REF
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #000000;
+questions:
+  - name: MICS7HH.HH1
+    conditions:
+      - {}
+  - name: MICS7HH.HH5D
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">﻿</span><span class="Itxt">﻿</span></p>
+  - name: MICS7HH.HH5M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">﻿</span><span class="Itxt">﻿</span></p>
+  - name: MICS7HH.HH5Y
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">﻿</span></p>
+  - name: MICS7HH.HH7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH11C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><i><span class="Instructionsinparens">Demandado
+                          que represente a un hogar</span><span class="Instructionsinparens"> deberá tener 18 años, y </span><span class="Instructionsinparens">ser </span><span class="Instructionsinparens">saber</span><span class="Instructionsinparens">contable</span><span class="Instructionsinparens"> </span><span class="Instructionsinparens">acerca de </span><span class="Instructionsinparens">miembros del hogar. </span></i><span class="Instructionsinparens"><i>Si no hay ningún miembro adulto en el hogar o todos
+                          Los miembros adultos no pueden dar entrevistas, un niño de entre 15 y 17 años puede ser
+                          entrevistado. No se entrevistará a niños menores de 15 años.</i></span></p><p></p>
+  - name: MICS7HH.HH12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HH12.</span>Hola, mi nombre es ~~STAFF_NAME~~. Somos del&nbsp;<span style="font-weight: bolder;"><font color="#003163">Instituto Nacional de Estadística. </font></span>Estamos realizando
+                          una encuesta sobre la situación de los niños, las familias y los hogares.</p><p>La entrevista usualmente toma cerca de&nbsp;<span class="adaptationnoteChar"><span style="color: red;">número</span></span>
+                          minutos.</p><p>Participación en este encuesta es voluntaria. No se le dará ningún pago ni incentivo a usted ni a los miembros de su familia por responder estas preguntas. Sin embargo, la información recopilada
+                          será de gran ayuda para que el gobierno y el público en general comprendan mejor la situación y las necesidades de la población.</p><p>Tenga en cuenta que toda la información que comparta durante la entrevista permanecerá estrictamente confidencial y anónima.</p><p>Ninguna información sobre usted o su hogar se pondrá a disposición del público, Sólo produciremos&nbsp; información sobre la población general.</p><p>Si se siente incómod(o/a) con alguna pregunta y no desea responder, avíseme y podremos omitir la pregunta. Además, si desea detener la entrevista en cualquier momento hágamelo saber.</p><p>Si en algún momento tiene alguna queja o inquietud sobre esta encuesta, utilice la información en
+                          esta tarjeta para comunicarse con el Instituto Nacional de Estadística.</p><p><b>¿Puedo comenzar la entrevista?</b></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HHNAME
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p>Primero, por favor dígame el nombre del Jefe de hogar.<br></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.INTROHL
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL2.&nbsp;</span>Primero, por favor dígame el nombre de cada una de las personas que viven habitualmente en este hogar, comenzando por el Jefe del Hogar.</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HX2
+    conditions:
+      - logic: HX1=1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Nombre del jefe de hogar</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: HX1>1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Nombre del miembro del hogar</span><p></p>
+  - name: MICS7HH.HX3
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HL3.&nbsp;</span><span class="Qtxt">Por favor, confirme:<span class="REF"><b>~~HX2~~</b>&nbsp;</span></span>¿es el Jefe de este hogar?<br>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() in 2:50
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL3. </span><span class="Qtxt">¿Cuál es la relación de <span class="REF">~~HX2~~ </span>con <span class="REF">~~hhname~~</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HX4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL4. </span><span class="Qtxt">¿Es <span class="REF"><b>~~HX2~~</b> <span style="font-style: normal;">hombre</span></span>&nbsp;o mujer?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HX0
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qtxt">¿Hay algún otro miembro en el hogar?</span></p>
+              <p><span class="Itxt">Sondee para encontrar miembros adicionales en el hogar.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HHAUX
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Asegúrese de indagar sobre miembros adicionales: aquellos que no están actualmente en casa, infantes o niños/as pequeños y cualquiera que no sea de la familia (como empleados domésticos, amigos) pero que habitualmente viven en el hogar.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><b>HL2. </b>Primero, por favor dígame el nombre de cada persona que vive aqui de forma habitual, empenzando por el jefe de hogar.</p><p></p><p><i><font color="#0000ff">Indague sobre miembros adicionales del hogar.</font></i></p><p></p>
+  - name: MICS7HH.HL5M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL5. </span><span class="Qtxt">¿Cuál es la fecha de nacimiento de&nbsp;<span class="REF">~~HL2~~</span>?</span></p>
+              <p><span class="Itxt">Registrar mes de nacimiento. </span></p>
+              <p><span class="Itxt">Si 'No sabe' registre '98'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL5Y
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Registrar año de nacimiento. </span></p>
+              <p><span class="Itxt">Si 'No sabe' registre '9998'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL6. </span><span class="Qtxt">¿Cuántos años tiene <span class="REF">~~HL2~~</span>?</span></p>
+              <p><span class="Itxt">Registro en años cumplidos.</span></p>
+              <p><span class="Itxt">Si la edad es 95 años o más, registre '95'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL12. </span><span class="Qtxt">¿Está viva la madre biológica de <span class="REF">~~HL2~~</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL13. </span><span class="Qtxt">¿Vive la madre biológica de <span class="REF">~~HL2~~</span> en este hogar?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HL14. </span><span class="Itxt">Registre el número de línea de la madre biológica.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL15. </span><span class="Qtxt">¿Dónde vive la madre biológica de&nbsp;<span class="REF">~~HL2~~</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL16
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL16. </span><span class="Qtxt">¿Está vivo el padre biológico de <span class="REF">~~HL2~~</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL17. </span><span class="Qtxt">¿Vive el padre biológico de <span class="REF">~~HL2~~</span> en este hogar?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL18
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HL18. </span><span class="Itxt">Registre el número de línea del padre biológico.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL19
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL19. </span><span class="Qtxt">¿Dónde vive el padre biológico de <span class="REF">~~HL2~~</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HL20
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HL20. </span><span class="Itxt">Copia el número de línea de la madre de HL14. Si está en blanco, pregunte:</span></p>
+              <p><span class="Qtxt">¿Quién es el cuidador principal de <span class="REF">~~HL2~~</span>?</span></p>
+              <p><span class="Itxt">Si 'Nadie' para un niño de 15 a 17 años, registre '90'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH47
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HH47. </span><span class="Itxt">Nombre y número de línea del informante en la entrevista del Cuestionario de Hogar</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED4.<span style="font-weight: normal;">Ha</span></span>~~ED2~~ asistido alguna vez a un centro educativo, colegio,universidad ó alguna modalidad de educación pre-básica?</p><p class="MsoNormal"></p><p><br></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED5A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED5.</span>¿Cuál es el nivel ó grado de educación más alto al que ha <u>asistido</u>&nbsp;~~ED2~~?</p><p class="MsoNormal"></p><p><i><font color="#0000ff">Registre Nivel.</font></i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED5B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED5.&nbsp;</span>¿Cuál es el nivel ó grado de educación más alto al que ha asistido&nbsp;<b>~~ED2~~</b><br></p><p><i>Registre Año.</i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED6.</span>¿ Completó ~~ED2~~ ese (grado/año)?</p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED9. <span style="font-weight: normal;">D</span></span>urante el año escolar <font color="#ff0000"><b>2026</b></font>,<b>~~ED2~~</b>&nbsp;asistió en en algún momento a un centro educativo, colegio universidad o a alguna modalidad de educación prebásica?</p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED10A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED10A.&nbsp;</span>Durante el año escolar <b style="">2026,</b><b style="color: rgb(255, 0, 0);"> </b>¿a que nivel y grado ó año está asistiendo&nbsp;<b>~~ED2~~</b><u></u>?</p><p><i style="color: rgb(0, 0, 255);">Registre nivel.</i><br></p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED10B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED10. </span>Durante el año escolar <span style="font-weight: bolder;">2026,</span><span style="font-weight: bolder; color: rgb(255, 0, 0);"> </span>¿a que nivel y grado ó año está asistiendo <span style="font-weight: bolder;">~~ED2~~</span><u></u>?</p><p><span class="Qtxt"><i style="color: rgb(0, 0, 255);">Registre grado/año.</i><br></span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED15. <span style="font-weight: normal;">D</span></span>urante el año escolar <b>2025</b>&nbsp;, ¿a qué nivel y grado o año <u><b>asistió</b></u> ~~ED2~~?</p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED16A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED16A.</span>Durante el año escolar <b>2025, </b>¿a que nivel y grado o año <b><u>asistió</u></b>&nbsp;<b>~~ED2~~</b><u></u>?</p><p><i style="color: rgb(0, 0, 255);">Registre nivel.</i><br></p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED16B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED16b.</span>Durante el año escolar <span style="font-weight: bolder;">2025, </span>¿a que nivel y grado o año <span style="font-weight: bolder;"><u>asistió</u></span> <span style="font-weight: bolder;">~~ED2~~</span><u></u>?</p><p><i style="color: rgb(0, 0, 255);">Registre grado/año.</i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC1A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC1A. </span>¿Cuál es la religión de <b>~~hhname~~</b>?</p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC1B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><b>HC1B</b>. ¿Cuál es la lengua materna/nativa?
+                          de&nbsp;<b>~~hhname~~</b>?</p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC2. </span>¿ Por sus constumbres, antepasados tradiciones ~~hhname~~ se indentifica con alguno de los siguientes pueblos?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC3. </span>¿Cuántas piezas son utilizadas por los miembros de este hogar para dormir habitualmente?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HC4. </span><span class="Itxt">Material principal del piso de la vivienda.</span></p>
+              <p><span class="Itxt">Registre por observación.</span></p>
+              <p><span class="Itxt">Si no es posible la observación, pida al encuestado que determine el material del piso de la vivienda.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HC5. </span><span class="Itxt">Material principal de la cubierta.</span></p>
+              <p><span class="Itxt">Registrar observación.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HC6. </span><span class="Itxt">Material principal de los muros exteriores.</span></p>
+              <p><span class="Itxt">Registrar observación.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: HC7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HC7.</span><span class="Qtxt">¿Su hogar tiene:</span><p></p>
+  - name: MICS7HH.HC7A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A]</span>Un fijo
+                          línea telefónica?</p><p></p>
+  - name: MICS7HH.HC7B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B] </span><span class="Qtxt">¿Una radio?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC7C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="QnumC">[C]&nbsp;</span>Artículos específicos del país que no funcionan con electricidad (consulte las pautas de personalización)</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HC8.</span><span class="Qtxt">¿Tiene su hogar electricidad?</span><p></p>
+  - name: MICS7HH.HC8A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC8A.</span>Qué fuente de electricidad se utiliza
+                          en este hogar?</p><p><i>Registro
+                          todos mencionados.</i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC8B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC8B.&nbsp;</span>¿Qué fuente de electricidad se utiliza <u>la mayor parte</u> del tiempo en este hogar?</p><p><i>Aquí solo se puede registrar una fuente registrada en HC8A.</i></p><p></p>
+  - name: HC9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HC9.</span><span class="Qtxt">¿Su hogar tiene:</span><p></p>
+  - name: MICS7HH.HC9A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A]</span><span class="Qtxt">¿Un televisor?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC9B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B] </span><span class="Qtxt">¿Un frigorífico?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC9C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="QnumC">[C]</span><span class="QtxtC">Artículos específicos del país que funcionan con electricidad (consulte las pautas de personalización)</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: HC10
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HC10.</span><span class="Qtxt">¿Algún miembro de su hogar posee:</span><p></p>
+  - name: MICS7HH.HC10A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A]</span><span class="Qtxt">¿Un reloj de pulsera?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC10B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B]</span><span class="Qtxt">¿Una bicicleta?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC10C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[C]</span><span class="Qtxt">¿Una motocicleta o un scooter?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC10D
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[D]</span><span class="Qtxt">¿Un carro tirado por animales?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC10E
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[E]</span><span class="Qtxt">¿Un coche, camión o furgoneta?</span></p><p class="MsoNormal"></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC10F
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[F]</span><span class="Qtxt">¿Un barco con motor?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC10G
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="QnumC">[G]</span><span class="QtxtC">Elementos específicos del país (consulte las pautas de personalización)</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC11
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC11.</span><span class="Qtxt">¿Algún miembro de su hogar tiene una computadora de escritorio, portátil, tableta o similar?</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC12.</span><span class="Qtxt">¿Algún miembro de su hogar tiene teléfono móvil?</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC12A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC12A.</span><span class="Qtxt">¿Algún miembro de su hogar tiene un teléfono inteligente?</span><br/></p>
+  - name: MICS7HH.HC13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC13.</span><span class="Qtxt">¿Tiene su hogar acceso a Internet dentro de&nbsp; casa?</span><br></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC13B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><b>HC13B</b>. Usted mencionó que un miembro de su hogar tiene un telefono inteligente y que usted no tiene acceso a internet en casa. Solo para confdirmar, ¿puede el teléfono inteligente acceder a Internet mientras se utiliza en casa?</p><p></p>
+  - name: MICS7HH.HC14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC14.</span><span class="Qtxt">¿Es usted o alguna de las personas que vive en este hogar&nbsp; propietario de la vivienda?</span></p><p><span class="Itxt">Si es 'No', pregunte:</span><span class="Qtxt">¿Usted alquila la vivienda de alguien que no vive en el hogar?</span></p><p><span class="Itxt">Si 'Alquila de alguien que no vive en el hogar', registre '2'. Para otras respuestas, registre '6' y especifique.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC15.</span><span class="Qtxt">¿Algún miembro del hogar es propietario de algunas tierras que puedan usarse para agricultura?</span><br></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC16
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC16.</span><span class="Qtxt">¿Cuántas manzanas de tierra agrícola poseen los miembros de este hogar?</span></p><p><span class="Itxt">Si es menos de 1, registre '00'.</span></p><p><span class="Itxt">Si es 95 o más registre '95'</span></p><p><span class="Itxt">Si no sabe registre '98'</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC17.</span><span class="Qtxt">¿Posee el hogar algún ganado, rebaño, otros animales de granja o aves de corral?</span><br></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: HC18
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC18.</span><span class="Qtxt">¿Cuántos de los siguientes animales posee este hogar?</span></p><p><span style="color: rgb(0, 0, 255);">Si ninguno, registre '00'.</span></p><p><span class="Itxt">Si 95 o más, registre '95'.</span></p><p><span class="Itxt">Si se desconoce, registre '98'.</span></p><p></p>
+  - name: MICS7HH.HC18A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A]</span><span class="Qtxt">¿Vacas o toros lecheros?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B]</span><span class="Qtxt">¿Otro ganado?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[C]</span><span class="Qtxt">¿Caballos, burros o mulas?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18D
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[D]</span><span class="Qtxt">¿Cabras?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18E
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[E]</span><span class="Qtxt">¿Ovejas?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18F
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[F]</span><span class="Qtxt">¿Pollos?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18G
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[G]</span><span class="Qtxt">¿Cerdos?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC18H
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="QnumC">[H]</span><span class="QtxtC">Adiciones específicas del país (consulte las pautas de personalización)</span></p><p></p>
+  - name: MICS7HH.HC19
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC19.</span><span class="Qtxt">¿Algún miembro de este hogar tiene una cuenta en un banco u otra institución financiera?</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HC20
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><b>HC20</b>. ¿Alguno
+                          miembro de este hogar utiliza <u>un teléfono móvil</u> para realizar transacciones financieras
+                          transacciones como enviar o recibir dinero, pagar facturas, comprar bienes
+                          o servicios, o recibir salarios, ya sea a través de su banco o a través de un teléfono móvil
+                          servicio, como <span style="color: red;">insertar servicios móviles, por ejemplo, M-PESA</span>?</p><p></p>
+  - name: MICS7HH.EU1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">EU1.&nbsp;</span>¿Qué utiliza este hogar para cocinar <u>la mayor parte de
+                          el tiempo</u>, incluyendo cocinar alimentos, preparar té o café, hervir bebidas
+                          ¿agua?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.EU4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">EU4.&nbsp;</span>¿Qué tipo de combustible o
+                          ¿Qué fuente de energía se utiliza en esta estufa?</p>
+              <p class="1IntvwqstChar1Char"><span style="color: rgb(0, 0, 255);">Si hay más de una, registre la principal fuente de energía para esta estufa.</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.EU6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">EU6.&nbsp;</span>¿Qué utiliza este hogar para calentar la casa <u>cuando
+                          necesario</u>?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.EU8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">EU8. </span><span class="Qtxt">¿Qué tipo de combustible y fuente de energía se utiliza en este calentador?</span></p>
+              <p><span class="Itxt">Si hay más de uno, registre la principal fuente de energía de este calentador.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.EU9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">EU9.&nbsp;</span>¿Qué utiliza este hogar <u>la mayor parte del tiempo</u>?
+                          ¿Como energía para la iluminación o como fuente de luz?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS1.</span><span class="Qtxt">¿Cuál es la fuente <u>principal</u> de agua potable utilizada por los miembros de su hogar?</span></p><p><span class="Itxt">Si no está claro, investigue para identificar el lugar del que los miembros de este hogar suelen recolectar agua potable (punto de recolección).</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS2. </span><span class="Qtxt">¿Cuál es la fuente <u>principal</u> de agua que utilizan los miembros de su hogar para otros fines, como cocinar y lavarse las manos?</span></p>
+              <p><span class="Itxt">Si no está claro, investigue para identificar el lugar del cual los miembros de este hogar suelen recolectar agua para otros fines.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS3. </span><span class="Qtxt">¿Dónde está ubicada esa fuente de agua?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS4. </span><span class="Qtxt">¿Cuánto tiempo les toma a los miembros de su hogar ir allí, buscar agua y regresar?</span></p>
+              <p><span class="Itxt">Registra el tiempo en minutos.</span></p>
+              <p><span class="Itxt">Utilice '000' para 'Los miembros no cobran'</span></p>
+              <p><span class="Itxt">y '998' para 'DK'</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS5. </span><span class="Qtxt">¿Quién suele ir a esta fuente a recoger el agua para su hogar?</span></p>
+              <p><span class="Itxt">Registre el nombre de la persona y copie el número de línea de esta persona del Módulo Lista de miembros del hogar.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS6. </span><span class="Qtxt">Desde la última </span><span class="Itxt Qtxt">~~daystring~~</span>, ¿cuántas veces ha recogido agua esta persona?</p>
+              <p><span class="Itxt">Registra el número de veces.</span></p>
+              <p><span class="Itxt">Registre '98' para 'DK'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS7. </span><span class="Qtxt">En el último mes, ¿ha habido algún momento en que su hogar no tuvo suficientes cantidades de agua potable?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS7A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS7A. </span><span class="Qtxt">En los últimos 12 meses, ¿ha habido algún momento en el que su hogar no tuvo suficiente agua potable?</span></p>
+  - name: MICS7HH.WS8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS8. </span><span class="Qtxt">La última vez que sucedió esto, ¿cuál fue la razón principal por la que su hogar no pudo acceder a agua potable en cantidad suficiente?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS9. </span><span class="Qtxt">¿Usted o algún otro miembro de este hogar hace algo con el agua para que sea más segura para beber?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS10
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS10. </span><span class="Qtxt">¿Qué haces habitualmente para que el agua sea más segura para beber?</span></p>
+              <p><span class="Itxt">Sondeo: </span><span class="Qtxt">¿Algo más?</span></p>
+              <p><span class="Itxt">Registre todos los métodos mencionados.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS10AA
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><b>WS10A</b>. ¿Su suministro de agua
+                          gestionado por su propio hogar, por una organización local o comunitaria, o por un
+                          ¿Servicio de agua público o privado?<br/></p><p></p>
+  - name: MICS7HH.WS10BB
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><b>WS10B</b>.<b> </b>¿Su principal fuente de agua potable es la misma en
+                          ¿La estación húmeda/seca?<br/></p><p></p>
+  - name: MICS7HH.WS10CC
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><b>WS10C.&nbsp;</b>¿Cuál es su principal fuente de agua potable en
+                          ¿la estación húmeda/seca?</p><b></b><p></p>
+  - name: MICS7HH.WS10DD
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><b>WS10D</b>.&nbsp;&nbsp;¿Dónde está ubicada esa fuente de agua?</p><p></p>
+  - name: MICS7HH.WS10EE
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><b>WS10E</b>. ¿Cuánto tiempo les toma a los miembros de su
+                          hogar para ir allí, buscar agua y regresar?</p><p><span class="Itxt">Use '000' para 'Los miembros no recolectan'</span></p><p><span class="Itxt">y '998' para 'NS'</span></p><p><br/></p><p></p><p></p>
+  - name: MICS7HH.WS11
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS11.</span><span class="Qtxt">¿Qué tipo de instalación sanitaria utilizan habitualmente los miembros de su hogar?</span></p><p><span class="Itxt">Si 'descarga' o 'vierte descarga', indague:</span><span class="Qtxt">¿A dónde descarga?</span></p><p><span class="Itxt">Si no es posible determinarlo, solicite permiso para observar las instalaciones.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS11B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">WS11B.</span> ¿~~worklabel~~ tiene una tubería de salida para residuos líquidos?
+                          
+                          Si hay infiltración subterránea desde la base o los lados del tanque o pozo, seleccione "No"
+                          
+                          Si el tanque o fosa que contiene desechos tiene una tubería que descarga desechos líquidos, seleccione “Sí”
+  - name: MICS7HH.WS11C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">WS11C.</span> ¿A dónde va esta tubería?
+  - name: WS11D
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">WS11D.</span> En el último año, ¿se han liberado excrementos de su ~~worklabel~~ a la superficie y sus alrededores debido a alguno de los siguientes eventos?
+  - name: MICS7HH.WS11DA
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>[A]</b> ¿Desbordado?
+  - name: MICS7HH.WS11DB
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>B.</b> ¿Inundado?
+  - name: MICS7HH.WS11DC
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>[C].</b> ¿La contención colapsó?
+  - name: MICS7HH.WS11DD
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>[D].</b> ¿Otro evento que libera excrementos a la superficie y sus alrededores?
+  - name: MICS7HH.WS12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS12. </span><span class="Qtxt">¿Se ha vaciado alguna vez tu <span class="REF">~~worklabel~~ </span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS12A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><b>WS12A</b>. La última vez que se vació, ¿quién vació el&nbsp;~~worklabel~~?</p><p class="1IntvwqstChar1Char"><span style="color: rgb(0, 176, 80);"></span></p><p></p>
+  - name: MICS7HH.WS13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS13. </span><span class="Qtxt">La última vez que se vació, ¿dónde se vació el contenido?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS14. </span><span class="Qtxt">¿Dónde está ubicada esta instalación sanitaria?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS16
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS16. </span><span class="Qtxt">¿Comparte esta instalación solo con miembros de otros hogares que conoce, o está la instalación abierta al uso del público en general?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WS17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS17. </span><span class="Qtxt">¿Cuántos hogares en total utilizan este baño, incluido el suyo?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HW1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HW1. </span><span class="Qtxt">Nos gustaría saber dónde se lavan las manos los miembros de este hogar.</span></p>
+              <p><span class="Qtxt">¿Puede mostrarme dónde se lavan las manos <u>más a menudo</u> los miembros de su hogar?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Si el encuestado indica que no hay un lugar fijo para lavarse las manos, indague:&nbsp;</span>¿Qué hacen los miembros de su hogar <u>más a menudo</u>? utilizan para lavarse las manos?<br/></span></p>
+              <p><span class="Itxt">Registrar resultado y observación.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HW2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HW2. </span><span class="Itxt">Observar presencia de agua en el lugar para el lavado de manos.</span></p>
+              <p><span class="Itxt">Verifique revisando el grifo/bomba, o el lavabo, balde, recipiente de agua u objetos similares para detectar la presencia de agua.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HW3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HW3.</span><span class="Itxt">Observar presencia de jabón, detergente o ceniza/barro/arena en el lugar para el lavado de manos.</span></p><p><span class="Itxt">Registrar todo lo que corresponda.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HW4A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HW4A. </span><span class="Qtxt">¿Tienes bañera o ducha en tu vivienda, patio o parcela?</span><p></p>
+  - name: MICS7HH.HW5A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HW5A.</span><span class="Qtxt">¿Tiene agua disponible allí?<br/></span><i>Si hay agua corriente de un grifo o agua almacenada en un tanque, balde, jarra, etc., registre 'Sí'.</i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.AE1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <font color="#0000ff"><b>AE1.</b>Número de línea</font><p></p>
+  - name: MICS7HH.AE2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><b>AE2.</b>Nombre del miembro del hogar:</p><p>&nbsp;</p><p></p><p><br></p><p></p>
+  - name: MICS7HH.AE3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>AE3.</b>&nbsp;Edad<p></p>
+  - name: MICS7HH.AE4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>AE4.</b>Está&nbsp;<span style="font-style: italic;">~~HX2~~ cubierto/a por algún seguro médico?</span><p></p>
+  - name: MICS7HH.AE5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE5.</span>¿Porqué tipo de seguro médico está cubierto/a&nbsp;<span style="font-style: italic;">~~HX2~~?</span><p></p>
+  - name: MICS7HH.AE6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE6.</span><span style="font-style: italic;">~~HX2~~ usted paga cubierto/a por algún seguro de salud, con su propio dinero ó lo deducen de su salario?</span><p></p>
+  - name: MICS7HH.AE7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE7. </span>Cuanto paga&nbsp;<span style="font-style: italic;">~~HX2~~ al mes?</span><p></p>
+  - name: MICS7HH.AE8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE8. </span>En los últimos 30 días tuvo&nbsp;<span style="font-style: italic;">~~HX2~~ al mes?</span><p></p>
+  - name: MICS7HH.AE9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE9. </span>¿Se internó&nbsp;<span style="font-style: italic;">~~HX2~~ en un hospital ó clínica?</span><p></p>
+  - name: MICS7HH.AE10
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE10. </span>Antes de internarse en un hospital ó clínica ,¿Buscó&nbsp;<span style="font-style: italic;">~~HX2~~ consejo ó tratamiento médico para esta última enfermedad ó problema de salud (incluyendo: problemas en el embarazo, complicaicones de enfermedades crónicas por diábetes e inpertensión etc) y accidente, en los últimos 30 días?</span><p></p>
+  - name: MICS7HH.AE11
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE11.&nbsp;</span>¿Cuál fué el problema de salud por el que&nbsp;<span style="font-style: italic;">~~HX2~~ buscó consejo o tratamiento (ultima enfermedad)?</span><p></p>
+  - name: MICS7HH.AE12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE12&nbsp;</span>¿Por esa última enfermedad que tuvo&nbsp;<span style="font-style: italic;">~~HX2~~ en los últimos 30 días, a quién consultó la primera vez?</span><p></p>
+  - name: MICS7HH.AE13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE13. </span>¿Por qué razón&nbsp;<span style="font-style: italic;">~~HX2~~ no buscó consejo o tratamiento médico en un centro de salud u hospital?</span><p></p>
+  - name: MICS7HH.AE14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE14. </span>¿Compró&nbsp;<span style="font-style: italic;">~~HX2~~ algún medicamento auto recetado ó indicado en la farmacia o por un amigo ó pariente?</span><p></p>
+  - name: MICS7HH.AE15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE15. </span>¿Cuánto gastó&nbsp;<span style="font-style: italic;">&nbsp;en total por estos medicamentos y otras cosas para tratar los rpoblemas de salud de&nbsp;</span><span style="font-style: italic;">~~HX2~~ en los últimos 30 días</span><span style="font-style: italic;">?</span><p></p></p><p><span style="font-style: italic;"><font color="#0000ff"><b>Si no pagó anote "00000"</b></font></span></p><p><span style="font-style: italic;"><br></span></p>
+  - name: MICS7HH.AE16
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE16. </span>Donde tuvo lugar la primera consulta<span style="font-style: italic;">?</span><p></p>
+  - name: MICS7HH.AE17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE17. </span>Cuánto pagó&nbsp;<span style="font-style: italic;">~~HX2~~ ó la familia en total por la consulta de la última enferdedad?</span><p></p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Si no pagó anote "00000"</span><span style="font-style: italic;"></span></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">99998 NO SABE</span><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;"></span></p>
+  - name: MICS7HH.AE18
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE18. </span>Cuánto pagó <span style="font-style: italic;">~~HX2~~ ó la familia en total por las medicinas de la última enferdedad?</span></p><p></p><p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Si no pagó anote "00000"</span><span style="font-style: italic;"></span></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">99997 No compró</span></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">99998 NO SABE</span></p><p></p>
+  - name: MICS7HH.AE19
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE19. </span>Cuánto pagó <span style="font-style: italic;">~~HX2~~ ó la familia en total por exámenes(radiografía, ultrasonido. etc) y laboratorio relacionado con la última enferdedad?</span></p><p></p><p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Si no pagó anote "00000"</span><span style="font-style: italic;"></span></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">99997 No se hizo</span></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">99998 NO SABE</span></p><p></p>
+  - name: MICS7HH.AE20
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">AE20. </span><span style="font-style: italic;">~~HX2~~ ó la familia pagó todo sólo con recursos&nbsp; propios ó el seguro pagó alguno de los costos?</span><p></p>
+  - name: MICS7HH.AE21
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE21. </span>Incluyendo consulta, medicinas y exámenes de laboratorio ¿cuánto devolvió en total el seguro<span style="font-style: italic;">?</span><p></p></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">99998 NO SABE</span><span style="font-style: italic;"></span></p>
+  - name: MICS7HH.AE22A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE22A. </span>Cuánto gastó&nbsp;<span style="font-style: italic;">~~HX2~~ ó la familia en total por:</span></p><p><span style="font-style: italic;">¿transporte (todos los acompañantes relacionados con la última enfermedad)?</span></p><p></p><p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Si no pagó anote "00000"</span><span style="font-style: italic;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: bolder;">99998 NO SABE</span></p><p></p>
+  - name: MICS7HH.AE22B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE22B. </span>Cuánto gastó <span style="font-style: italic;">~~HX2~~ ó la familia en total por:</span></p><p><span style="font-style: italic;">¿Cuidados de niños pequeños (relacionados con la última enfermedad)?</span></p><p></p><p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Si no pagó anote "00000"</span><span style="font-style: italic;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: bolder;">99998 NO SABE</span></p><p></p>
+  - name: MICS7HH.AE22C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE22B. </span>Cuánto gastó <span style="font-style: italic;">~~HX2~~ ó la familia en total por:</span></p><p><span style="font-style: italic;">¿Hospedaje y comida (tosos los acompañantes relacionados con la última enfermedad)?</span></p><p></p><p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Si no pagó anote "00000"</span><span style="font-style: italic;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: bolder;">99998 NO SABE</span></p><p></p>
+  - name: MICS7HH.AE23
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE23. </span>Además de los anteriores gastos&nbsp;<span style="font-style: italic;">~~HX2~~ ó la familia gastó algo más relacionados con la última enferdedad?</span></p><p><br></p><p></p>
+  - name: MICS7HH.AE24
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">AE24. </span>Cuánto pagó&nbsp;<span style="font-style: italic;">~~HX2~~ ó la familia en esos gastos relacionados con la última enfernedad ?</span></p><p></p><p></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: bolder;">99998 NO SABE</span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: bolder;">Finalice la entrevista si la persona en la pregfunta AE9 respondió Si, y pase a la sección de Gasto Hospitalario.</span></p><p></p>
+  - name: MICS7HH.HE1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;"><font color="#0046ff">HE1.Número de linea</font></span><p></p>
+  - name: MICS7HH.HE2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">HE2.</span>Nombre del miembro del hogar:<p></p>
+  - name: MICS7HH.HE3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">HE3.&nbsp;</span>Edad del miembro del hogar:<p></p>
+  - name: MICS7HH.HE4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">HE4.</span>En los últimos 12 meses&nbsp;<span style="font-style: italic;">¿tuvo&nbsp;</span><span style="font-style: italic;">~~HX2~~ una enferdedad física o mental, complicaciones en el embarazo o parto y/o accidente, por el cual estuvo hositalizado(a)?</span><p></p>
+  - name: MICS7HH.HE5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">HE5.</span>Cual es la causa de la última hospitalización de&nbsp;<span style="font-style: italic;">~~HX2~~ ?</span><p></p>
+  - name: MICS7HH.HE6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">HE6.</span>¿Donde estuvo&nbsp;<span style="font-style: italic;">~~HX2~~ hospitalizado/a?</span><p></p>
+  - name: MICS7HH.HE7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE7.</span>¿Durante cuanto tiempo estuvo <span style="font-style: italic;">~~HX2~~ hospitalizado/a?</span><p></p></p><p><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;">Menos de 1 mes, anote dias</span><span style="font-style: italic;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">Menos de 3 mes, anote semanas</span><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">3 meses o más, anote meses</span><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;"></span></p>
+  - name: MICS7HH.HE7A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE7.</span>¿Durante cuanto tiempo estuvo <span style="font-style: italic;">~~HX2~~ hospitalizado/a?</span></p><p></p><p></p><p><span style="font-weight: 700;">HE7A. Tiempo de hospitalización:</span><span style="font-weight: bolder; color: rgb(0, 0, 255); font-style: italic;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: bolder;">Anote "98" para no sabe</span></p><p></p>
+  - name: MICS7HH.HE8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE8.</span>Cuanto pagó&nbsp;<span style="font-style: italic;">~~HX2~~ o la familia en total por la hospitalización incluyendo consultas, laboratorio y medicinas?</span></p><p></p><p></p><p><font color="#0000ff"><b><i>Si no pagó, anote "00000"</i></b></font></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">Anote "99998" para no sabe</span><font color="#0000ff"><b><i></i></b></font></p>
+  - name: MICS7HH.HE9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE9.&nbsp;</span><span style="font-style: italic;">~~HX2~~ o la familia pagó todo solo con recursos propios o el seguro pagó alguno de los costos?</span><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;"></span></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;"><br></span></p><p><br></p><p></p><p></p>
+  - name: MICS7HH.HE10
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="font-weight: bolder;">HE10. </span>Incluyendo hospitalización, consultas, examenes de laboratorio y medicinas, ¿cuanto devolvió en total el seguro<span style="font-style: italic;">?</span><p></p>
+  - name: MICS7HH.HE11A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE11A. </span>¿cuanto gastó&nbsp;<span style="font-style: italic;">~~HX2~~ o la familia </span>en total por<i>:&nbsp;</i></p><p></p><p></p><p><i>¿Transporte todos los acompañantes, relacionados con la ultima enfermedad?</i></p><p><font color="#0000ff"><span style="font-weight: bolder;"><i>Si no pagó, anote "00000"</i></span></font></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">Anote "99998" para no sabe</span></p>
+  - name: MICS7HH.HE11B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE11B. </span>¿cuanto gastó <span style="font-style: italic;">~~HX2~~ o la familia </span>en total por<i>:&nbsp;</i></p><p></p><p></p><p><i>¿Cuidado de niños pequeños, relacionados con la ultima enfermedad?</i></p><p><font color="#0000ff"><span style="font-weight: bolder;"><i>Si no pagó, anote "00000"</i></span></font></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">Anote "99998" para no sabe</span></p><p></p>
+  - name: MICS7HH.HE11C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-weight: bolder;">HE11B. </span>¿cuanto gastó <span style="font-style: italic;">~~HX2~~ o la familia </span>en total por<i>:&nbsp;</i></p><p></p><p></p><p><i>¿Hospedaje y comida (todos), relacionados con la ultima enfermedad?</i></p><p><font color="#0000ff"><span style="font-weight: bolder;"><i>Si no pagó, anote "00000"</i></span></font></p><p><span style="color: rgb(0, 0, 255); font-style: italic; font-weight: 700;">Anote "99998" para no sabe</span></p><p></p>
+  - name: MICS7HH.HH13H
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><b><font color="#0046ff">HH13. Registre la hora.</font>&nbsp;</b></p><p></p>
+  - name: MICS7HH.HH13M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH13. </span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;">Registre los minutos.</span><p></p>
+  - name: MICS7HH.HH14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HH14. </span><span class="Itxt">Idioma del Cuestionario</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HH15. </span><span class="Itxt">Idioma de la Entrevista.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH16
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span style="font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH16</span><span style="font-family: &quot;Times New Roman&quot;, serif;">. Lengua materna del entrevistado/a.&nbsp;</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HH17. </span><span class="Itxt">¿Se utilizó un traductor para alguna parte de este cuestionario?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH26A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH26.</span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;"> Registre el número de orden (HH20) del niño/a seleccionado.&nbsp;</span><p></p>
+  - name: MICS7HH.HH26B
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH26.</span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;"> Registre el número de línea (HH21) del niño/a seleccionado.&nbsp;</span><p></p>
+  - name: MICS7HH.HH26C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH26.</span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;"> Registre la edad (HH24) del niño/a seleccionado.&nbsp;</span><p></p>
+  - name: MICS7HH.HH30HA
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH30HA.</span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;"> Registre el número de linea de la mujer seleccionada para violencia doméstica.&nbsp;</span><p></p>
+  - name: MICS7HH.HH30HB
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH30HB.</span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;"> Número de linea de la mujer seleccionada para violencia doméstica.&nbsp;</span><p></p>
+  - name: MICS7HH.HH30HC
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-weight: 700;">HH30HC.</span><span style="color: rgb(0, 0, 255); font-family: &quot;Times New Roman&quot;, serif; font-style: italic;"> Edad de la mujer seleccionada para violencia doméstica.&nbsp;</span><p></p>
+  - name: MICS7HH.HH33X
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HH33. </span><span class="Qtxt">Como parte de la encuesta, también estamos entrevistando a mujeres de entre 15 y 49 años. Le pedimos permiso a cada persona que entrevistamos. Una entrevistadora mujer lleva a cabo estas entrevistas.</span></p>
+              <p><span class="Qtxt">En el cado de las niñas de 15 a 17 años, también debemos obtener el permiso de un adulto para entrevistarlas. Como se mencionó anteriormente, toda la información que obtengamos será estrictamente confidencial y anónima.</span></p>
+              <p><span class="Qtxt">¿Podemos entrevistar a <span class="REF">~~worklabel~~ después</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH39X
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HH39. </span><span class="Qtxt">Como parte de la encuesta, también entrevistamos a hombres de entre 15 y 59 años. Le pedimos permiso a cada persona que entrevistamos. Un entrevistador hombre lleva a cabo éstas entrevistas.</span></p>
+              <p><span class="Qtxt">En el caso de los niños de entre 15 y 17 años, también debemos obtener el permiso de un adulto para entrevistarlos. Como se mencionó anteriormente, toda la información que obtengamos será estrictamente confidencial y anónima.</span></p>
+              <p><span class="Qtxt">¿Podemos entrevistar a <span class="REF">~~worklabel~~ después</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH44
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HH44. </span><span class="Qtxt">Como parte de la encuesta, también queremos saber sobre la calidad del agua para beber. Nos gustaría hacer una prueba simple de su agua que utilizan para beber. Un colega vendrá para tomar muestras de agua. ¿Podemos hacer esa prueba?</span></p>
+              <p><span class="Itxt">Si la persona solicita conocer los resultados, explique que no se compartirán con hogares individuales, sino que se pondrán a disposición de las autoridades locales.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HH44BC
+    conditions:
+      - logic: HC7A<>1 and HC12<>1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC44C.</span><span class="Qtxt">Gracias por su participación.</span></p><p><span class="Qtxt"><span class="QtxtC"><font color="#000000">El </font>Instituto&nbsp;Nacional de Estadística</span>&nbsp;realizará mas adelante una encuesta telefónica sobre la situación de los niños, familias y hogares. Es posible que llamemos algunas veces a lo largo del período de unos meses, durante aproximadamente 15 minutos cada vez.</span></p><p><span class="Qtxt">La participación es voluntaria. Si acepta participar ahora, aún puede retirarse más tarde. No le costará nada participar. Su número telefónico y toda la información que comparta durante estas entrevistas telefónicas no se compartirán con nadie fuera de nuestro equipo.</span></p><p><span class="Qtxt">¿Te gustaría participar?</span></p><p></p>
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HC44B.</span><span class="Qtxt">Gracias por su participación.</span></p><p><span class="Qtxt">La<span class="QtxtC">Oficina Nacional de Estadística</span> llevará a cabo una encuesta telefónica sobre la situación de los niños, las familias y los hogares en el futuro. Es posible que llamemos varias veces durante un período de algunos meses, durante unos 15 minutos cada vez.</span></p><p><span class="Qtxt">La participación es voluntaria. Si acepta participar ahora, aún puede retirarse más tarde. No te costará nada participar. Su número de teléfono y toda la información que comparta durante estas entrevistas telefónicas no se compartirán con nadie fuera de nuestro equipo.</span></p><p><span class="Qtxt">¿Le gustaría participar?</span></p><p></p>
+  - name: MICS7HH.HH44DE
+    conditions:
+      - logic: HC7A=2 and HC12=2
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HH44D. <span style="font-weight: normal;">Usted me&nbsp;</span></span><span class="Qtxt">ha dicho que no hay teléfonos en tu casa. Sólo para confirmar, ¿tiene usted un número de teléfono personal o hay un número de teléfono del hogar?</span><p></p>
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HH44E.</span><span class="Qtxt">¿Tiene un número de teléfono personal o hay un número de teléfono del hogar?</span><p></p>
+  - name: MICS7HH.HH44F
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">HH44F.</span><span class="Qtxt">Puede compartir el número de su hogar, pero por favor, no comparta ningún número de teléfono personal que pertenezca a otros miembros de su hogar o a personas ajenas. Por favor, indiqueme a cuál número de teléfono llamar.</span><p></p>
+  - name: MICS7HH.HH44G
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HH44G.</span><span class="Itxt">Solicita y registre el número de teléfono.</span></p><p><br></p><p></p>
+  - name: MICS7HH.HH44H
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HH44H.&nbsp;</span>Solo para confirmar, ¿el número es&nbsp;~~HH44G~~?</p><p><span style="color: rgb(0, 0, 255);">Si no, regrese a HH44G y corrija la entrada.</span></p><p></p>
+  - name: MICS7HH.HH44I
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HH44I.&nbsp;</span>Recuerde, puede compartir el número de su hogar, pero, por favor, no comparta ningún número de teléfono personal que pertenezca a otros miembros de su hogar o a personas ajenas. ¿Tiene otro número de teléfono personal o compartido donde puedan localizarlo/a?</p><div><br></div><p></p>
+  - name: MICS7HH.HH46
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">HH46. </span><span class="Itxt">Resultado de la entrevista del Cuestionario de Hogar:</span></p>
+              <p><span class="Itxt">Comente con el Supervisor cualquier resultado no completado.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HHWQ
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Complete el panel superior del cuestionario de pruebas de calidad del agua con la siguiente información:</span></p>
+              <p><span class="Itxt">WQ1. Número de clúster: <span class="ItxtC">~~HH1~~</span></span></p>
+              <p><span class="Itxt">WQ2. Número de hogar: <span class="ItxtC">~~HH2~~</span></span></p>
+              <p><span class="Itxt">WQ4. Número de entrevistadores: <span class="ItxtC">~~HINT~~</span></span></p>
+              <p><span class="Itxt">WQ6. ¿Se ha seleccionado el hogar para la prueba en blanco: <span class="ItxtC">~~HH10~~</span></span></p>
+              <p><span class="Itxt">WQ8. ¿Se otorga permiso para analizar el agua: <span class="ItxtC">~~HH44~~</span></span></p>
+              <p><span class="Itxt">Presione 'Continuar' para continuar después de completar la parte superior de los formularios.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.HHFIN
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><i>Agradezca a las personas entrevistadas por su cooperación y luego proceda con la administración de los cuestionarios individuales restantes en este hogar.</i></p><p><i style="color: rgb(0, 0, 255);">Si no hay ningún cuestionario individual ni ningún FORMULARIO DE PRUEBA DE CALIDAD DEL AGUA para completar en este hogar, agradezca a la persona entrevistada por su cooperación y pase al siguiente hogar que le asigne su supervisor.</i><br></p><div><br></div>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ3. </span><span class="Itxt">Número de medidor</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: WQ5DATE
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Inum">Q5.</span><span class="Itxt">Día/Mes/Año de pruebas de calidad del agua</span><p></p>
+  - name: MICS7HH.WQ5D
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Día</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ5M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Mes</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ5Y
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Año</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ7. </span><span class="Itxt">Nombre y número de línea del encuestado en la entrevista del Cuestionario de pruebas de calidad del agua</span></p>
+  - name: WQ11TIME
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Inum">WQ10.</span><span class="Itxt">Registrar la hora de inicio de las pruebas de calidad del agua</span><p></p>
+  - name: MICS7HH.WQ10H
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><i>Hora</i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ10M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><i>Minutos</i></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ11
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WQ11. </span><span class="Qtxt">¿Podría proporcionarme un vaso del agua que suelen beber los miembros de su hogar?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ12. </span><span class="Itxt">Observe y registre si el agua se recolectó de la fuente o de un recipiente de almacenamiento separado.</span></p>
+              <p><span class="Itxt">Etiquetar muestra como ~~worklabel~~.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ12A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WQ12A. </span><span class="Qtxt">¿De dónde vertió esta agua?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Sonda para saber si proviene directamente de la fuente o de un recipiente cubierto o descubierto.</span><br/></span><p></p></p>
+  - name: MICS7HH.WQ14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WQ14. </span><span class="Qtxt">¿Usted o algún otro miembro de este hogar ha hecho algo con esta agua para que sea más segura para beber?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WQ15. </span><span class="Qtxt">¿Qué se ha hecho con el agua para que sea más segura para beber?</span></p>
+              <p><span class="Itxt">Sondeo: </span><span class="Qtxt">¿Algo más?</span></p>
+              <p><span class="Itxt">Registra todos los elementos mencionados.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WQ17. </span><span class="Qtxt">¿De qué fuente se recolectó esta agua?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ18
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WQ18. </span><span class="Qtxt">¿Puedes mostrarme o decirme la ubicación de la fuente del vaso de agua potable?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ19
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ19. </span><span class="Itxt">Registre si se recolectó muestra de agua de origen.</span></p>
+              <p><span class="Itxt">Etiquetar muestra como ~~worklabel~~. </span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ21
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ21. </span><span class="Itxt">Saca la muestra de agua estéril/mineral que te dio tu supervisor.</span></p>
+              <p><span class="Itxt">Etiquetar muestra como ~~worklabel~~.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: WQ23TIME
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Inum">WQ23.</span><span class="Itxt">Registrar la hora de finalización de las pruebas de calidad del agua</span><p></p>
+  - name: MICS7HH.WQ23H
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Hora</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ23M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Minutos</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: WQ24DATE
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Inum">WQ24.</span><span class="Itxt">Día/Mes/Año de registro de los resultados de la prueba</span><p></p>
+  - name: MICS7HH.WQ24D
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Día</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ24M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Mes</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ24Y
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Año</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: WQ25TIME
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Inum">WQ25.</span><span class="Itxt">Registre el tiempo de registro de los resultados</span><p></p>
+  - name: MICS7HH.WQ25H
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Hora</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ25M
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Minutos</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ26
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ26. </span><span class="Itxt">Prueba de agua doméstica (100ml):</span></p>
+              <p><span class="Itxt">El resultado de la prueba de agua debe registrarse como un número entre '0' y '100'.</span></p>
+              <p><span class="Itxt">Si se cuentan 101 o más colonias, registre '101'</span></p>
+              <p><span class="Itxt">Si no es posible leer resultados, registre '991'</span></p>
+              <p><span class="Itxt">Si se pierden los resultados, registre '992'</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ27
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ27. </span><span class="Itxt">Prueba de agua de fuente (100ml):</span></p>
+              <p><span class="Itxt">El resultado de la prueba de agua debe registrarse como un número entre '0' y '100'.</span></p>
+              <p><span class="Itxt">Si se cuentan 101 o más colonias, registre '101'</span></p>
+              <p><span class="Itxt">Si no es posible leer resultados, registre '991'</span></p>
+              <p><span class="Itxt">Si se pierden los resultados, registre '992'</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ29
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ29. </span><span class="Itxt">Test de agua en blanco (100ml):</span></p>
+              <p><span class="Itxt">El resultado de la prueba de agua debe registrarse como un número entre '0' y '100'.</span></p>
+              <p><span class="Itxt">Si se cuentan 101 o más colonias, registre '101'</span></p>
+              <p><span class="Itxt">Si no es posible leer resultados, registre '991'</span></p>
+              <p><span class="Itxt">Si se pierden los resultados, registre '992'</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.WQ31
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">WQ31. </span><span class="Itxt">Resultado del Cuestionario de Pruebas de Calidad del Agua.</span></p>
+              <p><span class="Itxt">Discute cualquier resultado no completado con el Supervisor.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.C
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">WS15.</span><span class="Qtxt">¿Comparte esta instalación con otras personas que no son miembros de su hogar?</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED11
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED11. </span><span class="Qtxt">¿Asiste <span class="REF">~~ED2~~ </span>a una escuela pública?</span></p>
+              <p><span class="Itxt">﻿En caso afirmativo, registre '1'. En caso negativo, investigue quién controla y administra la escuela.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED12. </span><span class="Qtxt">En el <span class="QtxtC">actual </span>año escolar, ¿ha recibido <span class="REF">~~ED2~~ </span>algún apoyo para la matrícula escolar?</span></p>
+              <p><span class="Itxt">En caso afirmativo, investigue para asegurarse de que no recibió apoyo de familiares, otros parientes, amigos o vecinos.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED12A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">ED12A.</span>¿Crees que este apoyo de matrícula es suficiente para pagar los costos de matrícula de ~~ED2~~?<p class="MsoNormal"></p><p></p>
+  - name: MICS7HH.ED13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED13. </span><span class="Qtxt">¿Quién proporcionó el apoyo para la matrícula?</span></p>
+              <p><span class="Itxt">Registra todo lo mencionado.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ED14. </span><span class="Qtxt">Para el <span class="QtxtC">actual </span>año escolar, ¿ha recibido <span class="REF">~~ED2~~ </span></span>algún apoyo material o dinero en efectivo para comprar zapatos, cuadernos, cuadernos, uniformes escolares u otros útiles escolares?</p>
+              <p><span class="Itxt">En caso afirmativo, investigue para asegurarse de que no recibió apoyo de familiares, otros parientes, amigos o vecinos.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ED14A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>ED14A.</b>¿Crees que este apoyo es suficiente para el material escolar ~~ED2~~ necesario?<p></p>
+  - name: MICS7HH.EU1A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>EU1A.
+                          </b>¿Cuál es el (<b><i>nombre/marca</i></b>) de esta estufa o dispositivo?<p></p>
+  - name: MICS7HH.EU6A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>UE6A.
+                          </b>¿Cuál es (<b><i>nombre/marca</i></b>) de este calentador, estufa o dispositivo?<p></p>
+  - name: MICS7HH.FE1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1IntvwqstChar1Char"><b>FE1</b>.
+                          Ahora me gustaría hacerle algunas preguntas sobre la comida. Durante el último año,
+                          ¿Hubo algún momento en el que usted u otras personas en su hogar se preocuparon por
+                          ¿No tener suficiente comida para comer por falta de dinero u otros recursos?</p>
+              <p class="1IntvwqstChar1Char"><b>&nbsp;</b><i>Indague: </i>Por falta de dinero o
+                          otros recursos, me refiero a no tener los medios para conseguir alimentos, ya sea <span style="color: red;">cultivarlos, comprarlos o comerciar con ellos</span>.</p><p></p>
+  - name: MICS7HH.FE2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>FE2</b>.
+                          Aún pensando en el último año, ¿hubo algún momento en el que usted u otras personas en
+                          su hogar no pudo comer alimentos saludables y nutritivos debido a la falta
+                          de dinero u otros recursos?<p></p>
+  - name: MICS7HH.FE3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><b>FE3</b>. ¿Hubo un momento en que
+                          usted u otras personas en su hogar comieron sólo unos pocos tipos de alimentos debido a la falta
+                          de dinero u otros recursos?</p><p></p>
+  - name: MICS7HH.FE4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><b>FE4</b>. ¿Hubo un momento en que
+                          usted u otras personas en su hogar tuvieron que saltarse una comida porque no había
+                          ¿Suficiente dinero u otros recursos para conseguir comida?</p><p></p>
+  - name: MICS7HH.FE5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>FE5</b>.
+                          Aún pensando en el último año, ¿hubo algún momento en el que usted u otras personas en
+                          su hogar comió menos de lo que pensaba que debía debido a la falta de dinero
+                          u otros recursos?<p></p>
+  - name: MICS7HH.FE6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>FE6</b>.
+                          ¿Hubo algún momento en que su hogar se quedó sin alimentos por falta de dinero?
+                          u otros recursos?<p></p>
+  - name: MICS7HH.FE7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>FE7</b>.
+                          ¿Hubo algún momento en que usted u otras personas en su hogar tuvieron hambre pero no
+                          ¿comer por falta de dinero u otros recursos para alimentarse?<p></p>
+  - name: MICS7HH.FE8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>FE8</b>. Durante<b> </b>el último año, ¿hubo algún momento en el que usted o
+                          otros en su hogar estuvieron sin comer durante un día entero debido a la falta
+                          de dinero u otros recursos?<p></p>
+  - name: MICS7HH.HL7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">HL7. </span><span class="Qtxt">¿Se quedó a dormir&nbsp;<span class="REF">~~HL2~~ <span style="font-style: normal;">en este hogar</span></span>&nbsp;anoche?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.PE1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><b>PE1</b>. Queremos hablarte de la <span style="color: red;">emergencia</span>.</p>
+              ¿Alguien que no fuera un
+                          ¿Un miembro de este hogar antes de la <span style="color: red;">emergencia</span> vino a vivir a este hogar debido a la <span style="color: red;">emergencia</span>?<p></p>
+  - name: MICS7HH.PE10
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE10</b>. Como resultado de la(s) enfermedad(es), (¿fue esto
+                          persona/eran estas personas) incapaces de realizar las actividades diarias habituales, como
+                          ¿Vas a trabajar o a estudiar durante más de 3 meses seguidos?<p></p>
+  - name: MICS7HH.PE11
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE11</b>. ¿Alguien en esta casa se volvió seriamente
+                          ¿Lesionado debido a la <span style="color: red;">emergencia</span>?<p></p>
+  - name: MICS7HH.PE12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="Instructionstointvw"><span class="1IntvwqstChar1"><b>PE12</b></span><span class="1IntvwqstChar1">.</span> Debido a
+                          la <span style="color: red;">emergencia</span>, ¿algún miembro del hogar
+                          ¿Separado del hogar, aunque fuera temporal?</p>
+              <i>Si responde “No”, investigue: ¿Algún miembro del hogar se mudó a vivir?
+                          con familiares o vecinos, o fueron detenidos o se perdieron, incluso si
+                          temporalmente? Si lo hay, registre 1 para
+                          "Sí".</i><p></p>
+  - name: MICS7HH.PE13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE13</b>. ¿Cuántos miembros se separaron?<p></p>
+  - name: MICS7HH.PE14
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE14</b>. ¿Alguno de los miembros separados tenía menos de 18 años?
+                          ¿Años en el momento de la separación?<p></p>
+  - name: MICS7HH.PE15
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1Intvwqst"><b>PE15</b>.
+                          ¿Había niños de entre 5 y 17 años viviendo en este hogar durante la <span style="color: red;">emergencia</span>?</p>
+              <i>Sonda:</i> Por favor incluya
+                          niños que vivían en el hogar en el momento de la emergencia.<p></p>
+  - name: MICS7HH.PE16
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE16</b>. Antes de la <span style="color: red;">emergencia</span>,
+                          ¿Alguno de estos niños asistía a la escuela?<p></p>
+  - name: MICS7HH.PE17
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE17</b>. Durante la <span style="color: red;">emergencia</span>,
+                          ¿Alguno de estos niños de entre 5 y 17 años dejó de asistir a la escuela debido a la <span style="color: red;">emergencia</span>, aunque sea temporalmente?<p></p>
+  - name: MICS7HH.PE18
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE18</b>. Durante la <span style="color: red;">emergencia</span>,
+                          era la principal fuente de agua potable del hogar inutilizable debido a la
+                          ¿Emergencia, aunque sea temporalmente?<p></p>
+  - name: MICS7HH.PE19
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE19</b>. Durante la <span style="color: red;">emergencia</span>,
+                          ¿El baño principal de la casa estaba inutilizable debido a la emergencia, incluso si
+                          temporalmente?<p></p>
+  - name: MICS7HH.PE2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE2</b>. ¿Cuántas personas vinieron a vivir en este
+                          hogar?<p></p>
+  - name: MICS7HH.PE20
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1Intvwqst"><b>PE20</b>. ¿Se vieron afectados los ingresos del hogar por la <span style="color: red;">emergencia</span></p>?
+              <i>Si la respuesta es “Sí”, investigue si los ingresos aumentaron
+                          o disminuido.</i><p></p>
+  - name: MICS7HH.PE21
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="1Intvwqst"><b>PE21</b>. ¿Por qué disminuyeron los ingresos de su hogar?</p><p class="1Intvwqst"><i>Pregunte: ¿Algo más?</i></p>
+              <i>Registra todo lo que corresponda.</i><p></p>
+  - name: MICS7HH.PE22
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE22</b>. Durante la <span style="color: red;">emergencia</span>,
+                          ¿Hubo algún artículo de valor en la casa, granja o negocio, ya sea dañado,
+                          ¿Destruido o robado?<p></p>
+  - name: MICS7HH.PE3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="Instruccionestointvw"><b>PE3</b>. en cualquier momento
+                          Durante la <span style="color: red;">emergencia</span>, ¿<u>todos los miembros
+                          de este hogar</u> se muda a otro lugar debido a la <span style="color: red;">emergencia</span></p>
+              <i>Si es “No”, indague si todos los
+                          Los miembros del hogar permanecieron una noche o más en otro lugar. Si es así,
+                          registre 1 para "Sí".</i><p></p>
+  - name: MICS7HH.PE4N
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="Instruccionestointvw"><b>PE4</b>. ¿Cuánto tiempo vivieron todos los miembros de este hogar en ese(s) otro(s) lugar(es)?</p><p class="Instructionstointvw"><i>Número de registro. Si algún miembro del hogar todavía se encuentra en otra ubicación, registre 995.</i></p><p></p>
+  - name: MICS7HH.PE4U
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="Instruccionestointvw"><b>PE4</b>. ¿Cuánto tiempo estuvieron todos los miembros de este
+                          ¿Vive su hogar en ese otro lugar?</p>
+              <p class="Instructionstointvw"><i>Registre la unidad.<br/>Si es menos de una semana, registre los días.</i></p><p></p>
+  - name: MICS7HH.PE5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE5</b>. Debido a la <span style="color: red;">emergencia</span>, ¿su casa resultó dañada o destruida?<p></p>
+  - name: MICS7HH.PE6
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE6</b>. ¿Alguien que vivía en el hogar?
+                          durante la <span style="color: red;">emergencia</span><b> </b>muere como resultado directo del<b>
+              </b><span style="color: red;">emergencia</span>?<p></p>
+  - name: MICS7HH.PE7
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE7</b>. ¿Alguno de los miembros de este hogar necesitaba
+                          atención médica por cualquier motivo en el momento de la <span style="color: red;">emergencia</span>?<p></p>
+  - name: MICS7HH.PE8
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>PE8</b>. ¿Todos los miembros que necesitaban atención médica
+                          ¿Recibir esta atención?<p></p>
+  - name: MICS7HH.PE9
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p class="Instruccionestointvw"><b>PE9</b>. Ahora me gustaría preguntarte sobre temas serios.
+                          enfermedades causadas por la emergencia. Estos pueden incluir, por ejemplo, <span style="color: red;">personalizar
+                          según el tipo de emergencia</span>.<span class="Qtxt">&nbsp;</span></p><p class="Instructionstointvw">¿Algún miembro de este hogar se enfermó gravemente en el momento de la <span class="QtxtC">emergencia</span>?</p><p></p>
+  - name: MICS7HH.ST2
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST1.</span>&nbsp;Me gustaría preguntarle sobre varios programas de asistencia económica externa que se ofrecen a los hogares.
+                          Por ayuda externa me refiero al apoyo que proviene del gobierno o de
+                          organizaciones no gubernamentales como religiosas, caritativas o
+                          organizaciones de base comunitaria. Esto excluye el apoyo de la familia, otros
+                          familiares, amigos o vecinos.</p>
+              <p><span class="Qnum">ST2. </span><span class="Qtxt">¿Conoce usted la&nbsp;</span><span style="color: red;">Asistencia Tipo 1</span>?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 2
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST2. </span><span class="Qtxt">¿Conoce usted la&nbsp;</span><span style="color: red;">Asistencia Tipo 2</span>?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 3
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST2. </span><span class="Qtxt">¿Conoce usted la&nbsp;</span><span style="color: rgb(255, 0, 0);">ASISTENCIA TIPO 3</span>?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 4
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST2. </span><span class="Qtxt">¿Conoce alguna pensión de jubilación?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 5
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST2. </span><span class="Qtxt">¿Conoce ALGÚN otro programa de asistencia externa?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ST3
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST3.</span><span class="Qtxt">Tiene
+                          ¿Su hogar o alguien en su hogar recibió asistencia a través de&nbsp;<span style="color: red;">AYUDA TIPO 1</span>?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 2
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST3.&nbsp;</span><span class="Qtxt">¿Su hogar o alguien de su hogar ha recibido asistencia a través de<span class="Qtxt">&nbsp;</span><span style="color: red;">AYUDA TIPO 2</span>?</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 3
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST3.&nbsp;</span><span class="Qtxt">¿Su hogar o alguien de su hogar ha recibido asistencia a través de<span class="Qtxt">&nbsp;</span><span style="color: red;">AYUDA TIPO 3</span>?</span><br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 4
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST3.&nbsp;</span><span class="Qtxt">¿Ha recibido su hogar o alguien de su hogar asistencia a través de&nbsp;</span>CUALQUIER PENSIÓN DE JUBILACIÓN?<br/></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 5
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST3. </span><span class="Qtxt">¿Su hogar o alguien de su hogar ha recibido asistencia a través de</span>CUALQUIER OTRO PROGRAMA DE ASISTENCIA EXTERNA?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ST4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">ST4.</span><span class="Qtxt">¿A quién en su hogar está destinada o destinada la asistencia?<br/><span style="color: rgb(0, 0, 255);">Indague:</span>¿Alguien más?<br/></span><p></p>
+  - name: MICS7HH.ST5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">ST5.&nbsp;</span><span class="Qtxt">¿Quién en su hogar está autorizado a recibir o cobrar la asistencia?<br/><span style="color: rgb(0, 0, 255);">Indague:&nbsp;</span>¿Alguien más?</span><p></p>
+  - name: MICS7HH.ST6N
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través del <span class="QtxtC">Asistencia Tipo 1</span>?</span><br/></p>
+              <p><span class="Itxt">Registro ~~worklabel~~</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 2
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través de<span class="QtxtC">Asistencia Tipo 2</span>?</span><br/></p>
+              <p><span class="Itxt">Registro ~~worklabel~~</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 3
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través del<span class="QtxtC">Asistencia Tipo 3</span>?</span><br/></p>
+              <p><span class="Itxt">Registro ~~worklabel~~</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 4
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través de CUALQUIER PENSIÓN DE JUBILACIÓN?</span><br/></p>
+              <p><span class="Itxt">Registro ~~worklabel~~</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 5
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través de CUALQUIER otro programa de asistencia externa?</span><br/></p>
+              <p><span class="Itxt">Registro ~~worklabel~~</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.ST6U
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien en su hogar recibió asistencia a través de <span class="QtxtC">Asistencia Tipo 1</span>?</span></p><p><span class="Itxt">Si es menos de un mes, registre '1' y registre '00' en Meses.</span></p><p><span class="Itxt">Si es menos de 12 meses, registre '1' y regístrelo en Meses.</span></p><p><span class="Itxt">Si es 1 año/12 meses o más, registre '2' y regístrelo en Años.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 2
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través de <span class="QtxtC">Asistencia Tipo 2</span>?</span></p><p><span class="Itxt">Si es menos de un mes, registre '1' y registre '00' en Meses.</span></p><p><span class="Itxt">Si es menos de 12 meses, registre '1' y regístrelo en Meses.</span></p><p><span class="Itxt">Si es 1 año/12 meses o más, registre '2' y regístrelo en Años.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 3
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través del <span class="QtxtC">Asistencia Tipo 3</span>?</span></p><p><span class="Itxt">Si es menos de un mes, registre '1' y registre '00' en Meses.</span></p><p><span class="Itxt">Si es menos de 12 meses, registre '1' y regístrelo en Meses.</span></p><p><span class="Itxt">Si es 1 año/12 meses o más, registre '2' y regístrelo en Años.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 4
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través de CUALQUIER PENSIÓN DE JUBILACIÓN?</span></p><p><span class="Itxt">Si es menos de un mes, registre '1' y registre '00' en Meses.</span></p><p><span class="Itxt">Si es menos de 12 meses, registre '1' y regístrelo en Meses.</span></p><p><span class="Itxt">Si es 1 año/12 meses o más, registre '2' y regístrelo en Años.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+      - logic: curocc() = 5
+        questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">ST6.</span><span class="Qtxt">¿Cuándo fue la última vez que su hogar o alguien de su hogar recibió asistencia a través de CUALQUIER otro programa de asistencia externa?</span></p><p><span class="Itxt">Si es menos de un mes, registre '1' y registre '00' en Meses.</span></p><p><span class="Itxt">Si es menos de 12 meses, registre '1' y regístrelo en Meses.</span></p><p><span class="Itxt">Si es 1 año/12 meses o más, registre '2' y regístrelo en Años.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN1. </span><span class="Qtxt">¿Tiene su hogar mosquiteros?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN10
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN10. </span><span class="Qtxt">¿Recibiste el mosquitero a través de una <span class="QtxtC">campaña local de distribución masiva</span>, durante una visita de atención prenatal o durante una visita de vacunación? [MOSQUITERO&nbsp;<span class="REF">~~TNLN~~</span>]</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN12
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN12. </span><span class="Qtxt">¿De dónde sacaste la red? [MOSQUITERO&nbsp;<span class="REF">~~TNLN~~</span>]</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN13
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN13. </span><span class="Qtxt">¿Alguien durmió bajo este mosquitero anoche? [MOSQUITERO&nbsp;<span class="REF">~~TNLN~~</span>]</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN14A
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <b>TN14A</b>. ¿Cuál es la <u>principal</u> razón por la que esta red fue
+                          ¿No lo usaste anoche?<p></p>
+  - name: MICS7HH.TN15_1
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN15. </span><span class="Qtxt">¿Quién durmió anoche bajo este mosquitero? [<span class="REF"><span style="font-style: normal;">MOSQUITERO&nbsp;</span>~~TNLN~~</span>]</span></p>
+              <p><span class="Itxt">Registre el número de línea de la persona de la Lista de miembros del hogar.</span></p>
+              <p><span class="Itxt">Si alguien que no está en la Lista de Miembros del Hogar durmió bajo el mosquitero, registre '00'.</span></p>
+              <p><span class="Itxt">'Nadie / Nadie más', registro '90'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN15_2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN15. </span><span class="Qtxt">¿Quién más durmió anoche bajo este mosquitero? [<span class="REF"><span style="font-style: normal;">MOSQUITERO&nbsp;</span>~~TNLN~~</span>]</span></p>
+              <p><span class="Itxt">Registre el número de línea de la persona de la Lista de miembros del hogar.</span></p>
+              <p><span class="Itxt">Si alguien que no está en la Lista de Miembros del Hogar durmió bajo el mosquitero, registre '00'.</span></p>
+              <p><span class="Itxt">'Nadie / Nadie más', registro '90'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN15_3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN15. </span><span class="Qtxt">¿Quién más durmió anoche bajo este mosquitero? [<span class="REF"><span style="font-style: normal;">MOSQUITERO&nbsp;</span>~~TNLN~~</span>]</span></p>
+              <p><span class="Itxt">Registre el número de línea de la persona de la Lista de miembros del hogar.</span></p>
+              <p><span class="Itxt">Si alguien que no está en la Lista de Miembros del Hogar durmió bajo el mosquitero, registre '00'.</span></p>
+              <p><span class="Itxt">'Nadie / Nadie más', registro '90'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN15_4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN15. </span><span class="Qtxt">¿Quién más durmió anoche bajo este mosquitero? [<span class="REF"><span style="font-style: normal;">MOSQUITERO&nbsp;</span>~~TNLN~~</span>]</span></p>
+              <p><span class="Itxt">Registre el número de línea de la persona de la Lista de miembros del hogar.</span></p>
+              <p><span class="Itxt">Si alguien que no está en la Lista de Miembros del Hogar durmió bajo el mosquitero, registre '00'.</span></p>
+              <p><span class="Itxt">'Nadie / Nadie más', registro '90'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN2
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN2. </span><span class="Qtxt">¿Cuántos mosquiteros tiene su hogar?</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN3
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">TN3. </span><span class="Itxt">Pídale al encuestado que le muestre todos los mosquiteros del hogar.</span></p>
+              <p><span class="Itxt">¿Viste el mosquitero número ~~TNLN~~</span>?</p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN4
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">TN4. </span><span class="Qtxt">¿Hace cuántos meses recibió el mosquitero en su hogar? [NET <span class="REF">~~TNLN~~</span>]</span></p>
+              <p><span class="Itxt">Si es menos de un mes, registre '00'.</span></p>
+              <p><span class="Itxt">Si hace más de 36 meses, registrar '95'.</span></p>
+              <p><span class="Itxt">Si 'NS/No estoy seguro', registre '98'.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+
+  - name: MICS7HH.TN5
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">TN5. </span><span class="Itxt">Observa o pregunta la marca/tipo de mosquitero. [NET ~~TNLN~~]</span></p>
+              <p><span class="Itxt">Si desconoce la marca y no puede observar la red, muestre imágenes de marcas/tipos de red típicos al encuestado.</span></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+...

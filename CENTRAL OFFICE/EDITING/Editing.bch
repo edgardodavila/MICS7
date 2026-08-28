@@ -1,0 +1,68 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "batch", 
+  "name": "EDITING", 
+  "label": "EDITING", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "../../APPS/shareddicts/MICS7HH.dcf", 
+      "parent": "editing.ord"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/shareddicts/MICS7WM.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/shareddicts/MICS7CH.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/shareddicts/MICS7FS.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/shareddicts/MICS7MN.dcf"
+    }
+  ], 
+  "order": [
+    "editing.ord"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "editing.apc"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/SETTINGS.APC"
+    }
+  ], 
+  "messages": [
+    "editing.mgf"
+  ], 
+  "logicSettings": {
+    "version": 2.0, 
+    "caseSensitive": {
+      "symbols": false
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "htmlDialogs": true, 
+    "paradata": {
+      "collection": "none", 
+      "recordCoordinates": false, 
+      "recordInitialPropertyValues": false, 
+      "recordIteratorLoadCases": false, 
+      "recordValues": false
+    }, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

@@ -1,0 +1,23 @@
+﻿[Run Information]
+Version=CSPro 8.1
+AppType=Batch
+
+[Files]
+Application=.\editing.bch
+InputData=..\DATAFILES\onfield\HH00003.csdb
+Listing=..\..\reports\editing.lst
+
+[ExternalFiles]
+MICS7CH=..\DATAFILES\onfield\CH00003.csdb
+MICS7FS=..\DATAFILES\onfield\FS00003.csdb
+MICS7MN=..\DATAFILES\onfield\MN00003.csdb
+MICS7WM=..\DATAFILES\onfield\WM00003.csdb
+
+[Parameters]
+Parameter=1
+ViewListing=Never
+ViewResults=Yes
+ListingWidth=120
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential

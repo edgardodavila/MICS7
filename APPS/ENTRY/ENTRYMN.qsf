@@ -1,0 +1,2781 @@
+﻿---
+fileType: Question Text
+version: CSPro 8.1
+languages:
+  - name: EN
+    label: English
+  - name: ES
+    label: Español
+styles:
+  - name: Qtxt
+    className: Qtxt
+    css: |
+      font-family: Courier New;font-size: 26px;color: #000000;
+  - name: Qnum
+    className: Qnum
+    css: |
+      font-family: Courier New;font-weight: bold;font-size: 26px;color: #000000;
+  - name: Itxt
+    className: Itxt
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #0000ff;
+  - name: Inum
+    className: Inum
+    css: |
+      font-family: Courier New;font-weight: bold;font-style: italic;font-size: 26px;color: #0000ff;
+  - name: QtxtC
+    className: QtxtC
+    css: |
+      font-family: Courier New;font-size: 26px;color: #ff0000;
+  - name: QnumC
+    className: QnumC
+    css: |
+      font-family: Courier New;font-weight: bold;font-size: 26px;color: #ff0000;
+  - name: ItxtC
+    className: ItxtC
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #ff0000;
+  - name: InumC
+    className: InumC
+    css: |
+      font-family: Courier New;font-weight: bold;font-style: italic;font-size: 26px;color: #ff0000;
+  - name: REF
+    className: REF
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #000000;
+questions:
+  - name: MICS7MN.MWM8
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM8. </span><span class="Itxt">Check completed questionnaires in this household: Have you or another member of your team interviewed this respondent for another questionnaire?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM8. </span><span class="Itxt">Marque los cuestionarios completados en este hogar: ¿Usted u otro miembro de su equipo ha entrevistado a este encuestado para otro cuestionario??</span></p>
+  - name: MICS7MN.MWM9
+    conditions:
+      - logic: MWM8=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM9B. </span><span class="Qtxt">Now I would like to talk to you about your health and other topics in more detail.</span></p>
+              <p><span class="Qtxt">This interview will take about <span class="QtxtC">number </span>minutes.</span></p>
+              <p><span class="Qtxt">Again, participation in this survey is voluntary. No payment of incentive will be given to you for answering these questions. However, this survey will help the government and the general public better understand the situation and needs of men.</span></p>
+              <p><span class="Qtxt">Please know that all the information you share during the interview will remain strictly confidential and anonymous. No information about you will be made publicly available. We will only produce information about the general population.</span></p>
+              <p><span class="Qtxt">Again, should you wish not to answer a question or wish to stop the interview at any point, please let me know.</span></p>
+              <p><span class="Qtxt">If at any time you have any complaints or concerns about this survey, please use the information on the card I gave you earlier to contact <span class="QtxtC">organisation name</span>.</span></p>
+              <p><span class="Qtxt">May I start the interview?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM9B. </span><span class="Qtxt">Ahora me gustaría hablar contigo sobre tu salud y otros temas con más detalle.</span></p>
+              <p><span class="Qtxt">Esta entrevista durará aproximadamente <span class="QtxtC">número </span>minutos.</span></p>
+              <p><span class="Qtxt">Nuevamente, la participación en esta encuesta es voluntaria. No se le otorgará ningún pago de incentivo por responder estas preguntas. Sin embargo, esta encuesta ayudará al gobierno y al público en general a comprender mejor la situación y las necesidades de los hombres.</span></p>
+              <p><span class="Qtxt">Tenga en cuenta que toda la información que comparta durante la entrevista será estrictamente confidencial y anónima. Ninguna información sobre usted se hará pública. Sólo produciremos información sobre la población general.</span></p>
+              <p><span class="Qtxt">Nuevamente, si no desea responder una pregunta o desea detener la entrevista en algún momento, hágamelo saber.</span></p>
+              <p><span class="Qtxt">Si en algún momento tiene alguna queja o inquietud sobre esta encuesta, utilice la información de la tarjeta que le di anteriormente para comunicarse con <span class="QtxtC">nombre de la organización</span>.</span></p>
+              <p><span class="Qtxt">¿Puedo comenzar la entrevista?</span></p>
+      - logic: MWM8=2
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM9A. </span><span class="Qtxt">Hello, my name is <span class="REF">~~STAFF_NAME~~</span>. We are from <span class="QtxtC">National Statistical Office</span>. We are conducting a survey about the situation of children, families and households. I would like to talk to you about your health and other topics. We are also interviewing mothers about their children.</span></p>
+              <p><span class="Qtxt">This interview will take about <span class="QtxtC">number </span>minutes.</span></p>
+              <p><span class="Qtxt">Participation in this survey is voluntary. No payment or incentive will be given to you for answering these questions. However, this survey will help the government and the general public better understand the situation and needs of men</span></p>
+              <p><span class="Qtxt">Please know that all the information you share during the interview will remain strictly confidential and anonymous. No information about you will be made publicly available. We will only produce information about the general population.</span></p>
+              <p><span class="Qtxt">Should you feel uncomfortable about any questions and not wish to answer, just let me know and we can skip the question. Also, if you wish to stop the interview at any point just let me know.</span></p>
+              <p><span class="Qtxt">If at any time you have any complaints or concerns about this survey, please use the information provided on this card to contact <span class="QtxtC">organisation name</span>.</span></p>
+              <p><span class="Qtxt">May I start the interview?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM9A. </span><span class="Qtxt">Hola, mi nombre es <span class="REF">~~STAFF_NAME~~</span>. Somos de la <span class="QtxtC">Oficina Nacional de Estadística</span>. Estamos realizando una encuesta sobre la situación de los niños, las familias y los hogares. Me gustaría hablar contigo sobre tu salud y otros temas. También estamos entrevistando a madres sobre sus hijos.</span></p>
+              <p><span class="Qtxt">Esta entrevista durará aproximadamente <span class="QtxtC">número </span>minutos.</span></p>
+              <p><span class="Qtxt">La participación en esta encuesta es voluntaria. No se le otorgará ningún pago ni incentivo por responder estas preguntas. Sin embargo, esta encuesta ayudará al gobierno y al público en general a comprender mejor la situación y las necesidades de los hombres</span></p>
+              <p><span class="Qtxt">Tenga en cuenta que toda la información que comparta durante la entrevista será estrictamente confidencial y anónima. Ninguna información sobre usted se hará pública. Sólo produciremos información sobre la población general.</span></p>
+              <p><span class="Qtxt">Si se siente incómodo con alguna pregunta y no desea responder, hágamelo saber y podremos omitir la pregunta. Además, si deseas detener la entrevista en algún momento, házmelo saber.</span></p>
+              <p><span class="Qtxt">Si en algún momento tiene alguna queja o inquietud sobre esta encuesta, utilice la información proporcionada en esta tarjeta para comunicarse con <span class="QtxtC">nombre de la organización</span>.</span></p>
+              <p><span class="Qtxt">¿Puedo comenzar la entrevista?</span></p>
+  - name: MICS7MN.MWB3M
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB3. </span><span class="Qtxt">In what month and year were you born?</span></p>
+              <p><span class="Itxt">Record month of birth.</span></p><p><span class="Itxt">If 'DK' record '98'.<br/></span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB3. </span><span class="Qtxt">¿En qué mes y año naciste?</span></p>
+              <p><span class="Itxt">Registre el mes de nacimiento.</span></p><p><span class="Itxt">Si 'DK' registre '98'.<br/></span></p>
+  - name: MICS7MN.MWB3Y
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB3. </span><span class="Qtxt">In what month and year were you born?</span></p>
+              <p><span class="Itxt">Record year of birth.</span></p>
+              <p><span class="Itxt">If 'DK' record '9998'.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB3. </span><span class="Qtxt">¿En qué mes y año naciste?</span></p>
+              <p><span class="Itxt">Anotar año de nacimiento.</span></p>
+              <p><span class="Itxt">Si 'DK' registra '9998'.</span></p>
+  - name: MICS7MN.MWB4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB4. </span><span class="Qtxt">How old are you?</span></p>
+              <p><span class="Itxt">Probe: </span><span class="Qtxt">How old were you at your last birthday?</span></p>
+              <p><span class="Itxt">If responses to MWB3 and MWB4 are inconsistent, probe further and correct. Age must be recorded.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB4. </span><span class="Qtxt">¿Cuántos años tienes?</span></p>
+              <p><span class="Itxt">Pregunta: </span><span class="Qtxt">¿Cuántos años tenías en tu último cumpleaños?</span></p>
+              <p><span class="Itxt">Si las respuestas a MWB3 y MWB4 son inconsistentes, indague más y corrija. Se debe registrar la edad.</span></p>
+  - name: MICS7MN.MWB5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB5. </span>Where were you born?
+                          In Country or another country?</p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB5.</span>¿Dónde naciste?
+                          ¿En País u otro país?</p>
+  - name: MICS7MN.MWB5A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MWB5A. </span>In which <span class="QtxtC" style="color: red;">region</span> <u>were</u> you born?<p class="MsoNormal"><i><span class="Itxt">Probe to determine the region according to
+                          present borders.</span></i></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MWB5A.&nbsp;</span>¿En qué <span class="QtxtC" style="color: red;">región</span> <u>nació</u>?<p class="MsoNormal"><i><span class="Itxt">Sonda para determinar la región según
+                          fronteras actuales.</span></i></p><p></p>
+  - name: MICS7MN.MWB6
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB6. </span>In which country were you born?</p>
+              <p class="MsoNormal"><i><span class="Itxt">Probe to determine country according to present borders and record the code of the country.</span></i></p><p class="MsoNormal"><u><span class="Itxt">If unable to find or
+                          determine the name of the country</span></u><span class="Itxt">, write the name
+                          of the place below and then temporarily record ‘976’ until you learn the
+                          appropriate code.</span><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB6.</span>¿En qué país naciste?</p>
+              <p class="MsoNormal"><i><span class="Itxt">Sonda para determinar el país según las fronteras actuales y registre el código del país.</span></i></p><p class="MsoNormal"><u><span class="Itxt">Si no puede encontrar o
+                          determina el nombre del país</span></u><span class="Itxt">, escribe el nombre
+                          del lugar a continuación y luego grabe temporalmente '976' hasta que aprenda el
+                          código apropiado.</span><br/></p><p></p>
+  - name: MICS7MN.MWB7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB7. </span><span class="Qtxt">Do you have the citizenship of Country?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB7. </span><span class="Qtxt">¿Tiene la ciudadanía del país?</span></p>
+  - name: MICS7MN.MWB7A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MWB7A. </span><span class="Qtxt">Do you have the citizenship of another country?</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MWB7A.</span><span class="Qtxt">¿Tiene la ciudadanía de otro país?</span><p></p>
+  - name: MICS7MN.MWB7B1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB7B. </span>Which (other) country or countries do you have the citizenship of?</p><p class="MsoNormal"><i><span class="Itxt">Probe to determine country according to present borders and record the code of the country.</span></i></p><p class="MsoNormal"><u><span class="Itxt">If unable to find or determine the name of the country</span></u><span class="Itxt">, write the name of the place below and then temporarily record ‘976’ until you learn the appropriate code.</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB7B.&nbsp;</span>¿De qué (otro) país o países tiene ciudadanía?</p><p class="MsoNormal"><i><span class="Itxt">Sonda para determinar el país según las fronteras actuales y registrar el código del país.</span></i></p><p class="MsoNormal"><u><span class="Itxt">Si no puede encontrar o determinar el nombre del país</span></u><span class="Itxt">, escriba el nombre del lugar a continuación y luego registre temporalmente '976' hasta que aprenda el código apropiado.</span></p><p></p>
+  - name: MICS7MN.MWB7B2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB7B. </span>Which (other) country or countries do you have the citizenship of?</p><p class="MsoNormal"><i><span class="Itxt">If there is no more citizenship, record '0'.<br/><br/>Probe to determine country according to present borders and record the code of the country.</span></i></p><p class="MsoNormal"><u><span class="Itxt">If unable to find or determine the name of the country</span></u><span class="Itxt">, write the name of the place below and then temporarily record ‘976’ until you learn the appropriate code.</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB7B.</span>¿De qué (otro) país o países tiene ciudadanía?</p><p class="MsoNormal"><i><span class="Itxt">Si no hay más ciudadanía, registre '0'.<br/><br/>Sonda para determinar el país según las fronteras actuales y registre el código del país.</span></i></p><p class="MsoNormal"><u><span class="Itxt">Si no puede encontrar o determinar el nombre del país</span></u><span class="Itxt">, escriba el nombre del lugar a continuación y luego registre temporalmente '976' hasta que aprenda el código apropiado.</span></p><p></p>
+  - name: MICS7MN.MWB7B3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB7B. </span>Which (other) country or countries do you have the citizenship of?</p><p class="MsoNormal"><i><span class="Itxt">If there is no more citizenship, record '0'.<br/><br/>Probe to determine country according to present borders and record the code of the country.</span></i></p><p class="MsoNormal"><u><span class="Itxt">If unable to find or determine the name of the country</span></u><span class="Itxt">, write the name of the place below and then temporarily record ‘976’ until you learn the appropriate code.</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qnum">MWB7B.</span>¿De qué (otro) país o países tiene ciudadanía?</p><p class="MsoNormal"><i><span class="Itxt">Si no hay más ciudadanía, registre '0'.<br/><br/>Sonda para determinar el país según las fronteras actuales y registre el código del país.</span></i></p><p class="MsoNormal"><u><span class="Itxt">Si no puede encontrar o determinar el nombre del país</span></u><span class="Itxt">, escriba el nombre del lugar a continuación y luego registre temporalmente '976' hasta que aprenda el código apropiado.</span></p><p></p>
+  - name: MICS7MN.MWB8
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB8. </span><span class="Qtxt">How long have you been continuously living in <span class="Itxt">(name of current city, town or village of residence)</span>?</span></p>
+              <p><span class="Itxt">If less than one year, record ‘00’.</span></p>
+              <p><span class="Itxt">If 'Always / Since birth', record ‘95’.</span></p>
+              <p><span class="Itxt">If DK, record ‘98’.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB8.</span><span class="Qtxt">¿Cuánto tiempo lleva viviendo continuamente en <span class="Itxt">(nombre de la ciudad, pueblo o aldea de residencia actual)</span>?</span></p>
+              <p><span class="Itxt">Si es menos de un año, registre '00'.</span></p>
+              <p><span class="Itxt">Si es 'Siempre / Desde nacimiento', registre '95'.</span></p>
+              <p><span class="Itxt">Si NS, registre '98'.</span></p>
+  - name: MICS7MN.MWB9
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB9. </span>Just before you moved here, did you live in a city, in a town, or in a rural area?</p><p><span class="Itxt">Probe to identify the type of place.</span><br/></p><p><span class="Itxt"><u>If unable to determine whether the place is a city, a town or a rural area</u>, write the name of the place and then temporarily record ‘5’ until you learn the appropriate category for the response.</span><br/></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWB9.&nbsp;</span>Justo antes de mudarse aquí, ¿vivía en una ciudad, en un pueblo o en una zona rural?</p><p><span class="Itxt">Sonda para identificar el tipo de lugar.</span><br/></p><p><span class="Itxt"><u>Si no puede determinar si el lugar es una ciudad, un pueblo o una zona rural</u>, escriba el nombre de el lugar y luego registre temporalmente '5' hasta que aprenda la categoría apropiada para la respuesta.</span><br/></p>
+  - name: MICS7MN.MWB10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b><span class="Qnum">MWB10. </span></b>Before you moved here, in which <span class="QtxtC">region </span>did you live in?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b><span class="Qnum">MWB10. </span></b>Antes de mudarte aquí, ¿en qué <span class="QtxtC">región </span>vivías?<p></p>
+  - name: MICS7MN.MIN1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MIN1.</span> Are you covered by any health insurance?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MIN1.</span> ¿Tiene algún seguro médico?<p></p>
+  - name: MICS7MN.MIN2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIN2. </span>What type of health insurance are you covered by?</p><p><span class="Itxt">Record all mentioned.</span><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIN2. </span>¿Qué tipo de seguro médico tiene cobertura?</p><p><span class="Itxt">Registre todo lo mencionado.</span><br/></p><p></p>
+  - name: MICS7MN.MNE3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE3.</span> In the past 4 weeks, that is, since <span class="REF">~~dateminus4weeks~~</span>, did you attend school at any time?</p><p><span class="Itxt QtxtC ItxtC">If no, and schools have currently been on break for more than 4 weeks, record 3, “No, full-time student on school break”.</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE3.</span> En las últimas 4 semanas, es decir, desde <span class="REF">~~dateminus4weeks~~</span>, ¿asististe a la escuela en algún momento?</p><p><span class="Itxt QtxtC ItxtC">Si no, y las escuelas han estado actualmente en receso durante más de 4 semanas, registra 3, “No, estudiante de tiempo completo en vacaciones escolares”.</span></p><p></p>
+  - name: MICS7MN.MNE4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE4. </span>In the past 4 weeks, that is, since <span class="REF">~~dateminus4weeks~~</span>, did you participate in any unpaid apprenticeship, internship, or similar training in a workplace? </p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE4. </span>En las últimas 4 semanas, es decir, desde <span class="REF">~~dateminus4weeks~~</span>, ¿participó en algún aprendizaje, pasantía o capacitación similar no remunerada en un lugar de trabajo?</p><div><br/></div><p></p>
+  - name: MICS7MN.MNE5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE5.</span> How about within the last one year, that is, since <span class="REF">~~dateminus1year~~</span>?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE5.</span> ¿Qué tal en el último año, es decir, desde <span class="REF">~~dateminus1year~~</span>?</p><div><br/></div><p></p>
+  - name: MICS7MN.MNE6
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE6. </span>In the past 4 weeks, that is, since <span class="REF">~~dateminus4weeks~~</span>, did you attend any courses, seminars, or other training to develop specific skills, for example languages, computer skills, or similar?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE6. </span>En las últimas 4 semanas, es decir, desde <span class="REF">~~dateminus4weeks~~</span>, ¿asististe a algún curso, seminario u otra capacitación para desarrollar habilidades específicas, por ejemplo idiomas, informática o similares?</p><div><br/></div><p></p>
+  - name: MICS7MN.MNE7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE7. </span>How about within the last one year, that is, since <span class="REF">~~dateminus1year~~</span>?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE7. </span>¿Qué tal en el último año, es decir, desde<span class="REF">~~dateminus1year~~</span>?</p><p></p>
+  - name: MICS7MN.MNE8
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE8. </span>The next questions are about any work that you may have done during the last week. By last week, I mean from <span class="QtxtC">Monday</span> to <span class="QtxtC">Sunday</span>.</p><p>Last week, did you do any work for someone else for pay, even if only for one hour?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE8. </span>Las siguientes preguntas son sobre cualquier trabajo que haya realizado durante la última semana. Por la semana pasada, me refiero del <span class="QtxtC">lunes</span> al <span class="QtxtC">domingo</span>.</p><p>La semana pasada, ¿hiciste algún trabajo para otra persona a cambio de un pago, aunque solo fuera por una hora?</p><p></p>
+  - name: MICS7MN.MNE9
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE9. </span>Still thinking about last week, Monday to Sunday, did you run or do any kind of business, farming or other activity to generate income, even if only for one hour?</p><p><span class="Itxt">Probe:</span> Examples of activities include <span class="QtxtC">making things for sale, growing produce for sale, buying and reselling things, providing services for pay, raising animals, or catching fish for sale.</span><br/></p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE9. </span>Aún estás pensando en la semana pasada, de lunes a domingo, ¿dirigiste o hiciste algún tipo de negocio, agricultura u otra actividad para generar ingresos, aunque solo fuera por una hora?</p><p><span class="Itxt">Indaga:</span> Ejemplos de actividades incluyen <span class="QtxtC">fabricar cosas para la venta, cultivar productos para la venta, comprar y revender cosas, brindar servicios a cambio de una remuneración, criar animales o pescar para venta.</span><br/></p><div><br/></div><p></p>
+  - name: MICS7MN.MNE10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MNE10.</b> Last week, <span class="QtxtC">Monday </span>to <span class="QtxtC">Sunday</span>, did you help in a family business or farm?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MNE10.</b> La semana pasada, <span class="QtxtC">lunes </span>a <span class="QtxtC">domingo</span>, ¿ayudaste en un negocio familiar o en una granja?</p><div><br/></div><p></p>
+  - name: MICS7MN.MNE11
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE11.</span> Even though you did not work last week, did you have a paid job or a business?</p><p><span class="Itxt">Probe:</span> Absence could be due to leave, illness, seasonality of agricultural activities, strike, or similar.<br/></p><p><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE11.</span>A pesar de que no trabajó la semana pasada, ¿tenía un trabajo remunerado o un negocio?</p><p><span class="Itxt">Indague:</span> La ausencia podría deberse a licencia, enfermedad, estacionalidad de las actividades agrícolas, huelga, o similar.<br/></p><p><br/></p><p></p>
+  - name: MNE12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE12.</span> Was the reason for your absence last week any of the following?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE12.</span>&nbsp;¿El motivo de su ausencia la semana pasada fue alguno de los siguientes?<p></p>
+  - name: MICS7MN.MNE12A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A] </span>That you have shift work, <span class="QtxtC">flexi time</span>, or similar nature of work?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A] </span>¿Que tienes trabajo por turnos, <span class="QtxtC">horario flexible</span> o trabajo de naturaleza similar?</p><p></p>
+  - name: MICS7MN.MNE12B
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B]</span> That you were on vacation or holidays?</p><p></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B]</span> ¿Que estabas de vacaciones o feriados?</p><p></p><p></p>
+  - name: MICS7MN.MNE12C
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[C]</span> That you were sick, ill, or suffered an accident? </p><p></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[C]</span> ¿Que estuviste enfermo, enfermo o sufriste un accidente?</p><p></p><p></p>
+  - name: MICS7MN.MNE12D
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[D]</span> That you were on paternity leave?</p><p></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[D]</span> ¿Que estabas de baja por paternidad?</p><p></p><p></p>
+  - name: MICS7MN.MNE13
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE13.</span> Was the reason for your absence last week that you are waiting to start new job or business?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE13.</span> ¿El motivo de tu ausencia la semana pasada fue que estás esperando para comenzar un nuevo trabajo o negocio?<p></p>
+  - name: MICS7MN.MNE14
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE14. </span>Was the reason for your absence last week that your paid job or business was in low or off-season?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE14. </span>¿El motivo de tu ausencia la semana pasada fue que tu trabajo o negocio remunerado estaba en temporada baja o fuera de temporada?<p></p>
+  - name: MICS7MN.MNE15
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE15. </span>During the low or off-season, do you continue to do some work for that job or business?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE15. </span>Durante la temporada baja o fuera de temporada, ¿continúas realizando algún trabajo para ese empleo o negocio?<p></p>
+  - name: MICS7MN.MNE16
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE16. </span>Including the time that you have been absent, will you return to that same job or business in 3 months or less?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE16. </span>Incluyendo el tiempo que has estado ausente, ¿volverás a ese mismo trabajo o negocio en 3 meses o menos?<p></p>
+  - name: MICS7MN.MNE17
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE17. </span>Do you continue to receive an income from your job or business during this absence?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE17. </span>¿Sigues recibiendo ingresos de tu trabajo o negocio durante esta ausencia?<p></p>
+  - name: MNE18
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE18. </span>Was this work that you mentioned in:</p><p><p><span style="color: rgb(0, 0, 255);">At least one ‘yes’ must be recorded in question [A], [B] or [X].</span></p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE18.&nbsp;</span>Fue este trabajo que mencionaste en:</p><p><p><span style="color: rgb(0, 0, 255);">Se debe registrar al menos un “sí” en la pregunta [A], [B] o [X].</span></p></p>
+  - name: MICS7MN.MNE18A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A]</span> Farming or rearing farm animals?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A]</span> ¿Cultivar o criar animales de granja?</p><p></p>
+  - name: MICS7MN.MNE18B
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B] </span>Fishing or fish farming?</p><p></p><p></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B] </span>¿Pesca o piscicultura?</p><p></p><p></p><p></p>
+  - name: MICS7MN.MNE18X
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[X] </span>Another type of job or business? </p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[X]</span>¿Otro tipo de trabajo o negocio?</p><p></p>
+  - name: MICS7MN.MNE20
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE20. </span>Last week did you do any work in farming, rearing animals, fishing or fish farming?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE20. </span>La semana pasada, ¿trabajó en la agricultura, la cría de animales, la pesca o la piscicultura?<p></p>
+  - name: MICS7MN.MNE21
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE21. </span>Thinking about the products from <span class="Qnum">(farming and/or fishing)</span> you worked on, are they intended only for sale, mainly for sale, mainly for family use or only for family use?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE21. </span>Pensando en los productos de <span class="Qnum">(agricultura y/o pesca)</span> en los que trabajó, ¿están destinados únicamente a la venta, principalmente a la venta, principalmente para uso familiar o sólo para uso familiar?</p><div><br/></div><p></p>
+  - name: MICS7MN.MNE22
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE22. </span>In general, in the past have these products been only sold, mainly sold, mainly kept or only kept for family use?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MNE22. </span>En general, ¿en el pasado estos productos se vendían únicamente, se vendían principalmente, se conservaban principalmente o se conservaban únicamente para uso familiar?</p><div><br/></div><p></p>
+  - name: MICS7MN.MNE23
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE23. </span>Were you hired by someone else to do this work?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MNE23. </span>¿Alguien más lo contrató para hacer este trabajo?<p></p>
+  - name: MICS7MN.MIC1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC1.</span> Do you own a mobile phone?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC1.</span> ¿Tienes un teléfono móvil?<p></p>
+  - name: MICS7MN.MIC2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC2. </span>Do you own a smartphone?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC2. </span>¿Tienes un teléfono inteligente?<p></p>
+  - name: MICS7MN.MIC3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIC3. </span>During the last 3 months, did you use a mobile telephone at least once a week, less than once a week or not at all?</p><p><span class="Itxt">Probe if necessary: <span class="Qtxt">I mean have you communicated with someone using a mobile phone.</span></span><br/></p><p><span class="Itxt">If ‘At least once a week’, probe: <span class="Qtxt">Would you say this </span><span class="Itxt Qtxt">happens almost every day? </span></span><br/></p><p><span class="Itxt">If ‘Yes’ record 3, if ‘No’ record 2.</span><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIC3. </span>Durante los últimos 3 meses, ¿usó un teléfono móvil al menos una vez a la semana, menos de una vez a la semana o nunca?</p><p><span class="Itxt">Indague si es necesario: <span class="Qtxt">Quiero decir, ¿se ha comunicado con alguien usando un teléfono móvil?</span></span><br/></p><p><span class="Itxt">Si es ‘Al menos una vez a la semana’, indague: <span class="Qtxt">¿Dirías que esto </span><span class="Itxt Qtxt">sucede casi todos los días?</span></span><br/></p><p><span class="Itxt">Si responde “Sí”, registra 3, si responde “No”, registra 2.</span><br/></p><p></p>
+  - name: MICS7MN.MIC4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC4. </span>Have you ever used a computer, such as a desktop, laptop, tablet, or similar?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC4. </span>¿Has utilizado alguna vez un ordenador, como un ordenador de sobremesa, un portátil, una tableta o similar?<p></p>
+  - name: MICS7MN.MIC5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIC5. </span>During the last 3 months, did you use a computer at least once a week, less than once a week or not at all?<br/></p><p><span class="Itxt">If ‘At least once a week’, probe:</span> Would you say this happened almost every day?<br/></p><p><span class="Itxt">If ‘Yes’ record 3, if ‘No’ record 2.</span><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIC5. </span>Durante los últimos 3 meses, ¿usó una computadora al menos una vez a la semana, menos de una vez a la semana o ninguna vez?<br/></p><p><span class="Itxt">Si es “Al menos una vez a la semana”, indague:</span> ¿Diría que esto sucedió casi todos los días?<br/></p><p><span class="Itxt">Si es “Sí”, registre 3, si es “No”, registre 2.</span><br/></p><p></p>
+  - name: MIC7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC7. </span>I will now ask you about activities that you may have done on a computer or phone during the last 3 months. Did you:<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC7.&nbsp;</span>Ahora te preguntaré sobre las actividades que hayas realizado en una computadora o teléfono durante los últimos 3 meses. ¿Tú:<p></p>
+  - name: MICS7MN.MIC7B
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b><span class="Qnum">[B] </span></b>Use a copy and paste tool to duplicate or move data, information, and content in digital environments, for example within a document, between devices, or on the cloud?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b><span class="Qnum">[B] </span></b>¿Utiliza una herramienta de copiar y pegar para duplicar o mover datos, información y contenido en entornos digitales, por ejemplo dentro de un documento, entre dispositivos o en la nube?</p><p></p>
+  - name: MICS7MN.MIC7C
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>[C]</b> Send a message, for example by e-mail, messaging service, or SMS, with an attached file, for example a document, picture, or video?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>[C]</b>&nbsp;¿Enviar un mensaje, por ejemplo por correo electrónico, servicio de mensajería o SMS, con un archivo adjunto, por ejemplo un documento, una imagen o un vídeo?</p><p></p>
+  - name: MICS7MN.MIC7D
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>[D]</b> Use a basic arithmetic formula in a spreadsheet?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>[D]</b>&nbsp;¿Utilizas una fórmula aritmética básica en una hoja de cálculo?</p><p></p>
+  - name: MICS7MN.MIC7E
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qtxt Qnum">[E] </span>Connect and install a new device, such as a modem, camera, or printer?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qtxt Qnum">[E]&nbsp;</span>¿Conectar e instalar un nuevo dispositivo, como un módem, una cámara o una impresora?</p><p></p>
+  - name: MICS7MN.MIC7F
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[F] </span>Find, download, install, and configure software?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[F]&nbsp;</span>¿Buscar, descargar, instalar y configurar software?</p><p></p>
+  - name: MICS7MN.MIC7G
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[G] </span>Create an electronic presentation with presentation software, including text, images, sound, video, or charts?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[G]</span>¿Crear una presentación electrónica con software de presentación, que incluya texto, imágenes, sonido, vídeo o gráficos?</p><p></p>
+  - name: MICS7MN.MIC7H
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[H] </span>Transfer a file or application between a computer and other device?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[H]&nbsp;</span>¿Transferir un archivo o aplicación entre una computadora y otro dispositivo?</p><p></p>
+  - name: MICS7MN.MIC7I
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[I] </span>Set up effective security measures, for example strong passwords or log-in attempt notification, to protect devices and online accounts?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[I]&nbsp;</span>¿Configurar medidas de seguridad efectivas, por ejemplo, contraseñas seguras o notificaciones de intento de inicio de sesión, para proteger dispositivos y cuentas en línea?</p><p></p>
+  - name: MICS7MN.MIC7J
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[J] </span>Change privacy settings on your device, account, or app to limit the sharing of personal data and information, such as name, contact information, or photos?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[J]&nbsp;</span>¿Cambiar la configuración de privacidad en su dispositivo, cuenta o aplicación para limitar el intercambio de información y datos personales, como nombre, información de contacto o fotos?</p><p></p>
+  - name: MICS7MN.MIC7K
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[K] </span>Verify the reliability of information found online?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[K]&nbsp;</span>¿Verificar la confiabilidad de la información encontrada en línea?</p><p></p>
+  - name: MICS7MN.MIC7L
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[L] </span>Write a computer program using a specialised programming language, including programming or coding in digital environments, for example computer software or app development?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[L]</span>¿Escribir un programa informático utilizando un lenguaje de programación especializado, incluida la programación o codificación en entornos digitales, por ejemplo, software informático o desarrollo de aplicaciones?</p><p></p>
+  - name: MICS7MN.MIC10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC10. </span>Have you ever used the internet from any location and any device?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MIC10. </span>¿Alguna vez has utilizado Internet desde cualquier ubicación y dispositivo?<p></p>
+  - name: MICS7MN.MIC11
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIC11. </span>During the last 3 months, did you use the internet at least once a week, less than once a week or not at all?<br/></p><p><span class="Itxt">If ‘At least once a week’, probe: </span>Would you say this happens almost every day? <br/></p><p><span class="Itxt">If ‘Yes’ record 3, if ‘No’ record 2.</span><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MIC11. </span>Durante los últimos 3 meses, ¿usó Internet al menos una vez a la semana, menos de una vez a la semana o nunca?<br/></p><p><span class="Itxt">Si es “Al menos una vez a la semana”, pregunte: </span>¿Diría que esto sucede casi todos los días?<br/></p><p><span class="Itxt">Si es “Sí”, registre 3, si es “No”, registre 2.</span><br/></p><p></p>
+  - name: MICS7MN.MTU3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Itxt"><span class="Inum">MTU2. </span>Begin by asking the respondent what time he woke up the day before the interview and what time he went to sleep. Then ask him to list the activities he did during the day in chronological order. For each activity, record the appropriate code in MTU7, ask MTU8-MTU10 and, if applicable, proceed to ask any follow-up questions. After recording all information relative to an activity, you will be led back to MTU7 to ask what he did next. Once he mentions he went to sleep for the night, do not record anything else. Finally, to ensure everything he did yesterday has been captured, MTU18 will prompt you to read all activities recorded and ask if anything is missing. If yes, enter the code, time and/or duration for each activity that was not previously mentioned or captured.</span></p><p><span class="Qnum">MTU3.</span> I will now ask you about what you did yesterday, between waking up in the morning and going to bed at night for sleeping. You can include anything you did. These can include active tasks such as studying and eating or passive activities such as relaxing or thinking.</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt"><span class="Inum">MTU2. </span>Comience preguntando al encuestado a qué hora se despertó el día antes de la entrevista y a qué hora se fue a dormir. Luego pídale que enumere las actividades que realizó durante el día en orden cronológico. Para cada actividad, registrar el código correspondiente en MTU7, preguntar MTU8-MTU10 y, en su caso, proceder a realizar las preguntas de seguimiento. Después de registrar toda la información relativa a una actividad, regresará a MTU7 para preguntarle qué hizo a continuación. Una vez que mencione que se fue a dormir por la noche, no registre nada más. Finalmente, para garantizar que se haya capturado todo lo que hizo ayer, MTU18 le pedirá que lea todas las actividades registradas y le preguntará si falta algo. En caso afirmativo, ingrese el código, hora y/o duración de cada actividad que no se mencionó ni capturó anteriormente.</span></p><p><span class="Qnum">MTU3.</span> Ahora le preguntaré qué hizo ayer, entre despertarse por la mañana y acostarse por la noche para dormir. Puedes incluir cualquier cosa que hayas hecho. Estas pueden incluir tareas activas como estudiar y comer o actividades pasivas como relajarse o pensar.</p><div><br/></div><p></p>
+  - name: MICS7MN.MTU4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>MTU4.</b> What time did you wake up yesterday?<br/><span class="Itxt">Record as HH.MM</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>MTU4.</b>&nbsp;¿A qué hora te levantaste ayer?<br/><span class="Itxt">Registra como HH.MM</span><p></p>
+  - name: MICS7MN.MTU5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MTU5. </span>What time did you go to sleep for the night yesterday?<br/><span style="color: rgb(0, 0, 255);">Record as HH.MM</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MTU5.</span>¿A qué hora te fuiste a dormir ayer?<br/><span style="color: rgb(0, 0, 255);">Registrar como HH.MM</span><p></p>
+  - name: MICS7MN.MTU7
+    conditions:
+      - logic: MTU6 = 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b><i>First activity starting at ~~stactiv~~ </i></b><b><br/></b></p><p><b>MTU7. </b>What did you do first?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b><i>Primera actividad que comienza en ~~stactiv~~</i></b><b><br/></b></p><p><b>MTU7.</b>¿Qué hiciste primero?</p><p></p>
+      - logic: MTU6 > 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b><i>Activity ~~MTU6~~ starting at ~~stactiv~~ </i></b><b><br/></b></p><p><b>MTU7. </b>What did you do next? </p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b><i>Actividad ~~MTU6~~ comenzando en ~~stactiv~~</i></b><b><br/></b></p><p><b>MTU7.</b>¿Qué hiciste a continuación?</p><p></p>
+  - name: MICS7MN.MTU9X
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU9.- M</span><span class="Qnum">TU10.</span> How long did you do this activity? What time did this activity end?</p><p><span class="Itxt">Select response type</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU9.- M</span><span class="Qnum">TU10.</span>&nbsp;¿Cuánto tiempo hiciste esta actividad? ¿A qué hora terminó esta actividad?</p><p><span class="Itxt">Seleccione tipo de respuesta</span></p><p></p>
+  - name: MICS7MN.MTU9
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Itxt"><span class="Inum"></span></span></p><p><span class="Qnum">MTU9</span><span class="Qnum">.</span> How long did you do this activity? </p><p><span style="color: rgb(0, 0, 255);">Record as HH.MM</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~: ~~MTU7A~~</i></b><br/></span></p><p><span class="Itxt"><span class="Inum"></span></span></p><p><span class="Qnum">MTU9</span><span class="Qnum">.</span>&nbsp;Cuánto tiempo ¿Hiciste esta actividad?</p><p><span style="color: rgb(0, 0, 255);">Registrar como HH.MM</span></p><p></p>
+  - name: MICS7MN.MTU10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><span class="Qnum">MTU10. </span>What time did this activity end?<p></p><p><span style="color: rgb(0, 0, 255);">Record as HH.MM</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><span class="Qnum">MTU10.&nbsp;</span>¿A qué hora terminó esta actividad?<p></p><p><span style="color: rgb(0, 0, 255);">Registrar como HH.MM</span></p><p></p>
+  - name: MICS7MN.MTU12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU12.</span> Did you play online?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~: ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU12.</span>&nbsp;¿Jugaste&nbsp;en línea?</p><p></p>
+  - name: MICS7MN.MTU13
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU13. </span>With whom did you play?</p><p><span class="Itxt">Probe: Anyone else?</span><br/></p><p><span class="Itxt">Record all mentioned. Do not record C, D if MTU12=2</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU13.&nbsp;</span>¿Con quién jugaste?</p><p><span class="Itxt">Indaga: ¿Alguien más?</span><br/></p><p><span class="Itxt">Registrar todo mencionado. No registrar C, D si MTU12=2</span></p><p></p>
+  - name: MICS7MN.MTU14
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><span class="Qnum"><br/></span></p><p><span class="Qnum">MTU14.</span> Did you watch this online?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b><i>Actividad ~~MTU6~~ en ~~stactiv~~ : ~~MTU7A~~</i></b><span class="Qnum"><br/></span></p><p><span class="Qnum">MTU14.</span>&nbsp;¿Viste esto en línea?</p><p></p>
+  - name: MICS7MN.MTU15
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p></p><div><p><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></p><p><span class="Qnum">MTU15.</span> Did you get the news online?</p></div>
+          ES:
+            format: HTML
+            text: |
+              <p></p><div><p><b><i>Actividad ~~MTU6~~ en ~~stactiv~~: ~~MTU7A~~</i></b><br/></p><p><span class="Qnum">MTU15.</span>&nbsp;¿Recibiste la noticia en línea?</p></div>
+  - name: MICS7MN.MTU16
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU16. </span>Did you engage in this activity or do this activity online?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~: ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU16.&nbsp;</span>¿Participó en esta actividad o realizó esta actividad en línea?</p><p></p>
+  - name: MICS7MN.MTU17
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Activity ~~MTU6~~ at ~~stactiv~~ : ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU17. </span>How were your lessons delivered?</p><p><span class="Itxt">Record all mentioned. Probe:</span> Anything else?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum"><b><i>Actividad ~~MTU6~~ en ~~stactiv~~: ~~MTU7A~~</i></b><br/></span></p><p><span class="Qnum">MTU17.</span>¿Cómo se impartieron sus lecciones?</p><p><span class="Itxt">Registra todo lo mencionado. Indague:</span>&nbsp;¿Algo más?</p><p></p>
+  - name: MICS7MN.MTU18
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MTU18. </b>Just to make sure I have this right I will now repeat all the activities you have listed in chronological order. I would like you to think if there is any activity you did yesterday, between waking up in the morning and going to bed at night for sleeping, that you forgot to mention.</p><p><span class="Itxt">Read aloud the list of activities reported and ask: </span>  <br/></p><p>Did you do anything else that we have not recorded yet?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MTU18.&nbsp;</b>Solo para asegurarme de que tengo esto correcto, ahora repetiré todas las actividades que has enumerado en orden cronológico. Me gustaría que pensaras si hay alguna actividad que hiciste ayer, entre despertarte por la mañana y acostarte por la noche para dormir, que olvidaste mencionar.</p><p><span class="Itxt">Lee en voz alta la lista de actividades reportadas y pregunta:&nbsp;</span>&nbsp;&nbsp;<br/></p><p>¿Hiciste algo más que no hayamos registrado todavía?</p><p></p>
+  - name: MDV1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MDV1. </span><span class="Qtxt">Sometimes a husband is annoyed or angered by things that his wife does. </span></p><p><span class="Qtxt">In your opinion, is a husband justified in hitting or beating his wife in the following situations:</span><p></p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MDV1.</span><span class="Qtxt">A veces un marido se molesta o enoja por las cosas que hace su esposa. </span></p><p><span class="Qtxt">En su opinión, ¿está justificado que un marido golpee o golpee a su esposa en las siguientes situaciones:</span><p></p></p>
+  - name: MICS7MN.MDV1A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A] </span><span class="Qtxt">If she goes out without telling him?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[A] </span><span class="Qtxt">¿Si ella sale sin avisarle?</span></p>
+  - name: MICS7MN.MDV1B
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B] </span><span class="Qtxt">If she neglects the children?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[B] </span><span class="Qtxt">¿Si descuida a los niños?</span></p>
+  - name: MICS7MN.MDV1C
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[C] </span><span class="Qtxt">If she argues with him?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[C] </span><span class="Qtxt">¿Si ella discute con él?</span></p>
+  - name: MICS7MN.MDV1D
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[D] </span><span class="Qtxt">If she refuses to have sex with him?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[D] </span><span class="Qtxt">¿Si ella se niega a tener relaciones sexuales con él?</span></p>
+  - name: MICS7MN.MDV1E
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[E] </span><span class="Qtxt">If she burns the food?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[E] </span><span class="Qtxt">¿Si quema la comida?</span></p>
+  - name: MICS7MN.MVT20
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MVT20. </span>Now I would like to ask you about how safe you feel in certain situations.</p><p><span class="Qtxt">How safe do you feel walking alone in your neighbourhood after dark?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MVT20.&nbsp;</span>Ahora me gustaría preguntarte qué tan seguro te sientes en ciertas situaciones.</p><p><span class="Qtxt">¿Qué tan seguro te sientes caminando solo por tu vecindario después del anochecer?</span></p>
+  - name: MICS7MN.MVT21
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MVT21. </span><span class="Qtxt">How safe do you feel when you are at home alone after dark?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MVT21. </span><span class="Qtxt">¿Qué tan seguro te sientes cuando estás solo en casa después del anochecer?</span></p>
+  - name: MICS7MN.MVT23A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MVT23. </span>I will now ask you about discrimination. Discrimination happens when you are treated less favourably compared to others or harassed because of the way you look, where you come from, what you believe, or for other reasons.</p><p>In country, do you feel that you <u>personally</u> experienced any form of discrimination or harassment during the last 3 years, that is, <span class="Qtxt">since<span class="Itxt"> </span>~~yyyymmminus3~~, </span>based on any of the following grounds?</p><p><b>[A] </b>Your sex, such as you are a man or a woman?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MVT23. </span>Ahora le preguntaré sobre la discriminación. La discriminación ocurre cuando te tratan de manera menos favorable en comparación con los demás o te acosan por tu apariencia, de dónde vienes, lo que crees o por otras razones.</p><p>En tu país, ¿sientes que <u>personalmente</u> has experimentado alguna forma de discriminación o acoso durante los últimos 3 años, es decir,<span class="Qtxt">desde<span? class="Itxt">&nbsp;</span>~~yyyymmminus3~~,&nbsp;</span>¿basado en alguno de los siguientes motivos?</p><p><b>[A]&nbsp;</b>¿Su sexo, como si es hombre o mujer?</p><div><br/></div><p></p>
+  - name: MICS7MN.MVT23A1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[A1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[A1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23B
+    conditions:
+      - logic: MVT23A=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[B] </span>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your age, such as you are perceived to be too young or too old?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[B]&nbsp;</span>(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal en función de) tu edad, por ejemplo, si te perciben como demasiado joven o demasiado viejo?<p></p>
+      - logic: MVT23A <> 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[B] </span>Your age, such as you are perceived to be too young or too old?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[B]&nbsp;</span>¿Su edad, por ejemplo, si se le percibe como demasiado joven o demasiado viejo?<p></p>
+  - name: MICS7MN.MVT23B1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[B1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[B1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23C
+    conditions:
+      - logic: MVT23B=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>[C] </b>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your disability or health status, such as having difficulty in seeing, hearing, walking or moving, concentrating, or communicating, or having a disease or other health conditions and no reasonable accommodation provided for it?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>[C]&nbsp;</b>(Volviendo a su experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal por motivos de)&nbsp;Su discapacidad o estado de salud, como tener dificultad para ver, oír, caminar o moverse, concentrarse o comunicarse, o tener una enfermedad u otras condiciones de salud y no se le han proporcionado adaptaciones razonables para ello?</p><div><br/></div><p></p>
+      - logic: MVT23B<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[C] </b>Your disability or health status, such as having difficulty in seeing, hearing, walking or moving, concentrating, or communicating, or having a disease or other health conditions and no reasonable accommodation provided for it?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[C]</b>¿Su discapacidad o estado de salud, como tener dificultad para ver, oír, caminar o moverse, concentrarse o comunicarse, o tener una enfermedad u otras condiciones de salud y no se le han proporcionado adaptaciones razonables?<p></p>
+  - name: MICS7MN.MVT23C1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[C1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[C1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23D
+    conditions:
+      - logic: MVT23C=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>[D] </b>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your ethnicity, colour, or  language, such as skin colour or physical appearance, ethnic origin or way of dressing, culture, traditions, native language or accent, indigenous status, or being of African descent?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>[D]&nbsp;</b>(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal por motivos de)&nbsp;Tu etnia, color o idioma, como color de piel o apariencia física, origen étnico o forma de vestir, cultura, tradiciones, lengua o acento nativo, condición de indígena o ser de origen africano? ¿descenso?</p><div><br/></div><p></p>
+      - logic: MVT23C<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[D] </b>Your ethnicity, colour, or language, such as skin colour or physical appearance, ethnic origin or way of dressing, culture, traditions, native language or accent, indigenous status, or being of African descent?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[D]&nbsp;</b>¿Su origen étnico, color o idioma, como color de piel o apariencia física, origen étnico o forma de vestir, cultura, tradiciones, idioma nativo o acento, condición indígena o ser afrodescendiente?<p></p>
+  - name: MICS7MN.MVT23D1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[D1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[D1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23E
+    conditions:
+      - logic: MVT23D=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[E]</span> (Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your migration status, such as nationality or national origin, country of birth, migrant status, being an undocumented migrant, or stateless person?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[E]</span>&nbsp;(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal por motivos de) tu situación migratoria, como nacionalidad u origen nacional, país de nacimiento, condición de migrante, ser migrante indocumentado o apátrida?</p><p></p>
+      - logic: MVT23D<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[E]</span> Your migration status, such as nationality or national origin, country of birth, migrant status, being an undocumented migrant, or stateless person?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[E]</span>&nbsp;¿Su estatus migratorio, como nacionalidad u origen nacional, país de nacimiento, estatus migratorio, ser migrante indocumentado o apátrida?<p></p>
+  - name: MICS7MN.MVT23E1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[E1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[E1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23F
+    conditions:
+      - logic: MVT23E=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[F] </span>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your socio-economic status, such as wealth or education level, being perceived to be from a lower or different social or economic group or class, or owning land or home or not?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[F]&nbsp;</span>(Volviendo a su experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal en base a)&nbsp;Su estatus socioeconómico, como riqueza o nivel de educación, ser percibido como de un grupo o clase social o económica inferior o diferente, o poseer tierra o casa o no?</p><p></p>
+      - logic: MVT23E<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[F] </span>Your socio-economic status, such as wealth or education level, being perceived to be from a lower or different social or economic group or class, or owning land or home or not?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[F]&nbsp;</span>¿Su estatus socioeconómico, como riqueza o nivel educativo, ser percibido como de un grupo o clase social o económica inferior o diferente, o poseer tierra o casa o no?<p></p>
+  - name: MICS7MN.MVT23F1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[F1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[F1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23G
+    conditions:
+      - logic: MVT23F=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[G] </span>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your geographic location or place of residence, such as living in urban or rural areas, and formal or informal settlements?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[G]&nbsp;</span>(Volviendo a su experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal en función de)&nbsp;Su ubicación geográfica o lugar de residencia, como vivir en áreas urbanas o rurales y asentamientos formales o informales?</p><div><br/></div><p></p>
+      - logic: MVT23F<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[G]</span> Your geographic location or place of residence, such as living in urban or rural areas, and formal or informal settlements?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[G]</span>&nbsp;¿Su ubicación geográfica o lugar de residencia, como vivir en áreas urbanas o rurales y asentamientos formales o informales?<p></p>
+  - name: MICS7MN.MVT23G1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[G1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[G1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23H
+    conditions:
+      - logic: MVT23G=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[H] </span>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your religion, such as having or not having a religion or religious beliefs?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[H]&nbsp;</span>(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal en función de) tu religión, como tener o no una religión o creencias religiosas?</p><p></p>
+      - logic: MVT23G<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[H] </span>Your religion, such as having or not having a religion or religious beliefs?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[H]&nbsp;</span>¿Su religión, como tener o no una religión o creencias religiosas?<p></p>
+  - name: MICS7MN.MVT23H1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[H1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[H1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23I
+    conditions:
+      - logic: MVT23H=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[I]</span> (Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your marital and family status, such as being single, married, divorced, widowed, pregnant, with or without children, orphan or born from unmarried parents, or having children outside of wedlock?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[I]</span>&nbsp;(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal por motivos de)&nbsp;Tu estado civil y familiar, como ser soltero, casado, divorciado, viudo, embarazada, con o sin hijos, huérfano o nacido de padres no casados, o tener hijos fuera de ¿matrimonio?</p><p></p>
+      - logic: MVT23H<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[I]</span> Your marital and family status, such as being single, married, divorced, widowed, pregnant, with or without children, orphan or born from unmarried parents, or having children outside of wedlock?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[I]</span>&nbsp;¿Su estado civil y familiar, como ser soltero, casado, divorciado, viudo, embarazada, con o sin hijos, huérfano o nacido de padres solteros, o tener hijos fuera del matrimonio?<p></p>
+  - name: MICS7MN.MVT23I1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[I1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[I1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23J
+    conditions:
+      - logic: MVT23I=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[J] </span>(Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your sexual orientation or gender identity, such as being attracted to a person of the same sex, self-identifying differently from sex assigned at birth or as being sexually, bodily, or gender diverse?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[J]&nbsp;</span>(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal por motivos de)&nbsp;Tu orientación sexual o identidad de género, como sentirte atraído por una persona del mismo sexo, identificarte a ti mismo de forma diferente al sexo asignado al nacer o ser sexual, corporal o de género? diverso?</p><p></p>
+      - logic: MVT23I<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[J] </span>Your sexual orientation or gender identity, such as being attracted to a person of the same sex, self-identifying differently from sex assigned at birth or as being sexually, bodily, or gender diverse?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[J]&nbsp;</span>¿Su orientación sexual o identidad de género, como sentirse atraído por una persona del mismo sexo, identificarse a sí mismo de manera diferente al sexo asignado al nacer o tener diversidad sexual, corporal o de género?<p></p>
+  - name: MICS7MN.MVT23J1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[J1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[J1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23K
+    conditions:
+      - logic: MVT23J=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[K]</span> (Coming back to your experience since<span class="Itxt"> </span>~~yyyymmminus3~~, how about on grounds of) Your political opinion, such as expressing political views, defending the rights of others, being a member or not of a political party or trade union?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">[K]</span>&nbsp;(Volviendo a tu experiencia desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~, ¿qué tal por motivos de)&nbsp;Tu opinión política, como expresar puntos de vista políticos, defender los derechos de otros, ser miembro o no de un partido político o sindicato?</p><div><br/></div><p></p>
+      - logic: MVT23J<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">[K]</span> Your political opinion, such as expressing political views, defending the rights of others, being a member or not of a political party or trade union?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">[K]</span>&nbsp;¿Su opinión política, como expresar opiniones políticas, defender los derechos de otros, ser miembro o no de un partido político o sindicato?<p></p>
+  - name: MICS7MN.MVT23K1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[K1] </b>How about since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[K1]&nbsp;</b>¿Qué tal desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MVT23X
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>[X] </b>Since<span class="Itxt"> </span>~~yyyymmminus3~~ do you feel that you personally experienced any other form of discrimination or harassment in country?</p><p><br/></p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>[X]&nbsp;</b>Desde<span class="Itxt">&nbsp;</span>~~yyyymmminus3~~&nbsp;¿sientes que has experimentado personalmente alguna otra forma de discriminación o acoso en el país?</p><p><br/></p><div><br/></div><p></p>
+  - name: MICS7MN.MVT23X2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <b>[X2] </b>Based on the ground(s) that you just specified, have you experienced this since<span class="Itxt"> </span>~~yyyymmminus1~~?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <b>[X2]&nbsp;</b>Según los motivos que acaba de especificar, ¿ha experimentado esto desde<span class="Itxt">&nbsp;</span>~~yyyymmminus1~~?<p></p>
+  - name: MICS7MN.MMA1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA1. </span><span class="Qtxt">Are you currently married or living together with someone as if married?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA1. </span><span class="Qtxt">¿Está actualmente casado o vive con alguien como si estuviera casado?</span></p>
+  - name: MICS7MN.MMA3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA3. </span><span class="Qtxt">Do you have other wives or do you live with other partners as if married?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA3. </span><span class="Qtxt">¿Tiene otras esposas o vive con otras parejas como si estuviera casado?</span></p>
+  - name: MICS7MN.MMA4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA4. </span><span class="Qtxt">How many other wives or live-in partners do you have?</span></p>
+              <p><span class="Itxt">If Don't know, record '98'.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA4. </span><span class="Qtxt">¿Cuántas otras esposas o compañeras de residencia tienes?</span></p>
+              <p><span class="Itxt">Si no lo sabe, registre '98'.</span></p>
+  - name: MICS7MN.MMA5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA5. </span><span class="Qtxt">Have you ever been married or lived together with someone as if married?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA5. </span><span class="Qtxt">¿Alguna vez ha estado casado o ha vivido con alguien como si estuviera casado?</span></p>
+  - name: MICS7MN.MMA6
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA6. </span><span class="Qtxt">What is your marital status now: are you widowed, divorced or separated?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA6. </span><span class="Qtxt">¿Cuál es su estado civil ahora: es viudo, divorciado o separado?</span></p>
+  - name: MICS7MN.MMA7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA7. </span><span class="Qtxt">Have you been married or lived with someone only once or more than once?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA7. </span><span class="Qtxt">¿Ha estado casado o ha vivido con alguien sólo una vez o más de una vez?</span></p>
+  - name: MICS7MN.MMA8M
+    conditions:
+      - logic: MMA7 <> 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8B. </span><span class="Qtxt">In what month and year did you start living with your <u>first</u> wife or partner?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">If respondent says that he was married before but never lived with his first wife, ask: </span>In what month and year did you get married to your first wife?<br/></span></p>
+              <p><span class="Itxt">Record month.</span></p>
+              <p><span class="Itxt">Record '98' for Don't know.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8B. </span><span class="Qtxt">¿En qué mes y año comenzó a vivir con su <u>primera</u> esposa o pareja?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Si el encuestado dice que estuvo casado antes pero nunca vivió con su primera esposa, pregunte:&nbsp;</span>¿En qué mes y año se casó con su ¿Primera esposa?<br/></span></p>
+              <p><span class="Itxt">Mes récord.</span></p>
+              <p><span class="Itxt">Registro '98' para No sé.</span></p>
+      - logic: MMA7 = 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8A. </span><span class="Qtxt">In what month and year did you start living with your wife/partner?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">If respondent says that he is married but not yet living together with his wife, ask: </span><span style="color: rgb(0, 0, 255);">In what month and year did you get married to your wife?</span><br/></span></p>
+              <p><span class="Itxt">Record month.</span></p>
+              <p><span class="Itxt">Record '98' for Don't know.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8A. </span><span class="Qtxt">¿En qué mes y año comenzó a vivir con su esposa/pareja?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Si el encuestado dice que está casado pero aún no vive con su esposa, pregunte:&nbsp;</span><span style="color: rgb(0, 0, 255);">¿En qué mes y año se casó con su esposa?</span><br/></span></p>
+              <p><span class="Itxt">Mes récord.</span></p>
+              <p><span class="Itxt">Registro '98' para No sé.</span></p>
+  - name: MICS7MN.MMA8Y
+    conditions:
+      - logic: MMA7 <> 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8B. </span><span class="Qtxt">In what month and year did you start living with your <u>first</u> wife or partner?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">If respondent says that he was married before but never lived with his first wife, ask: </span>In what month and year did you get married to your first wife?<br/></span></p>
+              <p><span class="Itxt">Record year.</span></p>
+              <p><span class="Itxt">Record '9998' for Don't know.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8B. </span><span class="Qtxt">¿En qué mes y año comenzó a vivir con su <u>primera</u> esposa o pareja?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Si el encuestado dice que estuvo casado antes pero nunca vivió con su primera esposa, pregunte:&nbsp;</span>¿En qué mes y año se casó con su ¿Primera esposa?<br/></span></p>
+              <p><span class="Itxt">Año récord.</span></p>
+              <p><span class="Itxt">Registre '9998' para No sé.</span></p>
+      - logic: MMA7 = 1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8A. </span><span class="Qtxt">In what month and year did you start living with your wife/partner?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">If respondent says that he is married but not yet living together with his wife, ask: </span><span style="color: rgb(0, 0, 255);">In what month and year did you get married to your wife?</span><br/></span></p>
+              <p><span class="Itxt">Record year.</span></p>
+              <p><span class="Itxt">Record '9998' for Don't know.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA8A. </span><span class="Qtxt">¿En qué mes y año comenzó a vivir con su esposa/pareja?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Si el encuestado dice que está casado pero aún no vive con su esposa, pregunte:&nbsp;</span><span style="color: rgb(0, 0, 255);">¿En qué mes y año se casó con su esposa?</span><br/></span></p>
+              <p><span class="Itxt">Año récord.</span></p>
+              <p><span class="Itxt">Registre '9998' para No sé.</span></p>
+  - name: MICS7MN.MMA11
+    conditions:
+      - logic: MMA7=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA11A. </span><span class="Qtxt">How old were you when you started living with your (wife/partner)?</span></p><p><span style="color: rgb(0, 0, 255);">If respondent says that he is married but not yet living together with his wife, ask: </span>How old were you when you got married to your wife?</p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA11A. </span><span class="Qtxt">¿Qué edad tenía cuando comenzó a vivir con su (esposa/pareja)?</span></p><p><span style="color: rgb(0, 0, 255);">Si el encuestado dice que está casado pero aún no vive con su esposa, pregunte:&nbsp;</span>¿Cuántos años tenía usted cuando se casó con su esposa?</p>
+      - logic: MMA7<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA11B. </span><span class="Qtxt">How old were you when you started living with your <u>first</u> wife or partner?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">If respondent says that he was married before but never lived with his first wife, ask: </span>How old were you when you got married to your <u>first</u> wife?<br/></span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMA11B. </span><span class="Qtxt">¿Qué edad tenía cuando empezó a vivir con su <u>primera</u> esposa o pareja?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255);">Si el encuestado dice que estuvo casado antes pero que nunca vivió con su primera esposa, pregunte:&nbsp;</span>¿Cuántos años tenía usted cuando se casó con su ¿<u>primera</u> esposa?<br/></span></p>
+  - name: MICS7MN.MAF2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF2. </span><span class="Qtxt">Do you use glasses <span class="QtxtC">or contact lenses</span>?</span></p>
+              <p><span class="Itxt">Include the use of glasses for reading.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF2. </span><span class="Qtxt">¿Usas gafas <span class="QtxtC">o lentes de contacto</span>?</span></p>
+              <p><span class="Itxt">Incluir el uso de gafas para leer.</span></p>
+  - name: MICS7MN.MAF3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF3. </span><span class="Qtxt">Do you use a hearing aid?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF3. </span><span class="Qtxt">¿Utilizas un audífono?</span></p>
+  - name: MICS7MN.MAF6
+    conditions:
+      - logic: MAF2=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF4. </span><span class="Qtxt">I will now ask you about difficulties you may have doing a number of different activities. For each activity there are four possible answers: Please tell me if you have: 1) no difficulty, 2) some difficulty, 3) a lot of difficulty or 4) that you cannot do the activity at all.</span></p>
+              <p><span class="Itxt">Repeat the categories during the individual questions whenever the respondent does not use an answer category: </span><span class="Qtxt">Remember, the four possible answers are: 1) no difficulty, 2) some difficulty, 3) a lot of difficulty, or 4) that you cannot do the activity at all.</span></p>
+              <p><span class="Qnum">MAF6A. </span><span class="Qtxt">When using your glasses <span class="QtxtC">or contact lenses</span>, do you have difficulty seeing?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF4. </span><span class="Qtxt">Ahora le preguntaré sobre las dificultades que pueda tener al realizar diferentes actividades. Para cada actividad hay cuatro posibles respuestas: Por favor dime si tienes: 1) ninguna dificultad, 2) alguna dificultad, 3) mucha dificultad o 4) que no puedes realizar la actividad en absoluto.</span></p>
+              <p><span class="Itxt">Repita las categorías durante las preguntas individuales siempre que el encuestado no utilice una categoría de respuesta: </span><span class="Qtxt">Recuerde, las cuatro respuestas posibles son: 1) ninguna dificultad, 2) cierta dificultad, 3) mucha dificultad, o 4) que no puede realizar la actividad en absoluto.</span></p>
+              <p><span class="Qnum">MAF6A. </span><span class="Qtxt">Cuando usas tus gafas <span class="QtxtC">o lentes de contacto</span>, ¿tienes dificultad para ver?</span></p>
+      - logic: MAF2>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF4. </span><span class="Qtxt">I will now ask you about difficulties you may have doing a number of different activities. For each activity there are four possible answers: Please tell me if you have: 1) no difficulty, 2) some difficulty, 3) a lot of difficulty or 4) that you cannot do the activity at all.</span></p>
+              <p><span class="Itxt">Repeat the categories during the individual questions whenever the respondent does not use an answer category: </span><span class="Qtxt">Remember, the four possible answers are: 1) no difficulty, 2) some difficulty, 3) a lot of difficulty, or 4) that you cannot do the activity at all.</span></p>
+              <p><span class="Qnum">MAF6B. </span><span class="Qtxt">Do you have difficulty seeing?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF4. </span><span class="Qtxt">Ahora le preguntaré sobre las dificultades que pueda tener al realizar diferentes actividades. Para cada actividad hay cuatro posibles respuestas: Por favor dime si tienes: 1) ninguna dificultad, 2) alguna dificultad, 3) mucha dificultad o 4) que no puedes realizar la actividad en absoluto.</span></p>
+              <p><span class="Itxt">Repita las categorías durante las preguntas individuales siempre que el encuestado no utilice una categoría de respuesta: </span><span class="Qtxt">Recuerde, las cuatro respuestas posibles son: 1) ninguna dificultad, 2) cierta dificultad, 3) mucha dificultad, o 4) que no puede realizar la actividad en absoluto.</span></p>
+              <p><span class="Qnum">MAF6B. </span><span class="Qtxt">¿Tienes dificultades para ver?</span></p>
+  - name: MICS7MN.MAF8
+    conditions:
+      - logic: MAF3=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF8A. </span><span class="Qtxt">When using your hearing aid(s), do you have difficulty hearing?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF8A. </span><span class="Qtxt">Cuando usa su(s) audífono(s), ¿tiene dificultades para oír?</span></p>
+      - logic: MAF3>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF8B. </span><span class="Qtxt">Do you have difficulty hearing?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF8B. </span><span class="Qtxt">¿Tienes dificultades para oír?</span></p>
+  - name: MICS7MN.MAF9
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF9. </span><span class="Qtxt">Do you have difficulty walking or climbing steps?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF9. </span><span class="Qtxt">¿Tiene dificultades para caminar o subir escalones?</span></p>
+  - name: MICS7MN.MAF10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF10. </span><span class="Qtxt">Do you have difficulty remembering or concentrating?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF10. </span><span class="Qtxt">¿Tiene dificultades para recordar o concentrarse?</span></p>
+  - name: MICS7MN.MAF11
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF11. </span><span class="Qtxt">Do you have difficulty with self-care, such as washing all over or dressing?</span><br/></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF11.</span><span class="Qtxt">¿Tiene dificultades con el cuidado personal, como lavarse todo o vestirse?</span><br/></p>
+  - name: MICS7MN.MAF12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF12. </span><span class="Qtxt">Using your usual language, do you have difficulty communicating, for example understanding or being understood?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF12. </span><span class="Qtxt">Usando tu idioma habitual, ¿tienes dificultades para comunicarte, por ejemplo entender o hacerte entender?</span></p>
+  - name: MICS7MN.MAF13
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF13. </span>Do you have difficulty raising a 2-litre bottle of water or soda from waist to eye level?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF13. </span>¿Tienes dificultades para levantar una botella de agua o refresco de 2 litros desde la cintura hasta la altura de los ojos?</p><p></p>
+  - name: MICS7MN.MAF14
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF14. </span>Do you have difficulty using your hands and fingers, such as picking up small objects, for example, a button or pencil, or opening or closing containers or bottles?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF14.</span>¿Tiene dificultades para usar las manos y los dedos, como coger objetos pequeños, por ejemplo, un botón o un lápiz, o abrir o cerrar recipientes o botellas?</p><p></p>
+  - name: MICS7MN.MAF15
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF15. </span>The next questions have different options for answers. I am going to read these to you after each question. </p><p>How often do you feel worried, nervous or anxious? Would you say daily, weekly, monthly, a few times a year, or never?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF15.</span>Las siguientes preguntas tienen diferentes opciones de respuesta. Voy a leerlas después de cada pregunta.</p><p>¿Con qué frecuencia te sientes preocupado, nervioso o ansioso? ¿Diría que diariamente, semanalmente, mensualmente, algunas veces al año o nunca?</p><p></p>
+  - name: MICS7MN.MAF16
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MAF16. </span>Thinking about the last time you felt worried, nervous or anxious, how would you describe the level of these feelings? Would you say a little, a lot, or somewhere in between a little and a lot?</div>
+          ES:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MAF16.&nbsp;</span>Pensando en la última vez que se sintió preocupado, nervioso o ansioso, ¿cómo describiría el nivel de estos sentimientos? ¿Dirías un poco, mucho o algo entre un poco y mucho?</div>
+  - name: MICS7MN.MAF17
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF17. </span>How often do you feel depressed? Would you say daily, weekly, monthly, a few times a year, or never?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF17.</span>¿Con qué frecuencia se siente deprimido? ¿Diría que diariamente, semanalmente, mensualmente, algunas veces al año o nunca?</p><p></p>
+  - name: MICS7MN.MAF18
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF18. </span>Thinking about the last time you felt depressed, how depressed did you feel? Would you say a little, a lot, or somewhere in between a little and a lot?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MAF18.</span>Pensando en la última vez que se sintió deprimido, ¿qué tan deprimido se sintió? ¿Dirías un poco, mucho o algo entre un poco y mucho?</p><p></p>
+  - name: MICS7MN.MTO1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO1. </span>The following questions are about the use of different types of tobacco products. I would first like to ask you some questions about cigarettes, both manufactured and hand rolled.</p><p>Have you ever tried cigarette smoking, even one or two puffs?<br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO1. </span>Las siguientes preguntas tratan sobre el uso de diferentes tipos de productos de tabaco. Primero me gustaría hacerle algunas preguntas sobre los cigarrillos, tanto los fabricados como los liados a mano.</p><p>¿Alguna vez ha probado a fumar cigarrillos, aunque sea una o dos caladas?<br/></p><p></p>
+  - name: MICS7MN.MTO2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO2.</span> How old were you when you smoked a whole cigarette for the first time?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO2.</span> ¿Qué edad tenías cuando fumaste un cigarrillo entero por primera vez?<p></p>
+  - name: MICS7MN.MTO3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO3. </span>Do you currently smoke cigarettes every day, some days, or not at all?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO3. </span>¿Actualmente fuma cigarrillos todos los días, algunos días o nunca?<p></p>
+  - name: MICS7MN.MTO4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO4. </span>On average, how many cigarettes do you smoke each day?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO4. </span>En promedio, ¿cuántos cigarrillos fuma al día?<p></p>
+  - name: MICS7MN.MTO5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO5.</span> Have you smoked at least one cigarette in the last month, that is, since ~~dateminus1month~~?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO5.</span> ¿Ha fumado al menos un cigarrillo en el último mes, es decir, desde ~~dateminus1month~~?</p><p></p>
+  - name: MICS7MN.MTO6
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO6. </span>Now I would like to ask about electronic cigarettes, which are also called e-cigarettes or vaping devices. These devices are battery powered and heat a liquid to produce vapor or aerosol instead of smoke. Examples of these products include <span class="QtxtC">insert leading brands</span>.</p><p>Have you ever heard of electronic cigarettes or vaping devices?<br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO6. </span>Ahora me gustaría preguntar sobre los cigarrillos electrónicos, que también se llaman cigarrillos electrónicos o dispositivos de vapeo. Estos dispositivos funcionan con baterías y calientan un líquido para producir vapor o aerosol en lugar de humo. Ejemplos de estos productos incluyen <span class="QtxtC">insertar marcas líderes</span>.</p><p>¿Alguna vez has oído hablar de los cigarrillos electrónicos o los dispositivos de vapeo?<br/></p><p></p>
+  - name: MICS7MN.MTO7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO7.</span> Do you currently use electronic cigarettes or any other vaping device every day, some days, or not at all?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO7.</span>&nbsp;¿Utiliza actualmente cigarrillos electrónicos o cualquier otro dispositivo de vapeo todos los días, algunos días o nunca?<p></p>
+  - name: MICS7MN.MTO8
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO8. </span>Have you used electronic cigarettes or any other vaping device at least once in the last month, that is, since <span class="REF">~~dateminus1month~~</span>?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO8. </span>¿Ha usado cigarrillos electrónicos o cualquier otro dispositivo de vapeo al menos una vez en el último mes, es decir, desde <span class="REF">~~dateminus1month~~</span>?</p><p></p>
+  - name: MICS7MN.MTO9
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO9. </span>Now I would like to ask about use of tobacco-smoking other than cigarettes and electronic cigarettes.</p><p>By other smoked tobacco I mean <span class="QtxtC">cigars, pipes, water pipe with tobacco,</span> or any other form of tobacco that is burned as you smoke it.<br/></p><p>Do you currently smoke other smoked tobacco every day, some days, or not at all?<br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO9.&nbsp;</span>Ahora me gustaría preguntarle sobre el uso de tabaco distinto de los cigarrillos y los cigarrillos electrónicos.</p><p>Por otro tabaco para fumar me refiero a <span class="QtxtC">cigarros, pipas, pipas de agua con tabaco,</span> o cualquier otra forma de tabaco que se queme al fumarlo.<br/></p><p>¿Actualmente fuma otros tipos de tabaco? ¿tabaco todos los días, algunos días o nada?<br/></p><p></p>
+  - name: MICS7MN.MTO10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO10. </span>Have you smoked other tobacco at least once in the last month, that is, since <span class="REF">~~dateminus1month~~</span>?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO10.&nbsp;</span>¿Ha fumado otro tabaco al menos una vez en el último mes, es decir, desde <span class="REF">~~dateminus1month~~</span>?</p><p></p>
+  - name: MICS7MN.MTO11
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO11. </span>Now I would like to ask about use of smokeless tobacco.</p><p>By smokeless tobacco I mean <span class="QtxtC">snuff, chewing tobacco, dip,</span> or any other tobacco that is not smoked, but is sniffed through the nose, held in the mouth, or chewed. <br/></p><p>Do you currently use smokeless tobacco every day, some days, or not at all?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MTO11.&nbsp;</span>Ahora me gustaría preguntar sobre el uso de tabaco sin humo.</p><p>Por tabaco sin humo me refiero a <span class="QtxtC">rapé, tabaco para mascar, dip</span> o cualquier otro tabaco que no se fuma, sino que se inhala por la nariz, se mantiene en la boca o masticado.<br/></p><p>¿Actualmente consume tabaco sin humo todos los días, algunos días o nunca?</p><p></p>
+  - name: MICS7MN.MTO12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO12. </span>Have you used smokeless tobacco at least once in the last month, that is, since <span class="REF">~~dateminus1month~~</span>?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MTO12.&nbsp;</span>¿Ha consumido tabaco sin humo al menos una vez en el último mes, es decir, desde<span class="REF">~~dateminus1month~~</span>?<p></p>
+  - name: MICS7MN.MMH1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MMH1.</span><span class="Itxt"> Check for presence of others. No one should be within hearing distance.</span></p>
+              <p><span class="Itxt">Do not continue until privacy is ensured. </span></p>
+              <p><span class="Itxt">If privacy cannot be obtained at the time of the interview, ask respondent for another time when you can interview her in private and reschedule the interview.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MMH1.</span><span class="Itxt"> Verifique la presencia de otras personas. Nadie debe estar a una distancia que los pueda escuchar.</span></p>
+              <p><span class="Itxt">No continúe hasta que se garantice la privacidad.</span></p>
+              <p><span class="Itxt">Si no se puede obtener privacidad en el momento de la entrevista, pídale a la encuestada otro momento en el que pueda entrevistarla en privado y reprogramar la entrevista.</span></p>
+  - name: MICS7MN.MMH2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH2.</span> Now I would like to ask you some questions to better understand the feelings of people your age. There are no right or wrong answers. Many people your age experience some of the things that I will ask you about.</p><p>Let me assure you again that your answers are confidential. This means that I will not share the answers you tell me with other people and mention you by name. The only exception to this is if there is a need to assist you in getting help in an emergency for your safety and wellbeing.</p><p>If we should come to any question that you don’t want to answer, just let me know and we will go to the next question.</p><p>When answering these questions, I need you to think about the last 2 weeks. I will ask you how often you have been bothered by different problems during the past two weeks.</p><p>For each of the situations I will describe, there are four possible answers. You may say that you have experienced that problem: never, sometimes, often, or always.</p><p><i>Repeat the categories whenever the respondent does not use an answer category:</i> Remember, the four possible answers are: never, sometimes, often, and always.</p><p><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH2.</span>&nbsp;Ahora me gustaría hacerte algunas preguntas para comprender mejor los sentimientos de las personas de tu edad. No hay respuestas correctas o incorrectas. Muchas personas de tu edad experimentan algunas de las cosas sobre las que te preguntaré.</p><p>Permíteme asegurarte nuevamente que tus respuestas son confidenciales. Esto significa que no compartiré las respuestas que me digas con otras personas ni te mencionaré por tu nombre. La única excepción a esto es si es necesario ayudarle a obtener ayuda en caso de emergencia para su seguridad y bienestar.</p><p>Si llegamos a alguna pregunta que no desea responder, hágamelo saber y pasaremos a la siguiente pregunta.</p><p>Al responder estas preguntas, necesito que piense en las últimas 2 semanas. Le preguntaré con qué frecuencia le han molestado diferentes problemas durante las últimas dos semanas.</p><p>Para cada una de las situaciones que describiré, hay cuatro respuestas posibles. Puede decir que ha experimentado ese problema: nunca, a veces, a menudo o siempre.</p><p><i>Repita las categorías siempre que el encuestado no utilice una categoría de respuesta:</i> Recuerde, las cuatro respuestas posibles son: nunca, a veces, a menudo y siempre.</p><p><br/></p><p></p>
+  - name: MICS7MN.MMH3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH3. </span>During the past two weeks, how often have you been feeling very sad or depressed?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH3. </span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido muy triste o deprimido?</p><p></p>
+  - name: MICS7MN.MMH4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH4. </span>During the past two weeks, how often have you felt easily annoyed or irritable at small things?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH4. </span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido fácilmente molesto o irritable por cosas pequeñas?</p><p></p>
+  - name: MICS7MN.MMH5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH5. </span>During the past two weeks, how often have you not enjoyed doing things you used to enjoy, such as playing sports, games, singing and dancing, spending time with friends, watching videos?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH5.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia no ha disfrutado haciendo cosas que solía disfrutar, como practicar deportes, juegos, cantar y bailar, pasar tiempo con amigos, mirar videos?</p><p></p>
+  - name: MICS7MN.MMH6
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MMH6. </span>During the past two weeks, how often have you felt hopeless about the future?</div><div><div><br/></div></div>
+          ES:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MMH6.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido desesperado acerca del futuro?</div><div><div><br/></div></div>
+  - name: MICS7MN.MMH7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH7. </span>During the past two weeks, how often have you felt nervous, anxious, or on edge?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH7.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido nervioso, ansioso o nervioso?</p><p></p>
+  - name: MICS7MN.MMH8
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH8. </span>During the past two weeks, how often have you worried you can't do anything right or are doing things poorly?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH8.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia te ha preocupado no poder hacer nada bien o estar haciendo las cosas mal?</p><p></p>
+  - name: MICS7MN.MMH9
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MMH9. </span>During the past two weeks, how often have you worried about what others think of you?<br/></div>
+          ES:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MMH9.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia te has preocupado por lo que los demás piensan de ti?<br/></div>
+  - name: MICS7MN.MMH10
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH10.</span> During the past two weeks, how often have you worried something bad will happen to you or your family?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH10.</span> Durante las últimas dos semanas, ¿con qué frecuencia te ha preocupado que algo malo le suceda a usted o a su familia?</p><p></p>
+  - name: MICS7MN.MMH11
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH11. </span>During the past two weeks, how often have you worried too much about different things?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH11.</span>Durante las últimas dos semanas, ¿con qué frecuencia te has preocupado demasiado por diferentes cosas?</p><p></p>
+  - name: MICS7MN.MMH12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH12. </span>During the past two weeks, how often have you felt unable to stop or control your worries?</p><p></p><p></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH12.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido incapaz de detener o controlar sus preocupaciones?</p><p></p><p></p><p></p>
+  - name: MICS7MN.MMH15
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MMH15. </span>During the past two weeks, how often have you not wanted to eat when food was available, or have you eaten too much?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MMH15. </span>Durante las últimas dos semanas, ¿con qué frecuencia no ha querido comer cuando había comida disponible o ha comido demasiado?<p></p>
+  - name: MICS7MN.MMH16
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH16. </span>During the past two weeks, how often have you had problems falling asleep, problems sleeping well, or problems with sleeping too much?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH16.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha tenido problemas para conciliar el sueño, problemas para dormir bien o problemas para dormir demasiado?</p><p></p>
+  - name: MICS7MN.MMH17
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH17. </span>During the past two weeks, how often have you felt that you got tired easily or did not have the energy to do daily activities?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH17.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha sentido que se cansaba fácilmente o no tenía energía para realizar las actividades diarias?</p><p></p>
+  - name: MICS7MN.MMH18
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH18. </span>During the past two weeks, how often have you had trouble concentrating on things, such as doing homework, household chores, or other activities, such as watching videos using social media, for example, WhatsApp or Instagram?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH18.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha tenido problemas para concentrarse en cosas, como hacer la tarea, las tareas del hogar u otras actividades, como ver videos usando las redes sociales, por ejemplo, WhatsApp o Instagram?</p><p></p>
+  - name: MICS7MN.MMH19
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH19. </span>During the past two weeks, how often have you felt lonely?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH19.</span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido solo?</p><p></p>
+  - name: MICS7MN.MMH20
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH20. </span>During the past two weeks, how often have you felt like failure or like you have let yourself or your family down?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH20.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido fracasado o como si se hubiera decepcionado a sí mismo o a su familia?</p><p></p>
+  - name: MICS7MN.MMH21
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH21. </span>During the past two weeks, how often have you had thoughts that you would rather be dead or thoughts of hurting yourself?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH21.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha tenido pensamientos de que preferiría estar muerto o de hacerse daño?</p><p></p>
+  - name: MICS7MN.MMH22
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH22. </span>During the past two weeks, how often have others said that you have been moving more slowly than usual?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH22.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia otras personas han dicho que usted se ha estado moviendo más lentamente de lo habitual?</p><p></p>
+  - name: MICS7MN.MMH23
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH23. </span>During the past two weeks, how often have others said that you are restless or that you can’t sit still?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH23.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia otras personas han dicho que está inquieto o que no puede quedarse quieto?</p><p></p>
+  - name: MICS7MN.MMH24
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH24. </span>During the past two weeks, how often have you felt that it was difficult to breathe?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH24.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha sentido dificultad para respirar?</p><p></p>
+  - name: MICS7MN.MMH25
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MMH25. </span>During the past two weeks, how often have you felt dizzy or faint?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MMH25.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia se ha sentido mareado o desmayado?<p></p>
+  - name: MICS7MN.MMH27
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH27. </span>During the past two weeks, how often have you suddenly gotten scared for no reason or without knowing what made you scared?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH27. </span>Durante las últimas dos semanas, ¿con qué frecuencia te has asustado repentinamente sin motivo o sin saber qué te asustó?</p><p></p>
+  - name: MICS7MN.MMH28
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MMH28. </span>During the past two weeks, how often have you had difficulty relaxing or difficulty feeling calm?</div>
+          ES:
+            format: HTML
+            text: |
+              <p></p><div><span class="Qnum">MMH28.</span>Durante las últimas dos semanas, ¿con qué frecuencia ha tenido dificultades para relajarse o para sentirse tranquilo?</div>
+  - name: MICS7MN.MMH29
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH29. </span>During the past two weeks, how often have you felt like your heart was pounding or beating too fast?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH29.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha sentido que su corazón latía con fuerza o latía demasiado rápido?</p><p></p>
+  - name: MICS7MN.MMH30
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH30. </span>During the past two weeks, how often have you had headaches or muscle tension?</p><p><br/></p><p><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH30.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia ha tenido dolores de cabeza o tensión muscular?</p><p><br/></p><p><br/></p><p></p>
+  - name: MICS7MN.MMH33
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH32. </b>I would like to ask you a few more questions about the feelings and experiences that you mentioned in earlier questions. </p><p><i>Repeat the categories whenever the respondent does not use an answer category.</i></p><p><b>MMH33. </b>During the past two weeks, how often did any of these feelings and experiences negatively affect your ability to perform your daily activities or your relationships at home?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH32. </b>Me gustaría hacerle algunas preguntas más sobre los sentimientos y experiencias que mencionó en preguntas anteriores.</p><p><i>Repita las categorías siempre que el encuestado no utilice una categoría de respuesta.</i></p><p><b>MMH33. </b>Durante las últimas dos semanas, ¿con qué frecuencia alguno de estos sentimientos y experiencias afectó negativamente su capacidad para realizar sus actividades diarias o sus relaciones en casa?</p><p></p>
+  - name: MICS7MN.MMH34
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH34. </span>During the past two weeks, how often did any of these feelings and experiences negatively affect your ability to perform your activities at school or work?</p><p><i>If respondent does not attend school and does not work, record ‘5’.</i></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH34.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia alguno de estos sentimientos y experiencias afectó negativamente su capacidad para realizar sus actividades en la escuela o el trabajo?</p><p><i>Si el encuestado no asiste a la escuela y no trabaja, registre '5'.</i></p><p></p>
+  - name: MICS7MN.MMH35
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH35. </span>During the past two weeks, how often did any of these feelings and experiences negatively affect your relationships with your peers?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH35.&nbsp;</span>Durante las últimas dos semanas, ¿con qué frecuencia alguno de estos sentimientos y experiencias afectó negativamente sus relaciones con sus compañeros?</p><p></p>
+  - name: MICS7MN.MMH36
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH36.</b> From the start of this interview, we have been talking about different feelings, experiences and problems that people your age may go through.</p><p>I would like to know how often you talk to someone else about these sorts of feelings and experiences. </p><p>Would you say: never, sometimes, often, or always?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH36.</b> Desde el inicio de esta entrevista, hemos estado hablando de diferentes sentimientos, experiencias y problemas que pueden atravesar las personas de tu edad.</p><p>Me gustaría saber con qué frecuencia hablas con otra persona sobre este tipo de sentimientos y experiencias.&nbsp;</p><p>¿Dirías: nunca, a veces, a menudo o siempre?</p><p></p>
+  - name: MICS7MN.MMH36A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH36A.</b> Do you ever speak about these feelings to anyone, for example, someone in your family, a friend or perhaps a teacher, a counsellor, or a health care professional? </p>
+              <p><span class="Itxt">If 'Yes', probe: </span><span class="Qtxt">Would you say: Sometimes, often, or always?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH36A.</b>&nbsp;¿Alguna vez ha hablado de estos sentimientos con alguien, por ejemplo, alguien de su familia, un amigo o quizás un maestro, un consejero o un profesional de la salud?&nbsp;</p>
+              <p><span class="Itxt">Si la respuesta es 'Sí', indague: </span><span class="Qtxt">¿Diría usted: a veces, a menudo o siempre?</span></p>
+  - name: MICS7MN.MMH37
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH37. </b>In the past month, have you talked to anybody about these kinds of problems or worries?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH37. </b>Durante el último mes, ¿ha hablado con alguien sobre este tipo de problemas o preocupaciones?</p><p></p>
+  - name: MICS7MN.MMH37A
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH37A.</b> I just want to confirm: During the past month, have you met or contacted anyone about these sorts of problems or worries, for example, someone in your family, a friend, a teacher, a counsellor, or a health care professional?</p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH37A.</b>&nbsp;Solo quiero confirmar: durante el último mes, ¿conoció o se comunicó con alguien acerca de este tipo de problemas o preocupaciones, por ejemplo, alguien de su familia, un amigo, un maestro, un consejero o un profesional de la salud?</p>
+  - name: MICS7MN.MMH38
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH38. </span>Who have you talked to?</p><p><i>Probe:</i> Anyone else? <i>Do not read options. Record all mentioned.</i></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH38.</span>¿Con quién has hablado?</p><p><i>Indaga:</i> ¿Alguien más? <i>No leer opciones. Registre todo lo mencionado.</i></p><p></p>
+  - name: MICS7MN.MMH40
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Itxt"><span class="Inum">MMH40. </span></span><i>The following questions are extremely sensitive. Carefully check again for presence of others. No one should be within hearing distance.</i></p><p><i>Do not continue until privacy is ensured.</i></p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt"><span class="Inum">MMH40.</span></span><i>Las siguientes preguntas son extremadamente delicadas. Vuelva a comprobar cuidadosamente la presencia de otras personas. Nadie debe estar a una distancia auditiva.</i></p><p><i>No continúe hasta que se garantice la privacidad.</i></p><div><br/></div><p></p>
+  - name: MICS7MN.MMH42
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH41. </span>Now, I would like to ask you a few more questions. If I ask you any question you do not want to answer or if you wish to stop the interview at any moment, please let me know.</p><p><span class="Qnum"></span></p><p><span class="Qnum">MMH42. </span>In the past 12 months, did you try to harm yourself with the intention or desire to end your life? For example, by cutting yourself on purpose, taking poison or too much medicine, or trying to hang yourself?<br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH41.&nbsp;</span>Ahora, me gustaría hacerle algunas preguntas más. Si le hago alguna pregunta que no desea responder o si desea detener la entrevista en cualquier momento, por favor hágamelo saber.</p><p><span class="Qnum"></span></p><p><span class="Qnum">MMH42.&nbsp;</span>En los últimos 12 meses, ¿trató de hacerse daño con la intención o el deseo de terminar con su vida? Por ejemplo, ¿cortándose a propósito, tomando veneno o demasiada medicina, o intentando ahorcarse?<br/></p><p></p>
+  - name: MICS7MN.MMH43
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH43. </span>In the past 2 weeks, have you thought about doing something to end your life? For example, by cutting yourself on purpose, taking poison or too much medicine, or trying to hang yourself?<br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH43.&nbsp;</span>En las últimas 2 semanas, ¿ha pensado en hacer algo para acabar con su vida? Por ejemplo, ¿cortándose a propósito, tomando veneno o demasiada medicina, o intentando ahorcarse?<br/></p><p></p>
+  - name: MICS7MN.MMH45
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH45.</span> <i>Initiate High Suicidal Risk Emergency Referral Protocol.</i></p><p>It sounds like you are struggling at the moment, and I would like to help you find someone who can support you.</p><p>My supervisor can call a professional counsellor from name of government or private provider with whom you can talk about anything that worries you, and who will be able to contact or visit you as soon as possible. Counsellors help young people with their feelings and emotions and the conversation with them is always confidential. This counselling service is free of charge.</p><p>Would you like us to contact a counsellor?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH45.</span><i>Inicie un protocolo de derivación de emergencia para casos de alto riesgo de suicidio.</i></p><p>Parece que está teniendo dificultades en este momento y me gustaría ayudarle a encontrar a alguien que pueda apoyarlo.</p><p>Mi supervisor puede llamar a un consejero profesional en nombre de un proveedor gubernamental o privado con quien pueda hablar sobre cualquier cosa que le preocupe y que podrá contactarlo o visitarlo lo antes posible. posible. Los consejeros ayudan a los jóvenes con sus sentimientos y emociones y la conversación con ellos es siempre confidencial. Este servicio de asesoramiento es gratuito.</p><p>¿Quieres que contactemos con un orientador?</p><p></p>
+  - name: MICS7MN.MMH46
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><i><b>MMH46. </b></i><i>Add the responses to MMH3-MMH6 and MMH15-MMH25: Is
+                          the sum &gt;17? </i><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><i><b>MMH46. </b></i><i>Agregue las respuestas a MMH3-MMH6 y MMH15-MMH25: ¿Es
+                          la suma &gt;17?</i><br/></p><p></p>
+  - name: MICS7MN.MMH47
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><i><b>MMH47. </b></i><i>Add the responses to MMH7-MMH12, MMH24-MMH25 and MMH27-MMH30: Is
+                          the sum &gt;19? </i><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><i><b>MMH47. </b></i><i>Agregue las respuestas a MMH7-MMH12, MMH24-MMH25 y MMH27-MMH30: ¿Es
+                          la suma &gt;19?</i><br/></p><p></p>
+  - name: MICS7MN.MMH48
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH48.</span> <i>Initiate Low/Moderate Risk Referral Protocol.</i></p><p>It sounds like you are struggling at the moment, and I would like to help you find someone who can support you. </p><p>We can call a professional counsellor from name of government or private provider with whom you can talk about anything that worries you. Counsellors help young people with their feelings and emotions and the conversation with them is always confidential. This counselling service is free of charge.</p><p>Would you like us to contact a counsellor?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MMH48.</span><i>Inicie un protocolo de derivación de riesgo bajo/moderado.</i></p><p>Parece que está teniendo dificultades en este momento y me gustaría ayudarlo a encontrar a alguien que pueda brindarle apoyo.</p><p>Podemos llamar a un asesor profesional en nombre de un proveedor gubernamental o privado con quien pueda hablar sobre cualquier cosa que le preocupe. Los consejeros ayudan a los jóvenes con sus sentimientos y emociones y la conversación con ellos es siempre confidencial. Este servicio de asesoramiento es gratuito.</p><p>¿Quieres que contactemos con un orientador?</p><p></p>
+  - name: MICS7MN.MMH49AB
+    conditions:
+      - logic: MMH45=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH49A.</b> Okay, I need you to tell me how you prefer the counsellor to contact you. If you wish, you can give me a phone number where the counsellor can reach you. You can also tell me a place where the counsellor can safely meet you. We will provide the counsellor with your contact details so that she or he can contact you directly. Please be assured that we will not share any other information you have shared with me durng the interview with the counsellor. Expect to hear from the counsellor within 24 hours. </p><p>While you wait for the counsellor to reach you, it would be important for you to talk about your worries with an adult you trust, like a parent, a relative, or teacher, so that they can support you. I encourage you to do that.</p><p><i>Once you finish the interview, contact your supervisor <u>immediately</u> to alert them that the respondent needs a high-risk emergency referral. It is critical that the counsellor contacts the respondent immediately, and in any case <u>no later</u> than within 24 hours. </i></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH49A.</b>&nbsp;Está bien, necesito que me digas cómo prefieres que el consejero se comunique contigo. Si lo deseas, puedes darme un número de teléfono donde el consejero pueda localizarte. También puedes indicarme un lugar donde el consejero pueda reunirse contigo de forma segura. Le proporcionaremos al consejero sus datos de contacto para que él o ella pueda comunicarse con usted directamente. Tenga la seguridad de que no compartiremos ninguna otra información que haya compartido conmigo durante la entrevista con el consejero. Espere tener noticias del consejero dentro de las 24 horas.</p><p>Mientras espera que el consejero se comunique con usted, sería importante que hable sobre sus preocupaciones con un adulto en quien confíe, como un padre, un pariente o un maestro, para que pueda apoyarlo. Le animo a que lo haga.</p><p><i>Una vez que termine la entrevista, comuníquese con su supervisor <u>inmediatamente</u> para alertarlo de que el encuestado necesita una derivación de emergencia de alto riesgo. Es fundamental que el consejero se comunique con el demandado de inmediato y, en cualquier caso, <u>a más tardar</u> dentro de las 24 horas.</i></p><p></p>
+      - logic: MMH48=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH49B.</b> Okay, I need you to tell me how you prefer the counsellor to contact you. If you wish, you can give me a phone number where the counsellor can reach you. You can also tell me a place where the counsellor can safely meet you, and the best time and day of the week to contact you. We will provide the counsellor with your contact details so that she or he can contact your directly. Please be assured that we will not share any other information you have shared with me during the interview with the counsellor. Expect to hear from the counsellor within a few days. </p><p><i>The respondent can provide a phone number if he feels comfortable, or indicate a place where he can be safely reached (e.g. his home, a relative’s or neighbour’s home, a local school, church, health care or community center). If he prefers to be met in person, ask him to provide the address and other details that will allow the counsellor to find the location. Record all this information and reassure him that his information will be kept confidential and only used for the purpose of the referral.</i></p><p></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH49B.</b>&nbsp;Está bien, necesito que me digas cómo prefieres que el consejero se comunique contigo. Si lo deseas, puedes darme un número de teléfono donde el consejero pueda localizarte. También puede indicarme un lugar donde el consejero pueda reunirse con usted de manera segura y el mejor momento y día de la semana para comunicarse con usted. Le proporcionaremos al consejero sus datos de contacto para que él o ella pueda comunicarse con usted directamente. Tenga la seguridad de que no compartiremos ninguna otra información que haya compartido conmigo durante la entrevista con el consejero. Espere tener noticias del consejero dentro de unos días. </p><p><i>El encuestado puede proporcionar un número de teléfono si se siente cómodo, o indicar un lugar donde se le pueda localizar de forma segura (por ejemplo, su casa, la casa de un pariente o vecino, una escuela local, una iglesia, un centro de atención médica o un centro comunitario). Si prefiere que lo reciban en persona, pídale que proporcione la dirección y otros detalles que permitan al consejero encontrar el lugar. Registre toda esta información y asegúrele que su información se mantendrá confidencial y solo se utilizará para los fines de la derivación.</i></p><p></p><p></p>
+  - name: MICS7MN.MMH49AB1
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">CASE ID</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">ID DEL CASO</span><p></p>
+  - name: MICS7MN.MMH49AB2
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Referral Type</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Tipo de referencia</span><p></p>
+  - name: MICS7MN.MMH49AB3
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Name</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Nombre</span><p></p>
+  - name: MICS7MN.MMH49AB4
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Sex</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Sexo</span><p></p>
+  - name: MICS7MN.MMH49AB5
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Age</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">Edad</span><p></p>
+  - name: MICS7MN.MMH49AB6
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">BEST AND SAFEST WAY FOR COUNSELOR TO FIND RESPONDENT (E.G. BY PHONE, IN PERSON AT HOME/ANOTHER LOCATION):</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">LA MEJOR Y MÁS SEGURA FORMA PARA QUE EL CONSEJERO ENCUENTRE AL ENCUESTADO (P. ej., POR TELÉFONO, EN PERSONA EN CASA/OTRO LUGAR):</span><p></p>
+  - name: MICS7MN.MMH49AB7
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">PHONE NUMBER (IF APPLICABLE):</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">NÚMERO DE TELÉFONO (SI CORRESPONDE):</span><p></p>
+  - name: MICS7MN.MMH49AB8
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">MEET UP LOCATION (IF APPLICABLE)</span><br style="color: rgb(0, 0, 255);"/><span style="color: rgb(0, 0, 255);">REGION</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">UBICACIÓN DE REUNIÓN (SI CORRESPONDE)</span><br style="color: rgb(0, 0, 255);"/><span style="color: rgb(0, 0, 255);">REGIÓN</span><p></p>
+  - name: MICS7MN.MMH49AB8N
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">MEET UP LOCATION (IF APPLICABLE)</span><br style="color: rgb(0, 0, 255);"/><span style="color: rgb(0, 0, 255);">REGION NAME</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">UBICACIÓN DE REUNIÓN (SI CORRESPONDE)</span><br style="color: rgb(0, 0, 255);"/><span style="color: rgb(0, 0, 255);">NOMBRE DE LA REGIÓN</span><p></p>
+  - name: MICS7MN.MMH49AB9N
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span style="color: rgb(0, 0, 255);">MEET UP LOCATION (IF APPLICABLE)</span></p><p><span style="color: rgb(0, 0, 255);">District</span><p></p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span style="color: rgb(0, 0, 255);">UBICACIÓN DE REUNIÓN (SI CORRESPONDE)</span></p><p><span style="color: rgb(0, 0, 255);">Distrito</span><p></p></p>
+  - name: MICS7MN.MMH49AB10N
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span style="color: rgb(0, 0, 255);">MEET UP LOCATION (IF APPLICABLE)</span></p><p><span style="color: rgb(0, 0, 255);">Village/Town</span><p></p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span style="color: rgb(0, 0, 255);">UBICACIÓN DE REUNIÓN (SI CORRESPONDE)</span></p><p><span style="color: rgb(0, 0, 255);">Pueblo/Ciudad</span><p></p></p>
+  - name: MICS7MN.MMH49AB11N
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">MEET UP LOCATION (IF APPLICABLE)</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span style="color: rgb(0, 0, 255);">UBICACIÓN DE REUNIÓN (SI CORRESPONDE)</span><p></p>
+  - name: MICS7MN.MMH49AB12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qtxt">DESCRIPTION OF LOCATION</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qtxt">DESCRIPCIÓN DE LA UBICACIÓN</span></p><p></p>
+  - name: MICS7MN.MMH49AB13
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qtxt">NEARBY LANDMARK (E.G. CHURCH, SCHOOL,
+                          CLINIC)</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p class="MsoNormal"><span class="Qtxt">HITO CERCANO (P. ej. IGLESIA, ESCUELA,
+                          CLÍNICA)</span></p><p></p>
+  - name: MICS7MN.MMH49AB14
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>TIME TO CONTACT (IF APPLICABLE)</b></p><p>BEST WEEKDAY AND TIME OF DAY FOR COUNSELLOR TO CONTACT RESPONDENT</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>HORA PARA CONTACTAR (SI CORRESPONDE)</b></p><p>MEJOR DÍA DE LA SEMANA Y HORA DEL DÍA PARA QUE EL CONSEJERO SE CONTACTE CON EL ENCUESTADO</p><p></p>
+  - name: MICS7MN.MMH49C
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH49C. </b>I understand. Let me give you some information about counselling services available in your area that can be used free of charge in case you want to reach out to a counsellor.</p><p><span style="color: rgb(0, 0, 255);">Although the respondent has not given permission to contact a counsellor, you must leave the information card and contact details for the nearest mental health services available in the area as provided to you by your supervisor.</span><br/></p><p>In any case, it would be important for you to talk about your worries with an adult you trust, like a parent, a relative, or teacher, so that they can support you. I encourage you to do that.</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH49C. </b>Lo entiendo. Permítame brindarle información sobre los servicios de asesoramiento disponibles en su área que puede utilizar de forma gratuita en caso de que desee comunicarse con un consejero.</p><p><span style="color: rgb(0, 0, 255);">Aunque el encuestado no ha dado permiso para comunicarse con un consejero, debe dejar la tarjeta de información y los datos de contacto de los servicios de salud mental más cercanos disponibles en el área tal como le proporcionó su supervisor.</span><br/></p><p>En cualquier caso, Sería importante que hables de tus preocupaciones con un adulto en quien confíes, como un padre, un familiar o un maestro, para que pueda apoyarte. Te animo a que lo hagas.</p><p></p>
+  - name: MICS7MN.MMH49D
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><b>MMH49D.</b> Thank you for your time and cooperation. Here is some information about counselling services in your area that can be used free of charge in case you ever need to contact them. I wish you the best.</p><p><span class="Itxt">Leave the information card and contact details for the nearest support services available in the area as provided to you by your supervisor.</span></p><p><br/></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><b>MMH49D.</b> Gracias por su tiempo y cooperación. Aquí encontrará información sobre los servicios de asesoramiento en su área que puede utilizar de forma gratuita en caso de que alguna vez necesite comunicarse con ellos. Le deseo lo mejor.</p><p><span class="Itxt">Deje la tarjeta de información y los datos de contacto de los servicios de soporte más cercanos disponibles en el área que le proporcionó su supervisor.</span></p><p><br/></p><p></p>
+  - name: MICS7MN.MMH51
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Itxt"><b>MMH50</b>. After thanking the respondent for his cooperation, reassure him about the confidentiality of his answers. Fill out question MMH51 below with reference to the Mental Health module only.</span></p><p><span class="Itxt"><b>MMH51</b>. Interviewer's observations about the administration of the Mental Health module (e.g. any emotional reactions by respondent that made it difficult or impossible to answer any questions, etc).</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt"><b>MMH50</b>. Después de agradecer al entrevistado por su cooperación, asegúrele la confidencialidad de sus respuestas. Complete la pregunta MMH51 a continuación con referencia únicamente al módulo de Salud Mental.</span></p><p><span class="Itxt"><b>MMH51</b>. Observaciones del entrevistador sobre la administración del módulo de Salud Mental (por ejemplo, cualquier reacción emocional del encuestado que hizo difícil o imposible responder alguna pregunta, etc.).</span></p><p></p>
+  - name: MICS7MN.MWM11
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM11. </span><span class="Itxt">Was the entire interview completed in private or was there anyone else during the entire interview or part of it?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM11. </span><span class="Itxt">¿Se completó toda la entrevista en privado o hubo alguien más durante toda la entrevista o parte de ella?</span></p>
+  - name: MICS7MN.MWM12
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM12. </span><span class="Itxt">Language of the Questionnaire</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM12. </span><span class="Itxt">Idioma del Cuestionario</span></p>
+  - name: MICS7MN.MWM13
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM13. </span><span class="Itxt">Language of the Interview</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM13. </span><span class="Itxt">Idioma de la entrevista</span></p>
+  - name: MICS7MN.MWM14
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM14. </span><span class="Itxt">Native language of the Respondent</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM14. </span><span class="Itxt">Idioma nativo del encuestado</span></p>
+  - name: MICS7MN.MWM15
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM15. </span><span class="Itxt">Was a translator used for any parts of this questionnaire?</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM15. </span><span class="Itxt">¿Se utilizó un traductor para alguna parte de este cuestionario?</span></p>
+  - name: MICS7MN.MWM15C
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Inum">MWM15C. </span><span style="color: rgb(0, 0, 255);">Has this respondent already been interviewed with any individual questionnaires?</span><p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Inum">MWM15C.</span><span style="color: rgb(0, 0, 255);">¿Este encuestado ya ha sido entrevistado con algún cuestionario individual?</span><p></p>
+  - name: MICS7MN.MWM15EF
+    conditions:
+      - logic: MIC1<>1 and HC7A<>1 and HC12<>1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15F. </span>Thank you for your participation.<br/></p><p>The <span class="QtxtC">National Statistical Office</span> will be conducting a follow-up survey about the situation of children, families, and households in the future. We may contact you a few times over a period of a few months, for about 15 minutes at a time.</p><p>Participation is voluntary. If you agree to participate now, you can still withdraw later. It will not cost you anything to participate. All the information you share during these interviews will not be shared with anyone outside our team.</p><p>Would you like to participate?</p><div><br/></div><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15F.&nbsp;</span>Gracias por su participación.<br/></p><p>La&nbsp;<span class="QtxtC">Oficina Nacional de Estadística</span>&nbsp;realizará una encuesta de seguimiento sobre la situación de los niños, las familias y los hogares en el futuro. Es posible que nos comuniquemos con usted varias veces durante un período de algunos meses, durante aproximadamente 15 minutos a la vez.</p><p>La participación es voluntaria. Si acepta participar ahora, aún puede retirarse más tarde. No te costará nada participar. Toda la información que compartas durante estas entrevistas no se compartirá con nadie fuera de nuestro equipo.</p><p>¿Te gustaría participar?</p><div><br/></div><p></p>
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15E. </span>Thank you for your participation.</p><p>The <span class="QtxtC">National Statistical Office</span> will be conducting a phone survey about the situation of children, families, and households in the future. We may call a few times over a period of a few months, for about 15 minutes at a time.</p><p>Participation is voluntary. If you agree to participate now, you can still withdraw later. It will not cost you anything to participate. Your phone number and all the information you share during these phone interviews will not be shared with anyone outside our team.</p><p>Would you like to participate?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15E.&nbsp;</span>Gracias por su participación.</p><p>La&nbsp;<span class="QtxtC">Oficina Nacional de Estadística</span>&nbsp;realizará una encuesta telefónica sobre la situación de los niños, las familias y los hogares en el futuro. Es posible que llamemos varias veces durante un período de unos meses, durante unos 15 minutos cada vez.</p><p>La participación es voluntaria. Si acepta participar ahora, aún puede retirarse más tarde. No te costará nada participar. Su número de teléfono y toda la información que comparta durante estas entrevistas telefónicas no se compartirán con nadie fuera de nuestro equipo.</p><p>¿Le gustaría participar?</p><p></p>
+  - name: MICS7MN.MWM15GH
+    conditions:
+      - logic: MIC1 = 1 OR HC7A=1 OR HC12=1 AND MWM15EF=1
+        questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15H.</span> Do you have a personal phone number or is there a phone number for the household? </p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15H.</span>&nbsp;¿Tiene un número de teléfono personal o hay un número de teléfono del hogar?</p><p></p>
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">WM15G. </span>I have previously recorded that there are no phones in your household. Just to confirm, do you have a personal telephone number or is there a phone number for the household?<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">WM15G.</span>Anteriormente registré que no hay teléfonos en su hogar. Sólo para confirmar, ¿tiene un número de teléfono personal o hay un número de teléfono del hogar?<p></p>
+  - name: MICS7MN.MWM15I
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <span class="Qnum">MWM15I.</span> You may share your household’s number, but please, do not share any personal phone numbers that belong to other members of your household or to people outside your household. Please, tell me which phone number to call.<p></p>
+          ES:
+            format: HTML
+            text: |
+              <span class="Qnum">MWM15I.</span>&nbsp;Puede compartir el número de su hogar, pero, por favor, no comparta ningún número de teléfono personal que pertenezca a otros miembros de su hogar ni a personas ajenas a su hogar. Por favor, dime a qué número de teléfono llamar.<p></p>
+  - name: MICS7MN.MWM15J
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM15J. </span><span class="Itxt">Ask for and record phone number.</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM15J.</span><span class="Itxt">Solicite y registre el número de teléfono.</span></p><p></p>
+  - name: MICS7MN.MWM15K
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15K. </span>Just to confirm, the number is ~~MWM15J~~?</p><p><span style="color: rgb(0, 0, 255);">If no, return to WM15J and correct entry.</span></p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15K.&nbsp;</span>Solo para confirmar, ¿el número es&nbsp;~~MWM15J~~?</p><p><span style="color: rgb(0, 0, 255);">Si no, regrese a WM15J y corrija la entrada.</span></p><p></p>
+  - name: MICS7MN.MWM15L
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15L. </span>Remember, you may share your household’s number, but please, do not share any personal phone numbers that belong to other members of your household or to people outside your household. Do you have another personal or shared phone number where you can be reached?</p><p></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Qnum">MWM15L.&nbsp;</span>Recuerde, puede compartir el número de su hogar, pero, por favor, no comparta ningún número de teléfono personal que pertenezca a otros miembros de su hogar o a personas fuera de su hogar. ¿Tiene otro número de teléfono personal o compartido donde puedan localizarlo?</p><p></p>
+  - name: MICS7MN.MWM17
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM17. </span><span class="Itxt">Result of man's interview.</span></p>
+              <p><span class="Itxt">Discuss any result not completed with Supervisor.</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Inum">MWM17. </span><span class="Itxt">Resultado de la entrevista del hombre.</span></p>
+              <p><span class="Itxt">Discute cualquier resultado no completado con el Supervisor.</span></p>
+  - name: MICS7MN.MWMFIN
+    conditions:
+      - questionText:
+          EN:
+            format: HTML
+            text: |
+              <p><span class="Itxt">End of Questionnaire for Individual Men.</span></p>
+              <p><span class="Itxt">Review Questionnaire OR Add notes OR Save Questionnaire and Finish</span></p>
+          ES:
+            format: HTML
+            text: |
+              <p><span class="Itxt">Fin del cuestionario para hombres individuales.</span></p>
+              <p><span class="Itxt">Revisar el cuestionario O Agregar notas O Guardar el cuestionario y finalizar</span></p>
+...

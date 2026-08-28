@@ -1,0 +1,137 @@
+{
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "MENU_CENTRAL",
+  "label": "menu_central",
+  "dictionaries": [
+    {
+      "type": "input",
+      "path": "menu_central.dcf",
+      "parent": "menu_central.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/Staff.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/CLUSTERS.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/HOUSEHOLDS.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/MICS7HH.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/MICS7WM.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/MICS7CH.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/MICS7FS.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/shareddicts/MICS7MN.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
+    }
+  ],
+  "forms": [
+    "menu_central.fmf"
+  ],
+  "questionText": [
+    "menu_central.ent.qsf"
+  ],
+  "code": [
+    {
+      "type": "main",
+      "path": "menu_central.ent.apc"
+    },
+    {
+      "type": "external",
+      "path": "../../APPS/SETTINGS.APC"
+    }
+  ],
+  "messages": [
+    "menu_central.ent.mgf"
+  ],
+  "resources": [
+    {
+      "path": "Resources",
+      "includeInCompiledApplication": true,
+      "recursive": true
+    }
+  ],
+  "logicSettings": {
+    "version": 2.0,
+    "caseSensitive": {
+      "symbols": false
+    },
+    "actionInvoker": {
+      "accessFromExternalCaller": "alwaysAllow",
+      "convertResultsForLogic": true
+    }
+  },
+  "properties": {
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "off",
+    "centerForms": false,
+    "createListing": false,
+    "createLog": false,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
+    "notes": {
+      "delete": "all",
+      "edit": "all"
+    },
+    "partialSave": {
+      "operatorEnabled": false
+    },
+    "showEndCaseMessage": false,
+    "showOnlyDiscreteValuesInComboBoxes": false,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": false,
+    "showQuestionText": true,
+    "showRefusals": true,
+    "verify": {
+      "frequency": 1,
+      "start": 1
+    },
+    "htmlDialogs": true,
+    "paradata": {
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
+      "recordValues": false
+    },
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

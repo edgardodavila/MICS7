@@ -1,0 +1,625 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "MENU_DICT", 
+  "languages": [
+    {
+      "name": "EN", 
+      "label": "English"
+    }, 
+    {
+      "name": "ES", 
+      "label": "Español"
+    }
+  ], 
+  "labels": [ { "text": "Menu" } ], 
+  "security": {
+    "allowDataViewerModifications": false, 
+    "allowExport": false, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "067f73dd16819176e306844f92207e4c4df25e48bca7db388b81f5d2d8353af3"
+  }, 
+  "readOptimization": true, 
+  "recordType": {
+    "start": 1, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": true
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "MENU_QUEST", 
+      "labels": [ { "text": "Menu questionnaire" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "MENU_ID", 
+            "labels": [ { "text": "Menu identification" } ], 
+            "contentType": "numeric", 
+            "start": 2, 
+            "length": 1, 
+            "zeroFill": true
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "MENU_REC", 
+          "labels": [ { "text": "Menu record" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "STAFF_ID", 
+              "labels": [
+                {
+                  "text": "Staff ID number", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Número de identificación", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 3, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "CLUSTER", 
+              "labels": [
+                {
+                  "text": "Primary sampling unit", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Conglomerado", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "SUPERVISOR_MENU", 
+              "labels": [
+                {
+                  "text": "Supervisor Menu", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Menú del supervisor", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "SUPERVISOR_MENU_VS1", 
+                  "labels": [
+                    {
+                      "text": "Supervisor Menu", 
+                      "language": "EN"
+                    }, 
+                    {
+                      "text": "Menú del supervisor", 
+                      "language": "ES"
+                    }
+                  ], 
+                  "values": [
+                    {
+                      "labels": [
+                        {
+                          "text": "Work as interviewer", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Trabajar como entrevistador", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Logout", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Salir", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "SELECT_INTERVIEWED", 
+              "labels": [
+                {
+                  "text": "Select_interviewed", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Seleccionar entrevistado", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "SELECT_INTERVIEWED_VS1", 
+                  "labels": [
+                    {
+                      "text": "Select_interviewed", 
+                      "language": "EN"
+                    }, 
+                    {
+                      "text": "Seleccionar entrevistado", 
+                      "language": "ES"
+                    }
+                  ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Return" } ], 
+                      "pairs": [ { "value": "99" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "SYNCCENTRAL", 
+              "labels": [
+                {
+                  "text": "Sync with central office", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Sincronizar con oficina central", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "alpha", 
+              "length": 3, 
+              "valueSets": [
+                {
+                  "name": "SYNCCENTRAL_VS1", 
+                  "labels": [
+                    {
+                      "text": "Sync with central office", 
+                      "language": "EN"
+                    }, 
+                    {
+                      "text": "Sincronizar con oficina central", 
+                      "language": "ES"
+                    }
+                  ], 
+                  "values": [
+                    {
+                      "labels": [
+                        {
+                          "text": "Send data", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Enviar datos", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Receive updated sample", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Recibir muestra actualizada", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Receive staff or application updates", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Recibir actualizaciones de aplicaciones o staff", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "SAMPLE_MENU", 
+              "labels": [
+                {
+                  "text": "Sample managnment and household assignment", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Manejo de la muestra y asignación de hogares", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "SAMPLE_MENU_VS1", 
+                  "labels": [
+                    {
+                      "text": "Sample managnment and household assignment", 
+                      "language": "EN"
+                    }, 
+                    {
+                      "text": "Manejo de la muestra y asignación de hogares", 
+                      "language": "ES"
+                    }
+                  ], 
+                  "values": [
+                    {
+                      "labels": [
+                        {
+                          "text": "Household assigment to interviewers", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Asignación de hogares a los entrevistadores", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "image": "Resources/Images/assignHH.png", 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Add new structure/dwelling", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Agregar nueva vivienda/estructura", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "image": "Resources/Images/adddwelling.png", 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Delete household/structure added by supervisor", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Eliminar hogar/estructura agregada por supervisor", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "image": "Resources/Images/deleteHH.png", 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Return to supervisor menu", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Volver al menú del supervisor", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "image": "Resources/Images/goback.png", 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ASSIGNED", 
+              "labels": [
+                {
+                  "text": "Interview assigned", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Entrevistador asignado", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 3, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "CHANGELANGUAGE", 
+              "labels": [ { "text": "Item for change language" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }
+          ]
+        }, 
+        {
+          "name": "ASSIGMENTS", 
+          "labels": [ { "text": "ASSIGMENTS" } ], 
+          "recordType": "2", 
+          "occurrences": {
+            "required": false, 
+            "maximum": 100
+          }, 
+          "items": [
+            {
+              "name": "X_PSU", 
+              "labels": [ { "text": "PSU" } ], 
+              "contentType": "numeric", 
+              "length": 5, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "X_DWNO", 
+              "labels": [ { "text": "Dwelling unit number" } ], 
+              "contentType": "numeric", 
+              "length": 3, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "X_ADDRESS", 
+              "labels": [ { "text": "Household address" } ], 
+              "contentType": "alpha", 
+              "length": 80
+            }, 
+            {
+              "name": "X_HEAD", 
+              "labels": [ { "text": "Household head name" } ], 
+              "contentType": "alpha", 
+              "length": 40
+            }, 
+            {
+              "name": "X_PHONE", 
+              "labels": [ { "text": "Household contact phone" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "X_ASSIGNED", 
+              "labels": [ { "text": "Assigned interviewer" } ], 
+              "contentType": "numeric", 
+              "length": 3, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "X_SUBSAMPLES", 
+              "labels": [ { "text": "Subsamples" } ], 
+              "occurrences": {
+                "maximum": 10
+              }, 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true
+            }
+          ]
+        }, 
+        {
+          "name": "INTERVIEWER_RECORD", 
+          "labels": [ { "text": "Interviewer record" } ], 
+          "recordType": "3", 
+          "occurrences": {
+            "required": false, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "INTERVIEWER_MENU", 
+              "labels": [
+                {
+                  "text": "Interviewer Menu", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Menú del entrevistador", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "INTERVIEWER_MENU_VS1", 
+                  "labels": [ { "text": "Interviewer Menu" } ], 
+                  "values": [
+                    {
+                      "labels": [
+                        {
+                          "text": "Return to work as supervisor", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Retornar a trabajar como supervisor", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Logout", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Salir", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "SYNCOPTIONS", 
+              "labels": [
+                {
+                  "text": "Options to sync with supervisor", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Opciones sincronizar con supervisor", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "alpha", 
+              "length": 3, 
+              "valueSets": [
+                {
+                  "name": "SYNCOPTIONS_VS1", 
+                  "labels": [
+                    {
+                      "text": "Options to sync with supervisor", 
+                      "language": "EN"
+                    }, 
+                    {
+                      "text": "Opciones sincronizar con supervisor", 
+                      "language": "ES"
+                    }
+                  ], 
+                  "values": [
+                    {
+                      "labels": [
+                        {
+                          "text": "Receive assigments", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Recibir asignaciones", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Send data", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Enviar datos", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "Receive updates", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Recibir actualizaciones", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CONFIRM_DELETE", 
+              "labels": [
+                {
+                  "text": "Confirm delete", 
+                  "language": "EN"
+                }, 
+                {
+                  "text": "Confirmación de eliminar hogar", 
+                  "language": "ES"
+                }
+              ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": true, 
+              "valueSets": [
+                {
+                  "name": "CONFIRM_DELETE_VS1", 
+                  "labels": [
+                    {
+                      "text": "Confirm delete", 
+                      "language": "EN"
+                    }, 
+                    {
+                      "text": "Confirmación de eliminar hogar", 
+                      "language": "ES"
+                    }
+                  ], 
+                  "values": [
+                    {
+                      "labels": [
+                        {
+                          "text": "Yes", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "Si", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [
+                        {
+                          "text": "No (cancel action)", 
+                          "language": "EN"
+                        }, 
+                        {
+                          "text": "No (cancelar la acción)", 
+                          "language": "ES"
+                        }
+                      ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

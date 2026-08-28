@@ -1,0 +1,57 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "batch", 
+  "name": "EXPORTFS", 
+  "label": "EXPORTFS", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "../../APPS/SharedDicts/MICS7FS.dcf", 
+      "parent": "EXPORTFS.ord"
+    }, 
+    {
+      "type": "external", 
+      "path": "Recodedvars.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "../../APPS/SharedDicts/MICS7HH.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "WHOlms.dcf"
+    }
+  ], 
+  "order": [
+    "EXPORTFS.ord"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "EXPORTFS.apc"
+    }
+  ], 
+  "logicSettings": {
+    "version": 2.0, 
+    "caseSensitive": {
+      "symbols": false
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "htmlDialogs": true, 
+    "paradata": {
+      "collection": "none", 
+      "recordCoordinates": false, 
+      "recordInitialPropertyValues": false, 
+      "recordIteratorLoadCases": false, 
+      "recordValues": false
+    }, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

@@ -1,0 +1,69 @@
+﻿---
+fileType: Question Text
+version: CSPro 8.1
+languages:
+  - name: ES
+    label: Español
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: MENU_CENTRAL_DICT.CENTRAL_MENU
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#0000ff">~~project~~</font></i></b></span></p><p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#ff0000">Menú de la oficina central</font></i></b></span></p><p style="text-align: center;">Actualmente trabajando en UPM: ~~PSUstr~~ (~~psustatus~~)</p><p style="text-align: center; ">_______________________________________________________________________________<br></p><p>Seleccione una opción:<br></p><p></p>
+  - name: MENU_CENTRAL_DICT.PSU
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#0000ff">~~project~~</font></i></b></span></p><p style="text-align: center;"><b style="font-size: 24px;"><i><font color="#ff0000">Menú de la oficina central</font></i></b><br></p><p style="text-align: center; ">_______________________________________________________________________<br></p><p>Ingrese la UPM a trabajar:<br></p><p><br></p><p><br></p><p></p>
+  - name: MENU_CENTRAL_DICT.SYNCWITHSERVER
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#0000ff">~~project~~</font></i></b></span></p><p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#ff0000">Menú de la Oficina Central</font></i></b></span></p><p style="text-align: center;">Trabajando en UPM:&nbsp;<b>~~PSUstr~~&nbsp;</b>&nbsp;(~~psustatus~~)<br></p><p style="text-align: center;">_______________________________________________________________________________<br></p><p>Seleccione las acciones:</p><p></p>
+  - name: MENU_CENTRAL_DICT.EXPORTDATA
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#0000ff">~~project~~</font></i></b></span></p><p style="text-align: center;"><b style="font-size: 24px;"><i><font color="#ff0000">Menú de la oficina Central: Exportar datos</font></i></b><br></p><p style="text-align: center;">_______________________________________________________________________</p><p></p>
+        helpText:
+          ES:
+            format: HTML
+            text: |
+              Exporta los datos de todos los conglomerados<p></p>
+  - name: MENU_CENTRAL_DICT.WORKPSU
+    conditions:
+      - questionText:
+          ES:
+            format: HTML
+            text: |
+              <p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#0000ff">~~project~~</font></i></b></span></p><p style="text-align: center;"><span style="font-size: 24px;"><b><i><font color="#ff0000">Menú de la Oficina Central / Trabajar con UPM</font></i></b></span></p><p style="text-align: center;"><b><font color="#295218">UPM:&nbsp;~~PSUstr~~&nbsp;&nbsp;(~~psustatus~~)</font></b><br></p><p style="text-align: center;">_______________________________________________________________________________<br></p><p>Seleccione las acciones:</p><p></p>
+...

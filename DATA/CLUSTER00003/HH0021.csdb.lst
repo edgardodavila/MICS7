@@ -1,0 +1,67 @@
+﻿Application     C:\MICS7HN\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\MICS7HN\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> C:\MICS7HN\PUBLIC\CLUSTERS.csdb
+
+Date            Aug 27, 2026
+Start Time      14:34:48
+End Time        14:35:53
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+    9991           1      -  D Registre el nombre                                                                      -
+
+
+A compilation error file (entryHH.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\MICS7HN\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\MICS7HN\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> C:\MICS7HN\PUBLIC\CLUSTERS.csdb
+
+Date            Aug 27, 2026
+Start Time      15:00:43
+End Time        15:04:38
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+      30           1      -  D Edad y fecha de nacimiento inconsistentes                                               -
+
+
+A compilation error file (entryHH.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\MICS7HN\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\MICS7HN\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> C:\MICS7HN\PUBLIC\CLUSTERS.csdb
+
+Date            Aug 28, 2026
+Start Time      10:36:53
+End Time        10:41:18
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           5         ADVERTENCIA: Fuera de rango! Por favor ingrese un valor válido para %s%s                   
+   99990           5         Operator entered a value out of range                                                      
+
+
+A compilation error file (entryHH.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

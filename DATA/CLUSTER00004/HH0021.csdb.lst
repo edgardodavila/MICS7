@@ -1,0 +1,32 @@
+﻿Application     C:\MICS7HN\2. CAPI Application\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\MICS7HN\2. CAPI Application\DATA\CLUSTER00004\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> C:\MICS7HN\2. CAPI Application\PUBLIC\CLUSTERS.csdb
+
+Date            Jul 28, 2026
+Start Time      10:30:44
+End Time        10:39:39
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\MICS7HN\2. CAPI Application\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\MICS7HN\2. CAPI Application\DATA\CLUSTER00004\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> C:\MICS7HN\2. CAPI Application\PUBLIC\CLUSTERS.csdb
+
+Date            Jul 28, 2026
+Start Time      18:22:52
+End Time        19:05:48
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+      30           1      -  D Edad y fecha de nacimiento inconsistentes                                               -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
