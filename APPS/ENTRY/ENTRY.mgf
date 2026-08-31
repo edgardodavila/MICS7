@@ -2,6 +2,7 @@
 
 Language=EN
 { HH level, HH listing module }
+9999 W Error codigo ignorado.
  0009 D Cluster %05d, Household %02d, Interviewer %02d, # %02d
  0030 D Age and date of birth inconsistent
  0031 D Age of the household member cannot be DK or No response
